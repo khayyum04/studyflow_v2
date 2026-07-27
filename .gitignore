@@ -1,0 +1,20 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Large source data (regenerate/re-download separately) and generated artifacts
+data/textbooks/
+data/trial_papers/
+data/chromadb/
+data/practice.db
+
+# Pipeline run state
+backend/rag_pipeline/logs/

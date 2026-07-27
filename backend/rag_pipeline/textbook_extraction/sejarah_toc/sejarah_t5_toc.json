@@ -1,0 +1,397 @@
+{
+  "textbook": "sejarah_t5",
+  "chapters": [
+    {
+      "bab": 1,
+      "title": "Kedaulatan Negara",
+      "sections": [
+        {
+          "section": "1.1",
+          "title": "Konsep Kedaulatan",
+          "page_start": 4,
+          "page_end": 7
+        },
+        {
+          "section": "1.2",
+          "title": "Ciri Negara yang Berdaulat",
+          "page_start": 8,
+          "page_end": 9
+        },
+        {
+          "section": "1.3",
+          "title": "Kepentingan Mewujudkan Negara Berdaulat",
+          "page_start": 10,
+          "page_end": 11
+        },
+        {
+          "section": "1.4",
+          "title": "Langkah Mempertahankan Kedaulatan",
+          "page_start": 12,
+          "page_end": 15
+        }
+      ],
+      "chapter_page_start": 4,
+      "chapter_page_end": 15
+    },
+    {
+      "bab": 2,
+      "title": "Perlembagaan Persekutuan",
+      "sections": [
+        {
+          "section": "2.1",
+          "title": "Latar Belakang Sejarah Perlembagaan Persekutuan",
+          "page_start": 22,
+          "page_end": 24
+        },
+        {
+          "section": "2.2",
+          "title": "Sejarah Penggubalan Perlembagaan Persekutuan",
+          "page_start": 25,
+          "page_end": 27
+        },
+        {
+          "section": "2.3",
+          "title": "Ciri Utama Perlembagaan Persekutuan",
+          "page_start": 28,
+          "page_end": 29
+        },
+        {
+          "section": "2.4",
+          "title": "Pindaan Perlembagaan Persekutuan 1963 dan 1965",
+          "page_start": 30,
+          "page_end": 31
+        }
+      ],
+      "chapter_page_start": 22,
+      "chapter_page_end": 31
+    },
+    {
+      "bab": 3,
+      "title": "Raja Berperlembagaan dan Demokrasi Berparlimen",
+      "sections": [
+        {
+          "section": "3.1",
+          "title": "Latar Belakang Pemerintahan Beraja dan Demokrasi Berparlimen",
+          "page_start": 38,
+          "page_end": 41
+        },
+        {
+          "section": "3.2",
+          "title": "Sejarah dan Kedudukan Institusi Majlis Raja-Raja",
+          "page_start": 42,
+          "page_end": 45
+        },
+        {
+          "section": "3.3",
+          "title": "Yang di-Pertuan Agong dan Raja dalam Perlembagaan Persekutuan",
+          "page_start": 46,
+          "page_end": 49
+        },
+        {
+          "section": "3.4",
+          "title": "Amalan Demokrasi dan Pengasingan Kuasa",
+          "page_start": 50,
+          "page_end": 55
+        },
+        {
+          "section": "3.5",
+          "title": "Keunikan Amalan Demokrasi Berparlimen di Negara Kita",
+          "page_start": 56,
+          "page_end": 57
+        }
+      ],
+      "chapter_page_start": 38,
+      "chapter_page_end": 57
+    },
+    {
+      "bab": 4,
+      "title": "Sistem Persekutuan",
+      "sections": [
+        {
+          "section": "4.1",
+          "title": "Latar Belakang Sistem Persekutuan di Negara Kita",
+          "page_start": 66,
+          "page_end": 67
+        },
+        {
+          "section": "4.2",
+          "title": "Kuasa Kerajaan Persekutuan dan Kerajaan Negeri",
+          "page_start": 68,
+          "page_end": 71
+        },
+        {
+          "section": "4.3",
+          "title": "Kerjasama Kerajaan Persekutuan dan Kerajaan Negeri",
+          "page_start": 72,
+          "page_end": 79
+        },
+        {
+          "section": "4.4",
+          "title": "Faktor yang Mengukuhkan Sistem Persekutuan",
+          "page_start": 80,
+          "page_end": 81
+        }
+      ],
+      "chapter_page_start": 66,
+      "chapter_page_end": 81
+    },
+    {
+      "bab": 5,
+      "title": "Pembentukan Malaysia",
+      "sections": [
+        {
+          "section": "5.1",
+          "title": "Konsep Gagasan Malaysia",
+          "page_start": 90,
+          "page_end": 90
+        },
+        {
+          "section": "5.2",
+          "title": "Perkembangan Idea dan Usaha Pembentukan Malaysia",
+          "page_start": 91,
+          "page_end": 93
+        },
+        {
+          "section": "5.3",
+          "title": "Reaksi Tempatan dan Negara Jiran terhadap Pembentukan Malaysia",
+          "page_start": 94,
+          "page_end": 97
+        },
+        {
+          "section": "5.4",
+          "title": "Langkah Pembentukan Malaysia",
+          "page_start": 98,
+          "page_end": 102
+        },
+        {
+          "section": "5.5",
+          "title": "Perjanjian Julai 1963 dan Peristiwa Pengisytiharan Malaysia",
+          "page_start": 103,
+          "page_end": 105
+        },
+        {
+          "section": "5.6",
+          "title": "Konfrontasi dan Usaha Menangani",
+          "page_start": 106,
+          "page_end": 107
+        }
+      ],
+      "chapter_page_start": 90,
+      "chapter_page_end": 107
+    },
+    {
+      "bab": 6,
+      "title": "Cabaran Selepas Pembentukan Malaysia",
+      "sections": [
+        {
+          "section": "6.1",
+          "title": "Cabaran Dalaman Malaysia",
+          "page_start": 116,
+          "page_end": 118
+        },
+        {
+          "section": "6.2",
+          "title": "Pemisahan Singapura",
+          "page_start": 119,
+          "page_end": 120
+        },
+        {
+          "section": "6.3",
+          "title": "Menangani Ancaman Komunis",
+          "page_start": 121,
+          "page_end": 125
+        },
+        {
+          "section": "6.4",
+          "title": "Isu Pembangunan dan Ekonomi",
+          "page_start": 126,
+          "page_end": 128
+        },
+        {
+          "section": "6.5",
+          "title": "Tragedi Hubungan antara Kaum",
+          "page_start": 129,
+          "page_end": 130
+        }
+      ],
+      "chapter_page_start": 116,
+      "chapter_page_end": 130
+    },
+    {
+      "bab": 7,
+      "title": "Membina Kesejahteraan Negara",
+      "sections": [
+        {
+          "section": "7.1",
+          "title": "Perpaduan dan Integrasi Nasional",
+          "page_start": 140,
+          "page_end": 143
+        },
+        {
+          "section": "7.2",
+          "title": "Dasar Pendidikan Kebangsaan",
+          "page_start": 144,
+          "page_end": 147
+        },
+        {
+          "section": "7.3",
+          "title": "Bahasa Melayu sebagai Bahasa Ilmu dan Bahasa Perpaduan",
+          "page_start": 148,
+          "page_end": 149
+        },
+        {
+          "section": "7.4",
+          "title": "Dasar Kebudayaan Kebangsaan",
+          "page_start": 150,
+          "page_end": 151
+        },
+        {
+          "section": "7.5",
+          "title": "Sukan sebagai Alat Perpaduan",
+          "page_start": 152,
+          "page_end": 156
+        },
+        {
+          "section": "7.6",
+          "title": "Rukun Negara sebagai Tonggak Kesejahteraan Negara",
+          "page_start": 157,
+          "page_end": 158
+        }
+      ],
+      "chapter_page_start": 140,
+      "chapter_page_end": 158
+    },
+    {
+      "bab": 8,
+      "title": "Membina Kemakmuran Negara",
+      "sections": [
+        {
+          "section": "8.1",
+          "title": "Pembentukan Dasar Ekonomi Baru (DEB)",
+          "page_start": 166,
+          "page_end": 167
+        },
+        {
+          "section": "8.2",
+          "title": "Pelaksanaan Dasar Ekonomi Baru (DEB)",
+          "page_start": 168,
+          "page_end": 173
+        },
+        {
+          "section": "8.3",
+          "title": "Pembentukan Dasar Pembangunan Nasional (DPN)",
+          "page_start": 174,
+          "page_end": 175
+        },
+        {
+          "section": "8.4",
+          "title": "Pelaksanaan Dasar Pembangunan Nasional (DPN)",
+          "page_start": 176,
+          "page_end": 179
+        },
+        {
+          "section": "8.5",
+          "title": "Pencapaian Dasar Ekonomi Baru (DEB) dan Dasar Pembangunan Nasional (DPN)",
+          "page_start": 180,
+          "page_end": 187
+        }
+      ],
+      "chapter_page_start": 166,
+      "chapter_page_end": 187
+    },
+    {
+      "bab": 9,
+      "title": "Dasar Luar Malaysia",
+      "sections": [
+        {
+          "section": "9.1",
+          "title": "Latar Belakang Dasar Luar",
+          "page_start": 194,
+          "page_end": 195
+        },
+        {
+          "section": "9.2",
+          "title": "Asas Penggubalan Dasar Luar",
+          "page_start": 196,
+          "page_end": 197
+        },
+        {
+          "section": "9.3",
+          "title": "Malaysia dalam Pertubuhan Bangsa-Bangsa Bersatu (PBB)",
+          "page_start": 198,
+          "page_end": 205
+        },
+        {
+          "section": "9.4",
+          "title": "Malaysia dalam Komanwel",
+          "page_start": 206,
+          "page_end": 207
+        },
+        {
+          "section": "9.5",
+          "title": "Cabaran Mengukuhkan Dasar Luar",
+          "page_start": 208,
+          "page_end": 209
+        },
+        {
+          "section": "9.6",
+          "title": "Malaysia dalam Persatuan Negara-negara Asia Tenggara (ASEAN)",
+          "page_start": 210,
+          "page_end": 211
+        },
+        {
+          "section": "9.7",
+          "title": "Malaysia dalam Pergerakan Negara-negara Tanpa Pihak (NAM)",
+          "page_start": 212,
+          "page_end": 213
+        },
+        {
+          "section": "9.8",
+          "title": "Malaysia dalam Pertubuhan Kerjasama Islam (OIC)",
+          "page_start": 214,
+          "page_end": 217
+        }
+      ],
+      "chapter_page_start": 194,
+      "chapter_page_end": 217
+    },
+    {
+      "bab": 10,
+      "title": "Kecemerlangan Malaysia di Persada Dunia",
+      "sections": [
+        {
+          "section": "10.1",
+          "title": "Malaysia dalam Isu Global Kontemporari",
+          "page_start": 226,
+          "page_end": 229
+        },
+        {
+          "section": "10.2",
+          "title": "Peranan Malaysia dalam Hubungan Ekonomi Antarabangsa",
+          "page_start": 230,
+          "page_end": 233
+        },
+        {
+          "section": "10.3",
+          "title": "Pelibatan Rakyat dalam Isu Kemanusiaan dan Keamanan",
+          "page_start": 234,
+          "page_end": 237
+        },
+        {
+          "section": "10.4",
+          "title": "Usaha Mengekalkan Kelestarian Global",
+          "page_start": 238,
+          "page_end": 241
+        },
+        {
+          "section": "10.5",
+          "title": "Wawasan Malaysia Menuju Masa Hadapan",
+          "page_start": 242,
+          "page_end": 245
+        }
+      ],
+      "chapter_page_start": 226,
+      "chapter_page_end": 245
+    }
+  ]
+}

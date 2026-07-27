@@ -1,0 +1,1353 @@
+{
+  "meta": {
+    "timestamp": "2026-07-27T11:27:50",
+    "model": "claude-haiku-4-5",
+    "mode": "baseline",
+    "sample_size": 100,
+    "accuracy": 0.74,
+    "correct": 74,
+    "incorrect": 26
+  },
+  "results": [
+    {
+      "id": "2024_putrajaya_set_1_q29",
+      "question": "Menjelang jun 1962, Suruhanjaya Cobbold menyerahkan laporan kepada kerajaan British dan Persekutuan Tanah Melayu.\n\nAntara berikut, yang manakah termasuk dalam laporan tersebut?",
+      "options": {
+        "A": "Mengesyorkan penubuhan parti-parti politik di Sarawak",
+        "B": "Menyatakan dua pertiga penduduk menyokong pembentukan Malaysia",
+        "C": "Mengemukakan gambaran sebenar sokongan penduduk da",
+        "D": "Memutuskan bahawa Singapura akan menyertai Malaysia"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_selangor_set_1_q14",
+      "question": "Gambar berikut merujuk kepada logo yang digunakan oleh Parti Perikatan. [Diagram showing a sailing boat with black sail] Apakah rasional penggunaan logo tersebut?",
+      "options": {
+        "A": "Keadilan untuk semua",
+        "B": "Kemajuan negara diatamakan",
+        "C": "Kepentingan perpaduan kaum",
+        "D": "Kesediaan menempuh cabaran"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2022_johor_smk_taman_selesa_jaya_2_q7",
+      "question": "Mengapakah British menubuhkan pentadbiran berikut di Tanah Melayu? [British Military Administration (BMA)]",
+      "options": {
+        "I": "Memberi latihan kepimpinan",
+        "II": "Melaksanakan ekonomi kawalan",
+        "III": "Memulihkan kepercayaan rakyat",
+        "IV": "Mengembalikan kestabilan negara",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2023_sbp_q32",
+      "question": "Rajah berikut berkaitan isu pembangunan ekonomi pada awal pembentukan Malaysia. [Rajah: Isu - Terlalu bergantung pada eksport getah dan bijih timah, Usaha Mengatasi - X, Mencari pasaran baharu] Apakah X?",
+      "options": {
+        "A": "Mengalakkan permainan dalam tahun",
+        "B": "Menubuhkan pusat latihan vokasional",
+        "C": "Mempelbagai kegiatan ekonomi",
+        "D": "Mendapat bantuan Bank Dunia"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2025_johor_segamat_set_2_q6",
+      "question": "Apakah kesan penggunaan mata wang Jepun yang dikenali \"Wang Pokok Pisang\"?",
+      "options": {
+        "A": "Ekonomi meningkat",
+        "B": "Peningkatan inflasi",
+        "C": "Harga barang rendah",
+        "D": "Nilai mata wang tinggi"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_johor_muar_q2",
+      "question": "Apakah peranan pemerintah pada zaman Kesultanan Melayu Melaka?",
+      "options": {
+        "A": "Taat setia kepada pemerintah",
+        "B": "Memperkenalkan undang-undang untuk mengawal rakyat",
+        "C": "Menjadi tentera",
+        "D": "Membina istana"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_smka_sabk_q30",
+      "question": "Apakah prinsip utama Perjanjian Malaysia yang ditandatangani pada 9 Julai 1963 di London?",
+      "options": {
+        "A": "Mengutamakan kedudukan peribumi",
+        "B": "Mengiktiraf hak yang sama pada semua negeri",
+        "C": "Mewujudkan integrasi nasional antara penduduk",
+        "D": "Mengambil kira persekitaran sosioekonomi negeri"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_johor_segamat_q34",
+      "question": "Apakah prinsip utama Dasar Kebudayaan Kebangsaan?",
+      "options": {
+        "A": "Adat resam menjadi unsur penting",
+        "B": "Bahasa Melayu bahasa kebangsaan",
+        "C": "Unsur kebudayaan lain tidak diterima",
+        "D": "Kebudayaan rakyat asal menjadi teras"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2025_johor_kulai_set_2_q4",
+      "question": "Apakah sumbangan Ibu Zain dalam perkembangan nasionalisme di Tanah Melayu?",
+      "options": {
+        "A": "Mengasah bakal muda dalam bidang penulisan",
+        "B": "Meniup semangat nasionalisme dalam kalangan pemuda",
+        "C": "Memperjuangkan kepentingan ilmu pengetahuan untuk wanita",
+        "D": "Membangkitkan semangat bermiaga dalam kalangan masyarakat Melayu"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2024_perak_q38",
+      "question": "Malaysia menjadikan ASEAN sebagai platform mengisytiharkan perubahan dasar luar negara pada peringkat serantau dan global. Bagaimanakah Malaysia merealisasikan komitmen tersebut?",
+      "options": {
+        "A": "Mengadakan Perjanjian Pertahanan Lima Negara (FPDA)",
+        "B": "Menandatangani Perjanjian Umum Tarif dan Perdagangan (GATT)",
+        "C": "Membina Pusat Serantau untuk Sains dan Matematik (RECSAM)",
+        "D": "Mengumumkan Deklarasi Zon Aman, Bebas dan Berkecuali (ZOPFAN)"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2025_perak_q21",
+      "question": "Kedaulatan tradisional merujuk kepada raja berkuasa mutlak yang menguasai sepenuhnya pentadbiran negara. Bagaimanakah kedaulatan raja pada zaman Kesultanan Melayu Melaka diperkukuhkan?",
+      "options": {
+        "A": "Pengesahan Majlis Raja-Raja",
+        "B": "Pengamalan prinsip Rukun Negara",
+        "C": "Pengakuan taat setia golongan diperintah",
+        "D": "Perkahwinan pemerintah dengan rakyat jelata"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2023_negeri_sembilan_q36",
+      "question": "Maklumat berikut berkaitan strategi yang dilaksanakan oleh kerajaan dalam Rancangan Jangka Panjang Kedua. • Pembangunan wilayah • Penyusunan semula modal saham Apakah strategi tersebut?",
+      "options": {
+        "A": "Dasar Ekonomi Baru",
+        "B": "Dasar Perindustrian Negara",
+        "C": "Dasar Pembangunan Nasional",
+        "D": "Dasar Kependudukan"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "A",
+      "correct": false
+    },
+    {
+      "id": "2025_johor_segamat_set_1_q19",
+      "question": "Apakah perjuangan tokoh berikut terhadap pembebasan rakyat India. [Imej menunjukkan potret Mahatma Gandhi] Mahatma Gandhi",
+      "options": {
+        "A": "Penindasan kerajaan",
+        "B": "Penindasan kasta",
+        "C": "Persamaan kaum",
+        "D": "Perbezaan kerja"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "A",
+      "correct": false
+    },
+    {
+      "id": "2022_putrajaya_smk_putrajaya_presint_18_1_q32",
+      "question": "Jabatan Penerangan berusaha menyekat berita palsu sepelas peristiwa rusuhan kaum. Apakah usaha tersebut?",
+      "options": {
+        "A": "Menubuhkan jabatan percetakan",
+        "B": "Meggantung penerbitan akhbar",
+        "C": "Menutup syarikat percetakan",
+        "D": "Membentuk pasukan risikan"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_johor_kota_tinggi_q6",
+      "question": "Maklumat berikut berkaitan dengan sebuah pertubuhan yang menentang tentera Jepun di Tanah Melayu. [Menubuhkan pasukan Gerila - Bersetuju mewujudkan pasukan sukarela yang dilatih oleh British] Apakah pertubuhan tersebut?",
+      "options": {
+        "A": "RUKUN 13",
+        "B": "PUTERA",
+        "C": "MPAJA",
+        "D": "BATAS"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2022_putrajaya_smk_putrajaya_presint_18_1_q34",
+      "question": "Gambar berikut menunjukkan logo Dasar 1 Murid 1 Sukan. [Gambar menunjukkan logo '1Murid1Sukan' dengan desain tulisan dan simbol] Mengapakah dasar tersebut diperkenalkan?",
+      "options": {
+        "A": "Memupuk semangat berpasukan",
+        "B": "Memperkasa semangat kenegerian",
+        "C": "Memantapkan sistem pendidikan",
+        "D": "Membina masyarakat progresif"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2022_negeri_sembilan_mpsm_q10",
+      "question": "Apakah tanggungjawab sultan di peringkat negeri dalam Persekutuan Tanah Melayu 1948?",
+      "options": {
+        "A": "Menjalankan kuasa eksekutif",
+        "B": "Menjaga ketenteramanan awam",
+        "C": "Mengesahkan rang undang-undang",
+        "D": "Menganggotai Majlis Mesyuarat Negeri"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2025_sarawak_sibu_q4",
+      "question": "Pasangan pernyataan yang manakah betul tentang tujuan Gerakan nasionalisme di Thailand dengan gerakan nasionalisme di negara lain di Asia Tenggara?",
+      "options": {
+        "A": "Mementang kuasa asing | Mementang sistem berjaja",
+        "B": "Mementang raja berbuasa mutlak | Mementang penjajahan oleh kuasa asing",
+        "C": "Mengembalikan kuasa bangsawan | Mengembalikan kuasa golongan agama",
+        "D": "Membela nasib kaum imigran | Mengurangkan bilangan kaum imigran"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2023_pulau_pinang_q8",
+      "question": "Maklumat berikut berkaiatan dengan penyerahaan Sarawak kepada British. [Jadual menunjukkan Rang Undang-Undang Penyerahaan (Cession Bill) dengan Menyokong: 19 undi, Menentang: 16 undi] Apakah kesan daripada keputusan tersebut?",
+      "options": {
+        "A": "Pengenalan pentadbiran pusat",
+        "B": "Peningkatan taraf hidup pribumi",
+        "C": "Kemunculan gerakan antipenyerahaan",
+        "D": "Undang-undang tempatan dimansuhkan"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2025_kelantan_q13",
+      "question": "Dato' Onn Jaafar menubuhkan Independence of Malayan Party (IMP) pada tahun 1951. Apakah asas penubuhan parti tersebut?",
+      "options": {
+        "A": "Bercorak radikal",
+        "B": "Berasaskan Islam",
+        "C": "Perpaduan kebangsaan",
+        "D": "Permuafakatan bangsa"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2025_sabk_q17",
+      "question": "Apakah perkara yang dituntut oleh Persekutuan Tanah Melayu dalam Rundingan London?",
+      "options": {
+        "I": "Pegawai British mengetuai Persekutuan Tanah Melayu",
+        "II": "Menteri Pertahanan daripada rakyat tempatan",
+        "III": "Setiausaha Kewangan digantikan dengan Menteri Kewangan",
+        "IV": "Mengadakan perjanjian pertahanan dengan British",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2022_sabah_q23",
+      "question": "Perlembagaan merupakan peraturan tertinggi dan panduan dalam sistem pemerintahan serta mempunyai dua ciri utama iaitu tradisional dan moden bagi kestabilan serta kemajuan negara. Apakah ciri moden dalam perlembagaan Persekutuan?",
+      "options": {
+        "A": "Agama Islam",
+        "B": "Bahasa Melayu",
+        "C": "Kewarganegaraan",
+        "D": "Pemerintahan Beraja"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2024_kedah_1_q22",
+      "question": "Apakah kepentingan menjadi negara berdaulat?",
+      "options": {
+        "A": "Menguasai politik serantau",
+        "B": "Menjadi kuasa utama ekonomi",
+        "C": "Mewujudkan pentadbiran berkesan",
+        "D": "Menentukan hala tuju pendidikan global"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2022_negeri_sembilan_mpsm_q26",
+      "question": "Maklumat berikut berkaitan pelaksanaan pengasaingan kuasa dalam pentabiran. [Kotak berisi tiga bullet points: \"Badan Perundangan\", \"Badan Eksekutif\", \"Badan Kehakiman\"] Siapakah yang menjadi pucuk kuasa kepada ketiga-tiga badan tersebut?",
+      "options": {
+        "A": "Rakyat",
+        "B": "Ahli parlimen",
+        "C": "Perdana Menteri",
+        "D": "Yang di-Pertuan Agong"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "A",
+      "correct": false
+    },
+    {
+      "id": "2022_kuala_lumpur_sentul_q24",
+      "question": "Maklumat berikut merujuk kepada undang-undang Negeri Melayu. [Jadual menunjukkan: Negeri: Pahang, Undang-undang: Hukum Kanun Pahang; Negeri: Kedah, Undang-undang: Undang-undang Kedah] Apakah implikasi daripada pengenalan undang-undang tersebut?",
+      "options": {
+        "A": "Kedaulatan negeri terjamin",
+        "B": "Kesultanan menjadi unggul",
+        "C": "Panduan serta kawalan kepada raja",
+        "D": "Keselamatan rakyat tidak terpelihara"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2024_kuala_lumpur_q24",
+      "question": "Rajah berikut berkaitan kronologi pindaan Perlembagaan Persekutuan yang dibuat pada tahun 1965. [Diagram menunjukkan timeline: 7 Ogos 1965 Perdana Menteri membawa usul pindaan ke Parlimen → Parlimen meluluskan usul pindaan tersebut → Semua perkara dalam perlembagaan dimansuhkan] Kronologi pindaan tersebut dikaitkan dengan",
+      "options": {
+        "A": "Pembentukan Malaysia",
+        "B": "Pemisahan Singapura",
+        "C": "Penyertaan Brunei",
+        "D": "Penentangan Indonesia"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_johor_kulai_set_1_q25",
+      "question": "Perlembagaan Malayan Union 1946 memperluntukkan penubuhan Majlis Sultan-Sultan. Apakah fungsi Majlis Sultan-Sultan?",
+      "options": {
+        "I": "Menasihati Gabenor",
+        "II": "Melantik jawatan penting",
+        "III": "Menjadi Lembaga Pengampunan",
+        "IV": "Membincangkan undang-undang Islam",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_pahang_q4",
+      "question": "Berikut adalah tokoh nasionalisme di Tanah Melayu pada penghujung abad ke-19: Penghulu Dol Said, Dato Bahaman. Apakah bentuk perjuangan tokoh tersebut?",
+      "options": {
+        "A": "Gerakan propaganda",
+        "B": "Bersifat kebangsaan",
+        "C": "Bersifat setempat",
+        "D": "Gerakan revolusi"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2022_negeri_sembilan_mpsm_q34",
+      "question": "Gambar berikut merupakan logo Majlis Sukan Universiti Malaysia (MASUM). [Gambar menunjukkan logo berbentuk bulatan dengan tulisan \"MAJLIS SUKAN UNIVERSITI MALAYSIA\" di bahagian atas, simbol bulan dan matahari di tengah, cabang-cabang di kedua-dua sisi, dan perkataan \"MALAYSIA\" di bahagian bawah] Mengapakah penganjuran MASUM diadakan secara bergirling-gili?",
+      "options": {
+        "A": "Mengeratkan hubungan atlet",
+        "B": "Melahirkan semangatberpasukan",
+        "C": "Menggalakkan integrasi antara negeri",
+        "D": "Meningkatkan mutu sukan universiti"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2024_perak_q21",
+      "question": "Jadual berikut berkaitan takrif kedaulatan dalam pelbagai bahasa. [Jadual menunjukkan: Bahasa: Bahasa Yunani, Bahasa Melayu, Bahasa Arab; Takrif Kedaulatan: Agung atau tertinggi, Kekuasaan tertinggi, Daulah] Apakah unsur persamaan berdasarkan takrif tersebut?",
+      "options": {
+        "A": "Keluhuran perlembagaan",
+        "B": "Kebebasan asasi manusia",
+        "C": "Kewibawaan pemerintahan",
+        "D": "Keluasan wilayah pengaruh"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2024_selangor_set_2_q30",
+      "question": "Tentera Indonesia telah melancarka serangan di Johor, Sabah dan Sarawak dalam kempen Ganyang Malaysia. Bagaimanakah Malaysia menangani isu serangan tersebut?",
+      "options": {
+        "A": "Mengadakan rundingan damai",
+        "B": "Melaksanakan sekatan ekonomi",
+        "C": "Meminta campur tangan negara jiran",
+        "D": "Membawa isu dalam pertubuhan antarabangsa"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2024_kelantan_q7",
+      "question": "Syarat kewarganegaraan berikut diberikan kepada seseorang individu kesan daripada perubahan pentadbiran di Tanah Melayu pada abad ke-20. [Kewarganegaraan berasaskan prinsip jus soli, Berumur kurang daripada 18 tahun yang ibupapanya merupakan warganegara] Perubahan pentadbiran tersebut merujuk kepada pelaksanaan pentadbiran",
+      "options": {
+        "A": "Melayu Raya",
+        "B": "Malayan Union",
+        "C": "Persekutuan Malayia",
+        "D": "Persekutuan Tanah Melayu"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_smka_1_q14",
+      "question": "Apakah fungsi ahli dalam Sistem Ahli yang telah ditubuhkan pada tahun 1951?",
+      "options": {
+        "A": "Menggubai perlembagaan",
+        "B": "Mencadangkan undang-undang",
+        "C": "Menyelesaikan isu perkauman",
+        "D": "Meninjau pandangan masyarakat"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "D",
+      "correct": false
+    },
+    {
+      "id": "2025_terengganu_q15",
+      "question": "Jadual berikut menunjukkan satu peristiwa penting. [Tarikh: 21 April 1954, Peristiwa: Tunku Abdul Rahman ke London bersama-sama dengan Tan Cheng Lock, T.H. Tan dan Dato' Abdul Razak Hussien] Peristiwa di atas dikaitkan dengan",
+      "options": {
+        "A": "pembubaran Sistem Ahli",
+        "B": "penubuhan Suruhanjaya Pilihan Raya",
+        "C": "kemerdekaan Persekutuan Tanah Melayu",
+        "D": "keanggotan Majlis Perundangan Persekutuan"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2023_kedah_q39",
+      "question": "Deklarasi berikut telah disytiharkan dalam Mesyuarat Ketua-Ketua Negara Komanwel (CHOGM) pada tahun 1989. [Deklarasi Langkawi]. Apakah persetujuan yang dicapai dalam deklarasi tersebut?",
+      "options": {
+        "A": "Memelihara alam sekitar",
+        "B": "Menyelaras bantuan teknikal",
+        "C": "Menyediakan dana pendidikan",
+        "D": "Menjadikan Langkawi destinasi pelancongan"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2025_n9_q15",
+      "question": "Maklumat berikut berkaitan pilihan raya peringkat negeri pada tahun 1954. [Kotak menunjukkan: Parti Perikatan UMNO-MCA telah memenangi 226 kerusi daripada 268 kerusi yang dipertandingkan] Apakah rumusan anda daripada kemenangan tersebut?",
+      "options": {
+        "A": "Pembentukan kabinet pertama",
+        "B": "Kedudukan partai politik terjamin",
+        "C": "Pelaksanaan pilihan raya yang adil",
+        "D": "Kerjasama kaum diterima oleh rakyat"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2025_johor_kulai_set_2_q5",
+      "question": "Jerman tidak berpuas hati dengan perjanjian Versailles. Mengapakah Jerman bertindak sedemikian?",
+      "options": {
+        "A": "Membayar pampasan perang",
+        "B": "Mengehadkan perluasan kuasa",
+        "C": "Memisahkan sempadan negara",
+        "D": "Menghalang kerjasama antarabangsa"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2024_selangor_set_3_q25",
+      "question": "Mengapakah Penyimpan Mohor Besar Raja-Raja perlu menyertai persidangan Majlis Raja-Raja?",
+      "options": {
+        "A": "Memeterai keputusan persidangan",
+        "B": "Mempersetujui pindaan perlembagaan",
+        "C": "Membincangkan hal chwal pentadbiran",
+        "D": "Mengesahkan undang-undang persekutuan"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2025_kedah_q7",
+      "question": "Perasaan orang Melayu penuh dengan kesedihan pada hari pengisytiharan Malayan Union pada 1 April 1946. Mengapakah perasaan orang Melayu sedemikian?",
+      "options": {
+        "A": "Penjajahan mutlak British",
+        "B": "Pengakhiran penjajahan asing",
+        "C": "Penghapusan adat resam Melayu",
+        "D": "Perpaduan antara kaum semakin longgar"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2023_sbp_q38",
+      "question": "Berikut merupakan deklarasi yang dikemukakan Malaysia dalam ASEAN. [Kotak: Deklarasi Zon Aman, Bebas dan Bekesuali (ZOPFAN) diumumkan di Kuala Lumpur pada tahun 1971.] Apakah bukti yang menunjukkan Malaysia akur pada deklarasi tersebut?",
+      "options": {
+        "A": "Menjalin hubungan dengan China",
+        "B": "Menentang Dasar Apartheid Afrika Selatan",
+        "C": "Menghalang pengeleksploitasi benua Antartika",
+        "D": "Menandatangani perjanjian perjalanan dengan Britain"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2022_kelantan_mpsm_q17",
+      "question": "Tokoh berikut adalah anggota suruhanjaya Reid. [Gambar menunjukkan lima tokoh: Lord Reid, Sir Ivor Jennings, Sir William McKell, Mr. B. Malik, Mr. Abdul Hamid]. Apakah peranan suruhanjaya tersebut?",
+      "options": {
+        "A": "Menganjur Konvensyen Kebangsaan",
+        "B": "Merangka perlembagaan persekutuan",
+        "C": "Mengkaji kemasukan Sarawak dan Sabah",
+        "D": "Mengetuai rombongan kemerdekaan ke London"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_melaka_q39",
+      "question": "Peta berikut menunjukkan kawasan yang menjadi tuntutan beberapa buah negara.\n\n[Peta kawasan Asia Tenggara menunjukkan: Myanmar, Laos, Thailand, Vietnam, Kemboja, Malaysia, Pulau Pinang, Kuala Lumpur, Brunei, Filipina, Sarawak, dan Sabah. Lingkaran menunjukkan 'Kepulauan Sprally' di utara Filipina]\n\nApakah iktiar yang diperolehi daripada tindakan Malaysia dalam mencari penyelesaian isu tersebut?",
+      "options": {
+        "A": "Mendapatkan bantuan kuasa besar bagi mempertahankkan hak",
+        "B": "Menggunakan kekuatan tentera agar kedaulatan negara terjaga",
+        "C": "Menggunakan langkah diplomasi untuk penyelesaian secara aman",
+        "D": "Menyerahkan kepada negara lain supaya peperangan tidak berlaku"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2022_johor_kota_tinggi_q19",
+      "question": "Mengapakah perisitiwa Pemasyhuran Kemerdekaan negara pada 31 Ogos 1957 berjalan dengan lancar dan sistematik?",
+      "options": {
+        "A": "Kos perbelanjaan yang optimum",
+        "B": "Bantuan kerajaan British",
+        "C": "Sokongan bekas pentadbir",
+        "D": "Peranan Jawatankuasa Sambutan"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2022_negeri_sembilan_mpsm_q4",
+      "question": "Gambar berikut merupakan tokoh nasionalisme di negara kita. [Gambar menunjukkan potret lelaki berusia pertengahan dengan cermin mata, mengenakan songkok hitam dan pakaian formal. Nama dibawah gambar: Zainal Abidin Ahmad] Apakah peranan beliau?",
+      "options": {
+        "A": "Mengasaskan pertubuhan politik",
+        "B": "Menubuhkan sekolah kebangsaan",
+        "C": "Melahirkan idea melalui penulisan",
+        "D": "Melancarkan penentangan secara radikal"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2024_smka_sabk_q5",
+      "question": "Yang manakah berikut merupakan kesan Perang Dunia Pertama?",
+      "options": {
+        "I": "Keruntuhan pemerintahan beraja",
+        "II": "Kemunculan negara baharu",
+        "III": "Peluasan kuasa Jepun",
+        "IV": "Pengeboman Britain",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2025_sarawak_sibu_q33",
+      "question": "Dasar pecah dan perintah yang diamalkan oleh penjajah mewujudkan ketidakseimbangan ekonomi antara kaum, wilayah dan kawasan di negara kita. Bagaimanakah kerajaan mengatasi masalah tersebut?",
+      "options": {
+        "A": "Menubuhkan Majlis Perundangan Negara (MAPEN)",
+        "B": "Membentuk Kementerian Pembangunan Luar Bandar",
+        "C": "Memperkenalkan Rancangan Malaysia Pertama",
+        "D": "Melancarkan Dasar Ekonomi Baru (DEB)"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2022_johor_kluang_q5",
+      "question": "Maklumat berikut menunjukkan pakatan yang terlibat dalam Perang Dunia Pertama. [Teks dalam kotak: 'Kuasa Tengah' dan 'Pakatan Bertiga'] Apakah matlamat pakatan tersebut?",
+      "options": {
+        "A": "Menguasai pasaran",
+        "B": "Menubuhkan kerajaan republik",
+        "C": "Menghapuskan keganasan",
+        "D": "Menentang dasar apartheid"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2025_smka_1_q18",
+      "question": "Maklumat berikut berkaitan jawatan Yang di-Pertuan Agong mengikut memorandum Raja-raja Melayu untuk dipertimbangkan oleh Suruhanjaya Perlembagaan Persekutuan Tanah Melayu 1957. [Ketua Negara Persekutuan Tanah Melayu, Dipilih oleh Raja-raja Melayu berdasarkan kekananan, X] X merujuk kepada",
+      "options": {
+        "A": "Mengawal ekonomi bumiputera",
+        "B": "Memelihara kedudukan orang asli",
+        "C": "Menjaga kepentingan sah kaum lain",
+        "D": "Meluluskan kewarganegaraan kaum imigran"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2025_johor_pasir_gudang_q13",
+      "question": "Sistem Ahli dibentuk bagi memenuhi dasar dekolonisasi British. Bagaimanakah British melaksanakan dasar tersebut?",
+      "options": {
+        "A": "Mewujudkan badan yang dianggotai oleh semua kaum",
+        "B": "Melatih penduduk tempatan dalam pentadbiran negara",
+        "C": "Menyediakan pekerjaan dalam bidang pentadbiran",
+        "D": "Memberi peluang kepada pemimpin tempatan mengetahui pentadbiran negara"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_kuala_lumpur_q36",
+      "question": "Senarai berikut berkaitan pemilikan modal saham oleh kaum bumiputera. [Kotak teks menunjukkan: Amanah Saham Nasional (ASN); Amanah Saham Bumiputera (ASB)] Mengapakah kerajaan melakukan usaha tersebut?",
+      "options": {
+        "A": "Mengiktiraf kedudukan peribumi",
+        "B": "Melahirkan golongan kaya",
+        "C": "Menyusun semula masyarakat",
+        "D": "Mengukuhkan penglibatan koperasi"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2023_perlis_q21",
+      "question": "Antara berikut yang manakah berkaitan dengan takrif kedaulatan? [Jadual: Bahasa | Takrif kedaulatan | I. Bahasa Yunani | Sovereignty | II. Bahasa Arab | Daulah | III. Bahasa Melayu | Daulat | IV. Bahasa Inggeris | Superanus]",
+      "options": {
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2024_kuala_lumpur_q4",
+      "question": "Apakah yang didedahkan dalam karya berikut? [Jadual menunjukkan: Raden Adjeng Kartini; Hilang Gelap Terbilah Terang; Letters of a Javanese Princess]",
+      "options": {
+        "A": "Ketidakadilan undang-undang",
+        "B": "Kelemahan pemerintahan",
+        "C": "Kemerosotan ekonomi",
+        "D": "Kemunduran rakyat"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "A",
+      "correct": false
+    },
+    {
+      "id": "2022_kelantan_mpsm_q19",
+      "question": "Gambar berikut berkaitan dengan persediaan fizikal sempena pemasyahuran kemerdekaan. [Gambar menunjukkan kawasan stadium dengan dekorasi dan persiapan untuk acara besar]. Apakah nilai yang boleh digambarkan melalui persediaan tersebut?",
+      "options": {
+        "A": "Berilmu",
+        "B": "Kerajinan",
+        "C": "Berwaspada",
+        "D": "Kesungguhan"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2023_johor_q4",
+      "question": "Perjuangan Sultan Abdullah Mukarram Shah di Kedah merupakan perjuangan terawal di Kedah.\nApakah bukti untuk menyokong perjuangan tersebut?",
+      "options": {
+        "I": "Mendapatkan kembali Pulau Pinang",
+        "II": "Melancarkan serangan terhadap Siam",
+        "III": "Menamatkan penghantaran bunga emas",
+        "IV": "Menentang Syarikat Hindu Timur Inggeris",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2025_pahang_q36",
+      "question": "Agensi berikut ditubuhkan untuk menyokong pelaksanaan Dasar Pembangunan Nasional (DPN): Institut Latihan Perindustrian (ILP), Pusat Latihan Kemahiran Giatmara. Bagaimanakah agensi tersebut berperanan?",
+      "options": {
+        "A": "Meningkatkan kadar celik huruf",
+        "B": "Membuka peluang pekerjaan",
+        "C": "Memantapkan pertanian pintar",
+        "D": "Menambah baik sistem pendidikan"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2023_pahang_q10",
+      "question": "Kelewatan pendaratan tentera British menyebabkan kekosong kuasa politik di Tanah Melayu. Apakah kesan peristiwa tersebut?",
+      "options": {
+        "A": "Penguasaan Bintang Tiga",
+        "B": "Pengukuhan Askar Melayu",
+        "C": "Pengunduran tentera Komanwel",
+        "D": "Pemberontakan pasukan Kempeitai"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2023_perak_q39",
+      "question": "Kawasan Perdagangan Bebas ASEAN (AFTA) telah diumumkan pada tahun 1992 di Singapura. Bagaimanakah AFTA boleh memacukemajuan ekonomi ASEAN?",
+      "options": {
+        "I": "Penggunaan mata wang tunggal dikuatкuasakan",
+        "II": "Kemaskuan pelabur dari rantau lain dikawal",
+        "III": "Sekatan dagangan dihapuskan",
+        "IV": "Pasaran terbuka luas",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2022_sabah_q5",
+      "question": "Perang Dunia Pertama telah berlaku pada tahun 1914 hingga 1918. Apakah faktor yang mencetuskan perang tersebut?",
+      "options": {
+        "A": "Pengeboman Britain",
+        "B": "Krisis Rantau Balkan",
+        "C": "Kemunculan ideologi bahan",
+        "D": "Penaklukan Jerman terhadap Eropah Barat"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_melaka_q16",
+      "question": "Pilih syarat menjadi pengundi dalam pilihan raya 1955.",
+      "options": {
+        "A": "Berumur 21 tahun ke atas",
+        "B": "Tinggal menetap selama 12 bulan",
+        "C": "Menguasai bahasa Inggeris",
+        "D": "Menjadi ahli politik"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2024_tererngganu_q6",
+      "question": "Berikut adalah unit khas yang ditubuhkan oleh British. [Force 136 Ulu Perak - Askar Melayu Setia, Force 136 Pahang - Wataniah Pahang] Apakah matlamat penubuhan unit khas tersebut?",
+      "options": {
+        "A": "Menubuhkan pasukan gerila",
+        "B": "Melatih rejimen askar tempatan",
+        "C": "Menentang penjajahan komunis",
+        "D": "Mensabotaj infrastruktur awam"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2022_melaka_q15",
+      "question": "Jawatankuasa Pilihan Raya telah mengeluarkan dua bentuk penyata susunan Majlis Perundangan Persekutuan (MPP) yang dinamakan Bentuk A dan Bentuk B. Pilih padanan yang tepat tentang susunan tersebut.",
+      "options": {
+        "A": "Seorang speaker | Seorang speaker",
+        "B": "Lapan orang wakil negeri | Sebelas orang wakil negeri",
+        "C": "Tiga orang dilantik mewakili golongan minoriti | Dua orang dilantik mewakili golongan minoriti",
+        "D": "Plihanraya perlu diadakan tidak lewat dari bulan Oktober 1954 | Tidak menetapkan tarikh atau masa tertentu untuk pilihanraya"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2022_mrsm_q11",
+      "question": "Undang-undang berikut telah diluluskan oleh British di Tanah Melayu. [Jadual: Trade Union Ordinance No. 9 of 1948] Mengapakah undang-undang tersebut dilaksanakan?",
+      "options": {
+        "A": "Menghalang pengaruh parti radikal",
+        "B": "Mengekang pengaruh komunis",
+        "C": "Menyekat kebebasan bersuara",
+        "D": "Mengawal penerbitan risalah"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_kelantan_q22",
+      "question": "Apakah usaha yang dilakukan oleh kerajaan bagi mengukuhkan pertahanan negara?",
+      "options": {
+        "A": "Menyekat pendatang asing",
+        "B": "Mendapatkan tentera upahan",
+        "C": "Menetapkan sempadan negara",
+        "D": "Memodenkan teknologi senjata"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2025_johor_segamat_set_1_q32",
+      "question": "Maklumat berikut berkaitan dengan isu yang dihadapi selepas pembentukan Malaysia. • Peluang pekerjaan meningkat • Kadar pengangguran meningkat Bagaimanapakah kerajaan mengatasi isu tersebut?",
+      "options": {
+        "A": "Mendapatkan bantuan negara lain",
+        "B": "Mengurangkan penggunaan tenaga kerja asing",
+        "C": "Mempercepat integrasi dalam kalangan penduduk",
+        "D": "Menubuhkan pusat latihan vokasional dan teknikal"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2025_johor_muar_q16",
+      "question": "Apakah peranan tokoh ini dalam Kabinet Pertama Persekutuan? [Gambar menunjukkan potret pria dengan nama 'Dato' Abdul Razak Hussien']",
+      "options": {
+        "A": "Peperiksaan sekolah menenengah dalam Bahasa Inggeris",
+        "B": "Memperkenalkan buku teks",
+        "C": "Mensejahterakan rakyat",
+        "D": "Membina bangsa yang bersatu melalui pendidikan"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2022_pahang_mpsm_q28",
+      "question": "Maklumat berikut berkaitkan dengan kerjasama Kerajaan Persekutuan dan Kerajaan Negeri. [Kotak menunjukkan: Program Perumahan Rakyat (PPR), Perumahan Awam Kos Rendah (PAKR)] Apakah matlamat penyediaan perumahan tersebut?",
+      "options": {
+        "A": "Membasmi kemiskinan",
+        "B": "Menjaga keharmonian",
+        "C": "Membangun kawasan",
+        "D": "Menikmati kemudahan"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2024_johor_segamat_q26",
+      "question": "Apakah keunikan sistem Raja Berperlembagaan dan Demokrasi Berparlimen yang wujud di negara kita?",
+      "options": {
+        "A": "Mengukuhkan kuasa Raja-raja Melayu",
+        "B": "Membawa perkongsiaan kuasa antara kaum",
+        "C": "Membentuk Kerajaan Persekutuan yang kuat",
+        "D": "Mewujudkan mekanisme semak dan imbang"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2025_n9_q9",
+      "question": "Maklumat berikut berkaitan jawatankuasa yang ditubuhkan di Tanah Melayu. [Jadual menunjukkan: Tarikh 25 Julai 1946, Perkara Jawatankuasa Kerja] Apakah peranan jawatankuasa tersebut?",
+      "options": {
+        "A": "Membentuk kerjasama politik",
+        "B": "Merangka perjanjian Persekutuan",
+        "C": "Mengembalikan keamanan negara",
+        "D": "Mengumpul pandangan rakyat"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_johor_muar_q4",
+      "question": "Kesusaiteraan seperti novel, cerpen dan puisi merupakan wadah untuk mengungkapkan keperitan hidup bangsa yang dijajah serta penderitaan rakyat. [Gambar menunjukkan sebuah nota matawang dengan tulisan Arab dan wajah seorang lelaki]\n\nApakah kepentingan penulisan kreatif seperti rajah di atas?",
+      "options": {
+        "A": "Menyeru ajaran Islam",
+        "B": "Memperkuat rasa persaudaraan antara rakyat",
+        "C": "Menggerakkan penentangan terhadap penjajah",
+        "D": "Mengingatkan anak bangsa tentang nikmat kebebasan"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2022_perlis_q13",
+      "question": "British memberikan mesej bahawa kemerdekaan hanya akan diberikan apabila wujud kerjasama antara Melayu, Cina dan India. Apakah tindakan yang diambil oleh pemimpin setiap kaum?",
+      "options": {
+        "A": "Penubuhan Jawatankuasa Hubungan Antara Kaum",
+        "B": "Penubuhan Kongres Kebangsaan Antara Kaum",
+        "C": "Mengadakan Pilihanraya peringkat persekutuan",
+        "D": "Mengadakan Persidangan Antara Kaum"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2025_melaka_q34",
+      "question": "Dasar Kebudayaan Kebangsaan telah digubal pada tahun 1971.\n\nMengapakah dasar tersebut diperkenalkan?",
+      "options": {
+        "A": "Memupuk semangat kenegerian",
+        "B": "Memperkukuh integrasi nasional",
+        "C": "Menghalang kemasukan pengaruh luar",
+        "D": "Mengawal penggunaan bahasa asing"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_kuala_lumpur_q34",
+      "question": "Dialog berikut berlaku antara guru dan murid berkaitan kesan pengamalan prinsip Rukun Negara. [Dialog menunjukkan: Azizi berkata: \"Cikgu Ahmad, apakah perkara yang sepatutnya dilakukan sekirianya kita menjunjung setiap prinsip Rukun Negara?\"; Cikgu Ahmad menjawab: \"Ya, Azizi. Kita perlu sentiasa menghormati simbol dan lambang negara.\"] Berdasarkan dialog berikut, apakah prinsip Rukun Negara yang dikaitkan dengan dialog tersebut?",
+      "options": {
+        "A": "Kesetiaan kepada Raja dan Negara",
+        "B": "Kedaulatan Undang-undang",
+        "C": "Kesopanan dan Kesusilan",
+        "D": "Keluhuran Perlembagaan"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2025_melaka_q5",
+      "question": "Bagaimanakah golongan kelas pertengahan berpendidikan Barat menentang British di Burma?",
+      "options": {
+        "A": "Membentuk Katipunan",
+        "B": "Menubuhkan Persatuan Belia Buddha",
+        "C": "Menerbitkan akhbar Tribune Indige",
+        "D": "Melancarkan pemberontakan Saya San"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2023_kedah_q34",
+      "question": "Apakah penambahaikan dalam Laporan Rahman Talib yang dilaksanakan melalui Kajian Aminuddin Baki?",
+      "options": {
+        "A": "Melahirkan tenaga mahir",
+        "B": "Menekankan mata pelajaran Sejarah",
+        "C": "Mewajibkan mata pelajaran Tatarakyat",
+        "D": "mengurangkan kadar buta huruf"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2025_sabk_q22",
+      "question": "Maklumat berikut berkaitan peranan pemerintah dalam mengekalkan perpaduan kaum dalam sebuah negara yang berdaulat. [• Melaksanakan integrasi nasional • Manganjurkan kempen perpaduan • X]",
+      "options": {
+        "A": "Mewujudkan pentadbiran yang cepat",
+        "B": "Mengagihkan sumber kekayaan dengan adil",
+        "C": "Melaksanakan dasar berkaitan kebudayaan",
+        "D": "Mengamalkan sikap integriti yang tinggi"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2025_melaka_q33",
+      "question": "Perkara berikut berkaitan dengan cadangan aktiviti kokurikulum dalam Laporan Jawatankuasa Kabinet 1979.\n\n[Kegiatan persatuan, Unit beruniform, Sukan dan permainan]\n\nMengapakah aktiviti kokurikulum diberi tumpuan?",
+      "options": {
+        "A": "Meningkatkan kemahiran teknologi",
+        "B": "Mempelbagai aliran persekolahan",
+        "C": "Melahirkan atlet bertaraf dunia",
+        "D": "Memupuk perpaduan kaum"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2025_perak_q38",
+      "question": "Mengapakah pemimpin dunia perlu menyokok tindakan Malaysia menentang Dasar Apartheid yang diamalkan oleh Afrika Selatan?",
+      "options": {
+        "A": "Pencerobohan wilayah",
+        "B": "Pemerdagangan manusia",
+        "C": "Pelaksanaan kadar tarif cukai",
+        "D": "Pengamalan diskriminasi kaum"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2024_johor_kota_tinggi_q30",
+      "question": "Maklumat berikut berkaitan dengan Intipati Perjanjian Malaysia [Akta Perjanjian Malaysia]",
+      "options": {
+        "A": "Tarikh pembentukan Malaysia adalah pada 31 Ogos 1963.",
+        "B": "Mengembalikan keamanan keharmonian dan kepercayaan antara kaum dalam Negara",
+        "C": "Jawatankuasa dipengerusikan oleh Lord Landsdowne",
+        "D": "Islam ialah agama Persekutuan Malaysia"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "D",
+      "correct": false
+    },
+    {
+      "id": "2024_selangor_set_3_q34",
+      "question": "Rukun Negara mengandungi norma sosial yang mencakupi seluruh aspek kehidupan bernegara. Apakah norma sosial tersebut?",
+      "options": {
+        "I": "Kesihatan",
+        "II": "Agama",
+        "III": "Budaya",
+        "IV": "Pendidikan",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2022_melaka_q17",
+      "question": "Gambar berikut menunjukkan sambutan bersejarah di Padang Bandar Hilir, Melaka pada 20 Februari 1956. [Gambar menunjukkan pemandangan jalan yang ramai dengan orang-orang berkumpul di tepi jalan, dengan kenderaan di tengah-tengah jalan] Apakah peristiwa bersejarah tersebut?",
+      "options": {
+        "A": "Pengumuman tarikh kemerdekaan Persekutuan Tanah Melayu",
+        "B": "Pengunduran tentera Jepun dari Tanah Melayu",
+        "C": "Pengumuman keputusan Pilihan Raya Umum",
+        "D": "Pengharaman Parti Komunis Malaya"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2025_putrajaya_set_1_q34",
+      "question": "Berdasarkan Akta Pendidikan 1996, Institusi pendidikan swasta dikehendaki mengadakan pengajaran bahasa kebangsaan, Pengajian Malaysia dan Pendidikan Islam atau Moral. Apakah nilai yang ditekankan bagi langkah tersebut?",
+      "options": {
+        "A": "Adil dan saksama",
+        "B": "Cinta akan negara",
+        "C": "Bertanggungjawab",
+        "D": "Hormat menghormati"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2024_putrajaya_set_1_q28",
+      "question": "ESSCOM atau Kawasan Keselamatan Khas Pantai Timur Sabah ditubuhkan untuk memastikan keselamatan rakyat di Sabah.\n\nApakah tanggungjawab yang perlu dilaksanakan oleh ESSCOM?",
+      "options": {
+        "A": "Mengawasi ancaman komunis",
+        "B": "Merancang segala kegiatan gerak saraf",
+        "C": "Menyelaras fungsi dan pasukan keselamatan Sabah",
+        "D": "Mengawasi keselamatan di daerah Pantai Timur Sabah"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2024_kelantan_q10",
+      "question": "Apakah faktor yang menjayakan penubuhan Persekutuan Tanah Melayu 1948?",
+      "options": {
+        "A": "Kelemahan pemerintahan British",
+        "B": "Sokongan pentadbir British",
+        "C": "Bantahan golongan radikal",
+        "D": "Pengaruh serantau"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_penang_q29",
+      "question": "Apakah manfaat pembentukan Malaysia 1963 kepada Sarawak dan Sabah?",
+      "options": {
+        "I": "Kesatuan ideologi politik",
+        "II": "Keseragaman budaya",
+        "III": "Kemerdekaan negeri",
+        "IV": "Kemajuan ekonomi",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2023_perlis_q13",
+      "question": "Gambar berikut ialah seorang tokoh Sistem Ahli iaitu E.E.C Thuraisingham. [Fotografi menunjukkan E.E.C Thuraisingham] Apakah portfolio beliau?",
+      "options": {
+        "A": "Ahli Pelajaran",
+        "B": "Ahli Kesihatan",
+        "C": "Ahli Hasil Bumi",
+        "D": "Ahli Kerja Raya"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2024_johor_muar_q1",
+      "question": "Undang-undang Kutara Manawa telah diguna pakai di Kerajaan Alam Melayu. Apakah Kerajaan tersebut?",
+      "options": {
+        "A": "Kerajaan Funan",
+        "B": "Kerjaan Srivijaya",
+        "C": "Kerajaan Majapahit",
+        "D": "Kerajaan Kedah Tua"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2022_terengganu_mpp3_q15",
+      "question": "Pernyataan berikut berkaitan dengan pilihan raya peringkat negeri. [Jadual menunjukkan Tarikh: 1954, Keputusan: Perikatan UMNO-MCA telah memenangi 226 kerusi daripada 268 kerusi yang dipertandinngkan] Apakah kesan keputusan kemenangan tersebut?",
+      "options": {
+        "A": "Pelaksanaan pilihan raya adalah telus",
+        "B": "Kerjasama kaum mendapat sokongan",
+        "C": "Calon berwibawa menjadi pilihan utama",
+        "D": "Rakyat menyokong terhadap kemerdekaan"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2022_terengganu_mpp3_q37",
+      "question": "Malaysia menentang dasar Apartheid yang diamalkan di Afrika Selatan. Mengapakah Malaysia bertindak sedemikian?",
+      "options": {
+        "A": "Kebebasan beragama disekat",
+        "B": "Dasar komunis diamalkan",
+        "C": "Diskriminasi kaum dilaksanakan",
+        "D": "Hubungan dagang terhad"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2022_terengganu_mpp3_q26",
+      "question": "Jadual berikut berkaitan dengan kerjasama Kerajaan Persekutuan dengan Kerajaan Negeri untuk kesejahteraan rakyat. [Jadual menunjukkan: Program Kerajaan Persekutuan (Perbadanan Perumahan 1 Malaysia (PRIMA), Rumah Mesra Rakyat) dan Program Kerajaan Negeri (Rumah Selangorku (Selangor), Rumah Mampu Milik Johor (Johor))] Mengapakah kerjasama tersebut dilakukan?",
+      "options": {
+        "A": "Mengatasi masalah setinggan di bandar",
+        "B": "Meningkatkan taraf hidup rakyat luar bandar",
+        "C": "Menyelesaikan masalah perumahan golongan miskin",
+        "D": "Membantu golongan pertengahan memiliki kediaman"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2022_johor_kulai_1_q17",
+      "question": "Rajah berikut menunjukkan usaha ke arah kemerdekaan Tanah Melayu. [Rajah menunjukkan: Dibentuk pada 8 Mac 1956 untuk membincangkan dan menyusun Perlembagaan Persekutuan Tanah Melayu yang merdeka] Apakah X?",
+      "options": {
+        "A": "Perlembagaan Tanah Melayu",
+        "B": "Suruhanjaya Cobbold",
+        "C": "Perlembagaan Rakyat",
+        "D": "Suruhanjaya Reid"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2025_smka_1_q21",
+      "question": "Apakah maksud negara yang berdaulat?",
+      "options": {
+        "A": "Mempunyai wilayah yang luas",
+        "B": "Mendapat naungan kuasa besar",
+        "C": "Memiliki pemerintahan sendiri",
+        "D": "Mengamalkan sistem demokrasi"
+      },
+      "correct_answer": "C",
+      "predicted_answer": "C",
+      "correct": true
+    },
+    {
+      "id": "2023_sbp_q37",
+      "question": "Perayataan berikut berkaitan Kementerian Luar Negeri. [Kotak: X - Menggubul dasar luar negara, Menjaga kepentingan nasional Malaysia di peringkat antarabangsa] Apakah X?",
+      "options": {
+        "A": "Parlimen",
+        "B": "Wisma Putra",
+        "C": "Istana Negara",
+        "D": "Jabatan Perdana Menteri"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2025_johor_kulai_set_2_q3",
+      "question": "Mengapakah nasionalis di China menentang Dinasti Manchu?",
+      "options": {
+        "I": "Kehilangan mandat untuk memerintah",
+        "II": "Kegagalan menghalang kuasa Barat",
+        "III": "Kestabilan negara tergugat",
+        "IV": "Kerjasama dengan Barat",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2022_kuala_lumpur_sentul_q4",
+      "question": "Jadual berikut menunjukkan tuntutan yang diminta oleh Kesatuan Melayu Singapura (KMS). [Jadual menunjukkan: Persatuan: Kesatuan Melayu Singapura (KMS), Tuntutan: Kebajikan dan pendidikan orang Melayu] Apakah tindakan British untuk memenuhi tuntutan tersebut?",
+      "options": {
+        "A": "Mewujudkan lebih banyak pusat pendidikan",
+        "B": "Menggalakkan orang Melayu menubuhkan persatuan",
+        "C": "Menubuhkan syarkat yang diterajui oleh orang Melayu",
+        "D": "Menambah pelibatan orang Melayu dalam perkhidmatan awam"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "A",
+      "correct": false
+    },
+    {
+      "id": "2022_melaka_q9",
+      "question": "Pusat Tenaga Rakyat (PUTERA) merupakan gagasan yang dibentuk oleh beberapa pertubuhan radikal di Tanah Melayu. Apakah pertubuhan tersebut?",
+      "options": {
+        "I": "Barisan Tani Malaya (BATAS)",
+        "II": "Angkatan Wanita Sedar (AWAS)",
+        "III": "Malayan Democratik Union (MDU)",
+        "IV": "Pan-Malayan of Trade Unions (PMFTU)",
+        "A": "I dan II",
+        "B": "I dan IV",
+        "C": "II dan III",
+        "D": "III dan IV"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "2022_perlis_q35",
+      "question": "Dasar Pembangunan Nasional bermatlamat untuk mencapai perpaduan melalui pengagihan kekayaan negara Bagaimanakah hasrat tersebut dapat dicapai?",
+      "options": {
+        "A": "Mengimbangi pembangunan antara negeri",
+        "B": "Memajukan pendidikan masyarakat luar bandar",
+        "C": "Menyusun semula masyarakat di bandar",
+        "D": "Membuka peluang pekerjaan di luar bandar"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2022_sabah_q34",
+      "question": "Senarai berikut berkaitan usaha mewujudkan identiti negara. [• Universiti Kebangsaan Malaysia (UKM), • Dewan Bahasa dan Pustaka (DBP)] Bagaimanakah agensi di atas mencapai matlamat tersebut?",
+      "options": {
+        "A": "Pelaksanaan Dasar Kebudayaan Kebangsaan",
+        "B": "Pembentukan Dasar Pendidikan Kebangsaan",
+        "C": "Pelaksanaan Prinsip Rukun Negara",
+        "D": "Pemerkasaan bahasa kebangsaan"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2022_johor_kulai_1_q40",
+      "question": "Rajah berikut berkaitan isu global yang dihadapi oleh Malaysia pada masa kini. [Isu Global Kontemporari: • Penyalahgunaan Dadah • Pertindihan Sempadan • X] Apakah X?",
+      "options": {
+        "A": "Ancaman komunis",
+        "B": "Kempen Antiminyak Sawit",
+        "C": "Perang Dingin",
+        "D": "Perjuangan rakyat Palestin"
+      },
+      "correct_answer": "B",
+      "predicted_answer": "B",
+      "correct": true
+    },
+    {
+      "id": "2022_mrsm_q10",
+      "question": "Maklumat berikut berkaitan syarat kewarganegaraan mengikut Perjanjian Persekutuan Tanah Melayu 1948. [Jadual: Nama: Ah Boon; Tarikh lahir: 16 November 1948; Tempat lahir: Melaka Tengah, Melaka] Apakah status kewarganegaraan beliau?",
+      "options": {
+        "A": "Rakyat British",
+        "B": "Rakyat Dagang",
+        "C": "Rakyat Raja Melayu",
+        "D": "Rakyat Malayan Union"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "B",
+      "correct": false
+    },
+    {
+      "id": "2025_melaka_q6",
+      "question": "Perang Dunia Pertama berlaku pada tahun 1914 hingga 1918. Apakah faktor yang mencetuskan perang tersebut?",
+      "options": {
+        "A": "Pengeboman Pearl Harbour",
+        "B": "Perbezaan ideologi antara negara",
+        "C": "Persengketaan Rusia dengan Britain",
+        "D": "Pembunuhan pewaris takhta Austria-Hungary"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    }
+  ]
+}
