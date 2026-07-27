@@ -72,7 +72,7 @@ def query_cmd(text: str, k: int) -> None:
     for hit in retriever.retrieve(text, k=k):
         meta = hit["metadata"]
         click.echo(
-            f"{hit['chunk_id']:<40}  dist={hit['distance']:.4f}  "
+            f"{hit['chunk_id']:<40}  score={hit['score']:.4f}  "
             f"{meta['chapter_title']} > {meta['section_title']}"
         )
 
