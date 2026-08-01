@@ -1,13 +1,12 @@
 {
   "meta": {
-    "timestamp": "2026-07-30T19:33:04",
-    "model": "claude-haiku-4-5",
-    "mode": "rag",
+    "timestamp": "2026-07-30T16:09:12",
+    "model": "gemini-3.5-flash-lite",
+    "mode": "baseline_gemini_search",
     "sample_size": 200,
-    "accuracy": 0.895,
-    "correct": 179,
-    "incorrect": 21,
-    "k": 5
+    "accuracy": 0.93,
+    "correct": 186,
+    "incorrect": 14
   },
   "results": [
     {
@@ -21,21 +20,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_8_01",
-        "sejarah_t5_bab09_sec_9_8_02",
-        "sejarah_t5_bab09_sec_9_8_03",
-        "sejarah_t5_bab09_sec_9_8_05",
-        "sejarah_t5_bab05_sec_5_2_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.031746031746031744,
-        0.03125,
-        0.02854251012145749
-      ]
+      "correct": true
     },
     {
       "id": "2024_selangor_set_3_q23",
@@ -48,21 +33,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_2_02",
-        "sejarah_t5_bab02_sec_2_1_01",
-        "sejarah_t5_bab02_sec_2_1_02",
-        "sejarah_t5_bab03_sec_3_4_04",
-        "sejarah_t5_bab03_sec_3_5_01"
-      ],
-      "retrieved_scores": [
-        0.03047794966520434,
-        0.030017921146953404,
-        0.02862400327131466,
-        0.01639344262295082,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2022_kelantan_mpsm_q6",
@@ -75,21 +46,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_4_05",
-        "sejarah_t4_bab03_sec_3_4_06",
-        "sejarah_t4_bab03_sec_3_5_00",
-        "sejarah_t4_bab03_sec_3_4_00",
-        "sejarah_t4_bab03_sec_3_4_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03149801587301587,
-        0.030776515151515152,
-        0.03036576949620428
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_kota_tinggi_q1",
@@ -102,21 +59,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab01_sec_1_2_00",
-        "sejarah_t4_bab01_sec_1_1_03",
-        "sejarah_t4_bab01_sec_1_2_04",
-        "sejarah_t4_bab01_sec_1_2_02",
-        "sejarah_t4_bab01_sec_1_2_01"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.031754032258064516,
-        0.031754032258064516,
-        0.031024531024531024,
-        0.03076923076923077
-      ]
+      "correct": true
     },
     {
       "id": "2025_melaka_q15",
@@ -129,21 +72,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_1_02",
-        "sejarah_t4_bab08_sec_8_1_01",
-        "sejarah_t4_bab08_sec_8_2_02",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_2_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03149801587301587,
-        0.03128054740957967,
-        0.03125763125763126,
-        0.030621785881252923
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_segamat_set_1_q31",
@@ -160,21 +89,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_2_02",
-        "sejarah_t5_bab02_sec_2_4_04",
-        "sejarah_t5_bab06_sec_6_2_00",
-        "sejarah_t5_bab02_sec_2_4_00",
-        "sejarah_t5_bab06_sec_6_2_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03200204813108039,
-        0.031009615384615385,
-        0.031009615384615385
-      ]
+      "correct": true
     },
     {
       "id": "2024_selangor_set_1_q39",
@@ -186,22 +101,8 @@
         "D": "Melaksanakan perkongsian kuasa"
       },
       "correct_answer": "A",
-      "predicted_answer": "D",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_3_00",
-        "sejarah_t5_bab09_sec_9_3_01",
-        "sejarah_t5_bab09_sec_9_3_03",
-        "sejarah_t5_bab09_sec_9_3_04",
-        "sejarah_t5_bab05_sec_5_5_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.030776515151515152,
-        0.03057889822595705,
-        0.030017921146953404
-      ]
+      "predicted_answer": "A",
+      "correct": true
     },
     {
       "id": "2024_kuala_lumpur_q3",
@@ -214,21 +115,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_1_01",
-        "sejarah_t4_bab02_sec_2_1_02",
-        "sejarah_t4_bab02_sec_2_5_01",
-        "sejarah_t4_bab02_sec_2_1_00",
-        "sejarah_t4_bab02_sec_2_8_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.031024531024531024,
-        0.029709507042253523,
-        0.029211087420042643
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_pasir_gudang_q33",
@@ -241,21 +128,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_1_02",
-        "sejarah_t5_bab08_sec_8_5_06",
-        "sejarah_t5_bab05_sec_5_5_01",
-        "sejarah_t5_bab04_sec_4_3_04",
-        "sejarah_t5_bab05_sec_5_4_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.02919863597612958,
-        0.028484848484848488,
-        0.02844551282051282
-      ]
+      "correct": true
     },
     {
       "id": "2024_putrajaya_set_1_q7",
@@ -268,21 +141,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_3_00",
-        "sejarah_t4_bab05_sec_5_2_02",
-        "sejarah_t5_bab03_sec_3_1_06",
-        "sejarah_t4_bab04_sec_4_2_00",
-        "sejarah_t5_bab03_sec_3_1_03"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.0315136476426799,
-        0.029910714285714284,
-        0.028693528693528692,
-        0.02817460317460317
-      ]
+      "correct": true
     },
     {
       "id": "2025_smka_1_q30",
@@ -295,21 +154,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_4_04",
-        "sejarah_t4_bab09_sec_9_2_00",
-        "sejarah_t5_bab05_sec_5_4_00",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t5_bab05_sec_5_4_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.030309988518943745,
-        0.028949545078577336,
-        0.02817460317460317,
-        0.025
-      ]
+      "correct": true
     },
     {
       "id": "2023_perak_q35",
@@ -322,21 +167,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab08_sec_8_2_00",
-        "sejarah_t5_bab08_sec_8_1_03",
-        "sejarah_t5_bab08_sec_8_4_00",
-        "sejarah_t5_bab08_sec_8_5_00",
-        "sejarah_t5_bab08_sec_8_1_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03076923076923077,
-        0.03055037313432836,
-        0.02976190476190476
-      ]
+      "correct": true
     },
     {
       "id": "2025_kelantan_q28",
@@ -360,22 +191,8 @@
         }
       },
       "correct_answer": "D",
-      "predicted_answer": "A",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab04_sec_4_3_00",
-        "sejarah_t5_bab01_sec_1_1_05",
-        "sejarah_t5_bab04_sec_4_1_00",
-        "sejarah_t4_bab10_sec_10_5_03",
-        "sejarah_t5_bab04_sec_4_2_02"
-      ],
-      "retrieved_scores": [
-        0.030679156908665108,
-        0.029857397504456328,
-        0.029418126757516764,
-        0.02684684684684685,
-        0.025657894736842105
-      ]
+      "predicted_answer": "C",
+      "correct": false
     },
     {
       "id": "2022_sarawak_meradong_q31",
@@ -388,21 +205,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_5_00",
-        "sejarah_t5_bab06_sec_6_2_02",
-        "sejarah_t5_bab06_sec_6_5_01",
-        "sejarah_t5_bab06_sec_6_5_02",
-        "sejarah_t4_bab10_sec_10_3_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.031746031746031744,
-        0.02758751902587519,
-        0.026709401709401708
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_segamat_q35",
@@ -415,21 +218,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab08_sec_8_2_00",
-        "sejarah_t5_bab08_sec_8_1_03",
-        "sejarah_t5_bab08_sec_8_4_00",
-        "sejarah_t5_bab08_sec_8_5_00",
-        "sejarah_t5_bab08_sec_8_1_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03076923076923077,
-        0.03055037313432836,
-        0.02976190476190476
-      ]
+      "correct": true
     },
     {
       "id": "2022_sarawak_meradong_q33",
@@ -442,21 +231,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_2_00",
-        "sejarah_t5_bab07_sec_7_2_09",
-        "sejarah_t5_bab07_sec_7_2_07",
-        "sejarah_t5_bab07_sec_7_4_02",
-        "sejarah_t5_bab07_sec_7_2_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.031009615384615385,
-        0.031009615384615385,
-        0.030303030303030304
-      ]
+      "correct": true
     },
     {
       "id": "2022_perak_q9",
@@ -469,21 +244,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_4_03",
-        "sejarah_t4_bab04_sec_4_4_02",
-        "sejarah_t4_bab04_sec_4_5_01",
-        "sejarah_t4_bab04_sec_4_4_01",
-        "sejarah_t4_bab04_sec_4_4_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.031754032258064516,
-        0.03125763125763126,
-        0.031024531024531024
-      ]
+      "correct": true
     },
     {
       "id": "2025_wpkl_q13",
@@ -500,21 +261,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_2_01",
-        "sejarah_t4_bab07_sec_7_2_04",
-        "sejarah_t4_bab07_sec_7_2_03",
-        "sejarah_t4_bab05_sec_5_4_02",
-        "sejarah_t4_bab07_sec_7_2_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.0315136476426799,
-        0.03149801587301587,
-        0.030776515151515152
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_johor_bahru_q7",
@@ -527,21 +274,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_3_04",
-        "sejarah_t4_bab04_sec_4_3_02",
-        "sejarah_t4_bab07_sec_7_5_04",
-        "sejarah_t5_bab03_sec_3_1_05",
-        "sejarah_t4_bab05_sec_5_2_01"
-      ],
-      "retrieved_scores": [
-        0.0315136476426799,
-        0.030621785881252923,
-        0.03057889822595705,
-        0.029513888888888888,
-        0.028991596638655463
-      ]
+      "correct": true
     },
     {
       "id": "2025_pahang_q22",
@@ -558,21 +291,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab01_sec_1_2_00",
-        "sejarah_t4_bab10_sec_10_1_03",
-        "sejarah_t5_bab04_sec_4_1_00",
-        "sejarah_t4_bab07_sec_7_1_09",
-        "sejarah_t5_bab01_sec_1_2_04"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.030090497737556562,
-        0.028594771241830064,
-        0.027313266443701224,
-        0.01639344262295082
-      ]
+      "correct": true
     },
     {
       "id": "2025_selangor_q26",
@@ -588,22 +307,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "D",
-      "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_2_05",
-        "sejarah_t5_bab03_sec_3_3_00",
-        "sejarah_t5_bab03_sec_3_2_03",
-        "sejarah_t4_bab05_sec_5_3_02",
-        "sejarah_t5_bab02_sec_2_3_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.030798389007344232,
-        0.03055037313432836,
-        0.029386529386529386,
-        0.029273504273504274
-      ]
+      "predicted_answer": "C",
+      "correct": false
     },
     {
       "id": "2022_sarawak_smk_rosli_dhoby_q22",
@@ -620,21 +325,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab01_sec_1_4_05",
-        "sejarah_t5_bab07_sec_7_1_00",
-        "sejarah_t5_bab06_sec_6_1_06",
-        "sejarah_t5_bab01_sec_1_2_04",
-        "sejarah_t5_bab07_sec_7_1_06"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.031024531024531024,
-        0.030017921146953404,
-        0.02889344262295082,
-        0.02817460317460317
-      ]
+      "correct": true
     },
     {
       "id": "2024_kuala_lumpur_q31",
@@ -647,21 +338,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_2_02",
-        "sejarah_t5_bab06_sec_6_2_00",
-        "sejarah_t5_bab05_sec_5_6_01",
-        "sejarah_t4_bab10_sec_10_3_01",
-        "sejarah_t5_bab05_sec_5_2_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03128054740957967,
-        0.030798389007344232,
-        0.03047794966520434,
-        0.030309988518943745
-      ]
+      "correct": true
     },
     {
       "id": "2022_perak_q25",
@@ -674,21 +351,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab04_sec_4_2_05",
-        "sejarah_t5_bab03_sec_3_4_05",
-        "sejarah_t5_bab04_sec_4_2_04",
-        "sejarah_t5_bab03_sec_3_4_04",
-        "sejarah_t5_bab04_sec_4_2_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03200204813108039,
-        0.03125,
-        0.030303030303030304
-      ]
+      "correct": true
     },
     {
       "id": "2022_negeri_sembilan_mpsm_q3",
@@ -701,21 +364,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_2_00",
-        "sejarah_t4_bab02_sec_2_2_03",
-        "sejarah_t4_bab03_sec_3_1_00",
-        "sejarah_t4_bab02_sec_2_3_01",
-        "sejarah_t4_bab02_sec_2_6_05"
-      ],
-      "retrieved_scores": [
-        0.03125763125763126,
-        0.030679156908665108,
-        0.03057889822595705,
-        0.02946912242686891,
-        0.028258706467661692
-      ]
+      "correct": true
     },
     {
       "id": "2024_perak_q13",
@@ -728,21 +377,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_1_00",
-        "sejarah_t4_bab07_sec_7_1_06",
-        "sejarah_t4_bab07_sec_7_1_01",
-        "sejarah_t4_bab06_sec_6_1_03",
-        "sejarah_t4_bab05_sec_5_1_04"
-      ],
-      "retrieved_scores": [
-        0.03177805800756621,
-        0.0315136476426799,
-        0.03149801587301587,
-        0.030798389007344232,
-        0.03055037313432836
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_pasir_gudang_q14",
@@ -755,21 +390,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_4_00",
-        "sejarah_t4_bab07_sec_7_4_03",
-        "sejarah_t4_bab07_sec_7_4_05",
-        "sejarah_t5_bab06_sec_6_1_04",
-        "sejarah_t4_bab07_sec_7_4_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03125763125763126,
-        0.03055037313432836,
-        0.030330882352941176
-      ]
+      "correct": true
     },
     {
       "id": "2025_putrajaya_set_1_q13",
@@ -782,21 +403,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_1_01",
-        "sejarah_t4_bab05_sec_5_1_04",
-        "sejarah_t4_bab05_sec_5_1_06",
-        "sejarah_t4_bab07_sec_7_5_00",
-        "sejarah_t4_bab07_sec_7_5_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.030776515151515152,
-        0.03057889822595705,
-        0.030536130536130537
-      ]
+      "correct": true
     },
     {
       "id": "2022_perak_q33",
@@ -813,21 +420,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab08_sec_8_1_03",
-        "sejarah_t5_bab08_sec_8_2_00",
-        "sejarah_t5_bab08_sec_8_4_00",
-        "sejarah_t5_bab08_sec_8_1_02",
-        "sejarah_t5_bab08_sec_8_1_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03125,
-        0.031024531024531024,
-        0.03036576949620428
-      ]
+      "correct": true
     },
     {
       "id": "2024_pulau_pinang_q30",
@@ -840,21 +433,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_5_02",
-        "sejarah_t5_bab09_sec_9_3_00",
-        "sejarah_t5_bab09_sec_9_3_01",
-        "sejarah_t5_bab09_sec_9_3_04",
-        "sejarah_t4_bab10_sec_10_4_07"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03149801587301587,
-        0.03076923076923077,
-        0.03036576949620428
-      ]
+      "correct": true
     },
     {
       "id": "2024_tererngganu_q39",
@@ -867,21 +446,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_4_02",
-        "sejarah_t5_bab09_sec_9_4_01",
-        "sejarah_t5_bab09_sec_9_4_06",
-        "sejarah_t5_bab05_sec_5_3_06",
-        "sejarah_t5_bab09_sec_9_4_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.029138513513513514,
-        0.02904040404040404,
-        0.02886002886002886
-      ]
+      "correct": true
     },
     {
       "id": "2024_melaka_q16",
@@ -893,22 +458,8 @@
         "D": "Merangka dasar pendidikan kebangsaan"
       },
       "correct_answer": "A",
-      "predicted_answer": "IDK",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_4_00",
-        "sejarah_t4_bab08_sec_8_4_01",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_2_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.030834914611005692,
-        0.030798389007344232,
-        0.030776515151515152
-      ]
+      "predicted_answer": "A",
+      "correct": true
     },
     {
       "id": "2025_terengganu_q23",
@@ -921,21 +472,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_1_02",
-        "sejarah_t5_bab02_sec_2_2_00",
-        "sejarah_t5_bab02_sec_2_2_02",
-        "sejarah_t5_bab02_sec_2_1_01",
-        "sejarah_t5_bab04_sec_4_1_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.029857397504456328,
-        0.029386529386529386,
-        0.027313266443701224
-      ]
+      "correct": true
     },
     {
       "id": "2023_pahang_q18",
@@ -948,21 +485,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_1_04",
-        "sejarah_t4_bab10_sec_10_3_04",
-        "sejarah_t4_bab02_sec_2_5_01",
-        "sejarah_t4_bab09_sec_9_1_07",
-        "sejarah_t4_bab09_sec_9_1_05"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.03057889822595705,
-        0.028782894736842105,
-        0.02854251012145749,
-        0.01639344262295082
-      ]
+      "correct": true
     },
     {
       "id": "2025_perak_q24",
@@ -978,22 +501,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "A",
-      "predicted_answer": "C",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_4_01",
-        "sejarah_t5_bab02_sec_2_4_00",
-        "sejarah_t5_bab02_sec_2_4_04",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t4_bab09_sec_9_4_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03149801587301587,
-        0.031024531024531024,
-        0.028814262023217248
-      ]
+      "predicted_answer": "A",
+      "correct": true
     },
     {
       "id": "2025_johor_pasir_gudang_q34",
@@ -1006,21 +515,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_4_14",
-        "sejarah_t5_bab07_sec_7_3_05",
-        "sejarah_t4_bab07_sec_7_4_05",
-        "sejarah_t5_bab07_sec_7_3_04",
-        "sejarah_t4_bab10_sec_10_4_10"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03076923076923077,
-        0.029957522915269395,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_johor_bahru_q34",
@@ -1037,21 +532,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_3_02",
-        "sejarah_t4_bab07_sec_7_4_01",
-        "sejarah_t4_bab07_sec_7_4_03",
-        "sejarah_t4_bab07_sec_7_4_05",
-        "sejarah_t4_bab10_sec_10_4_13"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031009615384615385,
-        0.029857397504456328,
-        0.029571646010002173,
-        0.029273504273504274
-      ]
+      "correct": true
     },
     {
       "id": "2025_n9_q16",
@@ -1064,21 +545,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_3_02",
-        "sejarah_t4_bab08_sec_8_3_03",
-        "sejarah_t4_bab08_sec_8_1_02",
-        "sejarah_t4_bab08_sec_8_3_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03149801587301587,
-        0.029877369007803793,
-        0.029709507042253523
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_kota_tinggi_q7",
@@ -1090,22 +557,8 @@
         "D": "Menghidupkan persatuan-persatuan Melayu"
       },
       "correct_answer": "C",
-      "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_3_05",
-        "sejarah_t4_bab04_sec_4_3_06",
-        "sejarah_t4_bab04_sec_4_2_00",
-        "sejarah_t4_bab04_sec_4_2_01",
-        "sejarah_t4_bab04_sec_4_2_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03057889822595705,
-        0.03007688828584351,
-        0.02900988017658188
-      ]
+      "predicted_answer": "D",
+      "correct": false
     },
     {
       "id": "2022_mrsm_q16",
@@ -1118,21 +571,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_3_03",
-        "sejarah_t4_bab05_sec_5_3_02",
-        "sejarah_t4_bab05_sec_5_3_01",
-        "sejarah_t4_bab08_sec_8_4_00"
-      ],
-      "retrieved_scores": [
-        0.03177805800756621,
-        0.031754032258064516,
-        0.030117753623188408,
-        0.029386529386529386,
-        0.028991596638655463
-      ]
+      "correct": true
     },
     {
       "id": "2025_perak_q8",
@@ -1149,21 +588,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_2_05",
-        "sejarah_t4_bab04_sec_4_3_02",
-        "sejarah_t4_bab04_sec_4_3_09",
-        "sejarah_t4_bab04_sec_4_3_01",
-        "sejarah_t4_bab04_sec_4_2_04"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.032266458495966696,
-        0.031754032258064516,
-        0.029631255487269532,
-        0.029116045245077504
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_kulai_1_q18",
@@ -1180,21 +605,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_4_03",
-        "sejarah_t4_bab09_sec_9_4_00",
-        "sejarah_t4_bab09_sec_9_4_04",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t4_bab05_sec_5_3_00"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.031544957774465976,
-        0.031009615384615385,
-        0.030330882352941176,
-        0.02946236559139785
-      ]
+      "correct": true
     },
     {
       "id": "2022_perak_q3",
@@ -1211,21 +622,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab01_sec_1_3_02",
-        "sejarah_t4_bab01_sec_1_3_01",
-        "sejarah_t4_bab01_sec_1_3_00",
-        "sejarah_t5_bab09_sec_9_4_04",
-        "sejarah_t4_bab01_sec_1_2_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.030798389007344232,
-        0.030776515151515152,
-        0.02862400327131466
-      ]
+      "correct": true
     },
     {
       "id": "2024_selangor_set_1_q14",
@@ -1238,21 +635,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_5_06",
-        "sejarah_t5_bab09_sec_9_8_02",
-        "sejarah_t5_bab10_sec_10_4_03",
-        "sejarah_t5_bab03_sec_3_5_02",
-        "sejarah_t4_bab10_sec_10_5_04"
-      ],
-      "retrieved_scores": [
-        0.032018442622950824,
-        0.03125763125763126,
-        0.027651515151515153,
-        0.01639344262295082,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_kota_tinggi_q5",
@@ -1265,21 +648,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_2_01",
-        "sejarah_t4_bab03_sec_3_2_00",
-        "sejarah_t4_bab03_sec_3_2_02",
-        "sejarah_t4_bab03_sec_3_4_05",
-        "sejarah_t4_bab03_sec_3_3_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.031024531024531024,
-        0.03055037313432836,
-        0.029877369007803793
-      ]
+      "correct": true
     },
     {
       "id": "2025_terengganu_q27",
@@ -1292,21 +661,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab04_sec_4_2_04",
-        "sejarah_t5_bab04_sec_4_2_02",
-        "sejarah_t5_bab04_sec_4_2_05",
-        "sejarah_t5_bab04_sec_4_2_03",
-        "sejarah_t5_bab03_sec_3_4_07"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.03036576949620428,
-        0.030330882352941176,
-        0.030158730158730156
-      ]
+      "correct": true
     },
     {
       "id": "2025_kedah_q22",
@@ -1319,21 +674,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab01_sec_1_2_00",
-        "sejarah_t5_bab01_sec_1_2_04",
-        "sejarah_t5_bab01_sec_1_2_02",
-        "sejarah_t5_bab01_sec_1_2_01",
-        "sejarah_t5_bab01_sec_1_3_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.03128054740957967,
-        0.03125763125763126,
-        0.0293236301369863
-      ]
+      "correct": true
     },
     {
       "id": "2024_perak_q25",
@@ -1350,21 +691,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_4_01",
-        "sejarah_t4_bab09_sec_9_3_02",
-        "sejarah_t5_bab03_sec_3_3_04",
-        "sejarah_t5_bab02_sec_2_3_00",
-        "sejarah_t5_bab03_sec_3_2_05"
-      ],
-      "retrieved_scores": [
-        0.031746031746031744,
-        0.03055037313432836,
-        0.0304147465437788,
-        0.03009207275993712,
-        0.03009207275993712
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_batu_pahat_q20",
@@ -1377,21 +704,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_2_01",
-        "sejarah_t4_bab10_sec_10_5_04",
-        "sejarah_t4_bab10_sec_10_5_05",
-        "sejarah_t4_bab09_sec_9_1_07",
-        "sejarah_t5_bab07_sec_7_4_03"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.028665028665028666,
-        0.027972027972027972,
-        0.02668564312399929
-      ]
+      "correct": true
     },
     {
       "id": "2024_negeri_sembilan_q33",
@@ -1408,21 +721,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_3_05",
-        "sejarah_t5_bab07_sec_7_3_00",
-        "sejarah_t4_bab10_sec_10_4_14",
-        "sejarah_t5_bab07_sec_7_3_01",
-        "sejarah_t5_bab07_sec_7_3_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.0315136476426799,
-        0.030776515151515152,
-        0.030117753623188408
-      ]
+      "correct": true
     },
     {
       "id": "2022_mrsm_q18",
@@ -1435,21 +734,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_3_03",
-        "sejarah_t4_bab07_sec_7_5_01",
-        "sejarah_t5_bab05_sec_5_3_01",
-        "sejarah_t4_bab09_sec_9_4_04",
-        "sejarah_t4_bab07_sec_7_5_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03125763125763126,
-        0.031054405392392875,
-        0.030330882352941176,
-        0.029709507042253523
-      ]
+      "correct": true
     },
     {
       "id": "2023_negeri_sembilan_q3",
@@ -1462,21 +747,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_3_04",
-        "sejarah_t4_bab03_sec_3_4_01",
-        "sejarah_t4_bab03_sec_3_8_00",
-        "sejarah_t4_bab03_sec_3_5_00",
-        "sejarah_t4_bab03_sec_3_6_02"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03177805800756621,
-        0.030798389007344232,
-        0.029138513513513514,
-        0.02817460317460317
-      ]
+      "correct": true
     },
     {
       "id": "2025_sabk_q5",
@@ -1488,22 +759,8 @@
         "D": "Keberanian membangkitkan perasaan anti-British"
       },
       "correct_answer": "D",
-      "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_7_09",
-        "sejarah_t4_bab06_sec_6_1_03",
-        "sejarah_t4_bab07_sec_7_1_00",
-        "sejarah_t4_bab05_sec_5_1_04",
-        "sejarah_t4_bab05_sec_5_1_06"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031054405392392875,
-        0.031054405392392875,
-        0.030536130536130537,
-        0.029957522915269395
-      ]
+      "predicted_answer": "C",
+      "correct": false
     },
     {
       "id": "2023_perlis_q9",
@@ -1516,21 +773,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_1_10",
-        "sejarah_t4_bab05_sec_5_1_09",
-        "sejarah_t4_bab05_sec_5_1_07",
-        "sejarah_t4_bab07_sec_7_5_03",
-        "sejarah_t5_bab06_sec_6_5_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.0315136476426799,
-        0.03007688828584351,
-        0.02946912242686891
-      ]
+      "correct": true
     },
     {
       "id": "2023_sbp_q38",
@@ -1543,21 +786,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_6_02",
-        "sejarah_t5_bab09_sec_9_6_00",
-        "sejarah_t5_bab10_sec_10_4_00",
-        "sejarah_t5_bab09_sec_9_6_03",
-        "sejarah_t5_bab10_sec_10_5_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0315136476426799,
-        0.030834914611005692,
-        0.03036576949620428,
-        0.029957522915269395
-      ]
+      "correct": true
     },
     {
       "id": "2022_sarawak_smk_rosli_dhoby_q4",
@@ -1570,21 +799,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_8_02",
-        "sejarah_t5_bab08_sec_8_5_05",
-        "sejarah_t4_bab02_sec_2_7_01",
-        "sejarah_t4_bab03_sec_3_9_05",
-        "sejarah_t4_bab02_sec_2_8_01"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.030776515151515152,
-        0.029273504273504274,
-        0.02581612258494337,
-        0.01639344262295082
-      ]
+      "correct": true
     },
     {
       "id": "2025_penang_q25",
@@ -1597,21 +812,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_3_03",
-        "sejarah_t5_bab03_sec_3_3_00",
-        "sejarah_t5_bab03_sec_3_3_04",
-        "sejarah_t5_bab03_sec_3_3_02",
-        "sejarah_t4_bab10_sec_10_4_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03200204813108039,
-        0.030330882352941176,
-        0.028484848484848488
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_kulai_set_1_q15",
@@ -1624,21 +825,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_04",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_2_02",
-        "sejarah_t4_bab08_sec_8_2_01",
-        "sejarah_t4_bab08_sec_8_1_00"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.032266458495966696,
-        0.0315136476426799,
-        0.030621785881252923,
-        0.030536130536130537
-      ]
+      "correct": true
     },
     {
       "id": "2022_pahang_mpsm_q34",
@@ -1651,21 +838,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_4_00",
-        "sejarah_t5_bab07_sec_7_4_02",
-        "sejarah_t5_bab07_sec_7_4_01",
-        "sejarah_t5_bab07_sec_7_4_03",
-        "sejarah_t5_bab07_sec_7_2_00"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.032266458495966696,
-        0.03200204813108039,
-        0.03125,
-        0.03076923076923077
-      ]
+      "correct": true
     },
     {
       "id": "2022_negeri_sembilan_mpsm_q30",
@@ -1677,22 +850,8 @@
         "D": "Menjelaskan tujuan pembentukan"
       },
       "correct_answer": "A",
-      "predicted_answer": "B",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_3_00",
-        "sejarah_t5_bab05_sec_5_5_02",
-        "sejarah_t5_bab09_sec_9_3_01",
-        "sejarah_t4_bab10_sec_10_4_07",
-        "sejarah_t5_bab09_sec_9_3_04"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.032266458495966696,
-        0.031754032258064516,
-        0.030798389007344232,
-        0.03076923076923077
-      ]
+      "predicted_answer": "A",
+      "correct": true
     },
     {
       "id": "2024_negeri_sembilan_q11",
@@ -1704,22 +863,8 @@
         "D": "Kekosongan politik di Tanah Melayu"
       },
       "correct_answer": "C",
-      "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_1_02",
-        "sejarah_t4_bab06_sec_6_1_03",
-        "sejarah_t4_bab06_sec_6_3_02",
-        "sejarah_t4_bab06_sec_6_1_01",
-        "sejarah_t4_bab06_sec_6_4_02"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.032018442622950824,
-        0.03055037313432836,
-        0.029957522915269395,
-        0.028790389395194696
-      ]
+      "predicted_answer": "B",
+      "correct": false
     },
     {
       "id": "2025_melaka_q1",
@@ -1732,21 +877,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab01_sec_1_1_02",
-        "sejarah_t4_bab01_sec_1_1_01",
-        "sejarah_t4_bab01_sec_1_2_04",
-        "sejarah_t4_bab01_sec_1_2_00",
-        "sejarah_t4_bab01_sec_1_1_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.030090497737556562,
-        0.028958333333333336,
-        0.028850145288501453
-      ]
+      "correct": true
     },
     {
       "id": "2025_kedah_q5",
@@ -1759,21 +890,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_3_05",
-        "sejarah_t4_bab03_sec_3_3_04",
-        "sejarah_t4_bab03_sec_3_3_09",
-        "sejarah_t4_bab03_sec_3_3_07",
-        "sejarah_t4_bab03_sec_3_4_06"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03076923076923077,
-        0.03057889822595705,
-        0.029709507042253523
-      ]
+      "correct": true
     },
     {
       "id": "2022_perlis_q27",
@@ -1786,21 +903,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab04_sec_4_2_06",
-        "sejarah_t5_bab04_sec_4_2_07",
-        "sejarah_t5_bab04_sec_4_4_04",
-        "sejarah_t5_bab05_sec_5_4_05",
-        "sejarah_t5_bab04_sec_4_2_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.02862400327131466,
-        0.02813852813852814,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2024_kelantan_q35",
@@ -1813,21 +916,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_4_15",
-        "sejarah_t5_bab08_sec_8_5_02",
-        "sejarah_t5_bab08_sec_8_2_02",
-        "sejarah_t5_bab08_sec_8_4_03",
-        "sejarah_t4_bab06_sec_6_2_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0315136476426799,
-        0.031024531024531024,
-        0.027212143650499815,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2025_perak_q18",
@@ -1840,21 +929,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_4_00",
-        "sejarah_t4_bab09_sec_9_4_04",
-        "sejarah_t4_bab05_sec_5_3_00",
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t5_bab04_sec_4_1_06"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03128054740957967,
-        0.030621785881252923,
-        0.02976190476190476,
-        0.029571646010002173
-      ]
+      "correct": true
     },
     {
       "id": "2024_kedah_1_q33",
@@ -1871,21 +946,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "D",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_3_01",
-        "sejarah_t5_bab07_sec_7_3_03",
-        "sejarah_t5_bab07_sec_7_2_09",
-        "sejarah_t5_bab07_sec_7_3_00",
-        "sejarah_t4_bab09_sec_9_4_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.030798389007344232,
-        0.03057889822595705,
-        0.030536130536130537
-      ]
+      "correct": false
     },
     {
       "id": "2022_sabah_q12",
@@ -1901,22 +962,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "A",
-      "predicted_answer": "D",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_3_19",
-        "sejarah_t5_bab06_sec_6_3_02",
-        "sejarah_t4_bab06_sec_6_3_21",
-        "sejarah_t5_bab05_sec_5_2_02",
-        "sejarah_t4_bab06_sec_6_3_24"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03021353930031804,
-        0.030090497737556562,
-        0.02819138376017471
-      ]
+      "predicted_answer": "B",
+      "correct": false
     },
     {
       "id": "2025_perak_q3",
@@ -1929,21 +976,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_4_07",
-        "sejarah_t5_bab03_sec_3_1_03",
-        "sejarah_t5_bab03_sec_3_1_01",
-        "sejarah_t5_bab02_sec_2_3_00",
-        "sejarah_t4_bab01_sec_1_4_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03036576949620428,
-        0.027984344422700584,
-        0.027799227799227798,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2024_perak_q23",
@@ -1956,21 +989,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_1_01",
-        "sejarah_t4_bab01_sec_1_3_01",
-        "sejarah_t4_bab10_sec_10_5_03",
-        "sejarah_t5_bab03_sec_3_1_06",
-        "sejarah_t4_bab01_sec_1_1_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.029138513513513514,
-        0.0288981288981289,
-        0.028205128205128206
-      ]
+      "correct": true
     },
     {
       "id": "2025_penang_q14",
@@ -1983,21 +1002,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_3_02",
-        "sejarah_t4_bab07_sec_7_3_03",
-        "sejarah_t4_bab07_sec_7_3_01",
-        "sejarah_t4_bab07_sec_7_3_00",
-        "sejarah_t5_bab10_sec_10_4_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.031746031746031744,
-        0.029709507042253523,
-        0.029631255487269532
-      ]
+      "correct": true
     },
     {
       "id": "2023_pahang_q13",
@@ -2014,21 +1019,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t4_bab05_sec_5_1_00",
-        "sejarah_t4_bab05_sec_5_4_02",
-        "sejarah_t4_bab05_sec_5_3_01",
-        "sejarah_t4_bab05_sec_5_1_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.030798389007344232,
-        0.030330882352941176,
-        0.02946912242686891
-      ]
+      "correct": true
     },
     {
       "id": "2025_selangor_q31",
@@ -2041,21 +1032,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_2_02",
-        "sejarah_t5_bab06_sec_6_5_00",
-        "sejarah_t5_bab06_sec_6_5_01",
-        "sejarah_t5_bab05_sec_5_6_02",
-        "sejarah_t5_bab06_sec_6_5_02"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.03225806451612903,
-        0.03177805800756621,
-        0.030330882352941176,
-        0.029857397504456328
-      ]
+      "correct": true
     },
     {
       "id": "2025_perak_q2",
@@ -2068,21 +1045,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab01_sec_1_2_04",
-        "sejarah_t5_bab09_sec_9_1_02",
-        "sejarah_t4_bab01_sec_1_2_01",
-        "sejarah_t4_bab01_sec_1_1_03",
-        "sejarah_t4_bab01_sec_1_2_00"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.031746031746031744,
-        0.03131881575727918,
-        0.030834914611005692,
-        0.029877369007803793
-      ]
+      "correct": true
     },
     {
       "id": "2025_sarawak_sibu_q7",
@@ -2095,21 +1058,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_2_04",
-        "sejarah_t5_bab04_sec_4_2_05",
-        "sejarah_t4_bab03_sec_3_2_03",
-        "sejarah_t5_bab06_sec_6_5_03",
-        "sejarah_t4_bab10_sec_10_1_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0315136476426799,
-        0.02817460317460317,
-        0.016129032258064516,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2024_kedah_1_q19",
@@ -2123,22 +1072,8 @@
         "D": "Menempah bendera"
       },
       "correct_answer": "B",
-      "predicted_answer": "A",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_2_00",
-        "sejarah_t4_bab10_sec_10_1_00",
-        "sejarah_t4_bab10_sec_10_3_00",
-        "sejarah_t4_bab10_sec_10_2_01",
-        "sejarah_t4_bab10_sec_10_2_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031054405392392875,
-        0.030536130536130537,
-        0.030017921146953404,
-        0.029571646010002173
-      ]
+      "predicted_answer": "B",
+      "correct": true
     },
     {
       "id": "2025_johor_kulai_set_1_q3",
@@ -2154,22 +1089,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "A",
-      "predicted_answer": "C",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_3_04",
-        "sejarah_t4_bab02_sec_2_8_00",
-        "sejarah_t4_bab02_sec_2_3_01",
-        "sejarah_t4_bab02_sec_2_5_01",
-        "sejarah_t4_bab02_sec_2_3_00"
-      ],
-      "retrieved_scores": [
-        0.031746031746031744,
-        0.03076923076923077,
-        0.03028233151183971,
-        0.029551337359792925,
-        0.02946236559139785
-      ]
+      "predicted_answer": "A",
+      "correct": true
     },
     {
       "id": "2022_pahang_mpsm_q36",
@@ -2182,21 +1103,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab08_sec_8_2_06",
-        "sejarah_t5_bab08_sec_8_2_04",
-        "sejarah_t4_bab10_sec_10_4_11",
-        "sejarah_t4_bab06_sec_6_3_00",
-        "sejarah_t5_bab10_sec_10_1_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.02964254577157803,
-        0.016129032258064516,
-        0.015873015873015872,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2025_selangor_q3",
@@ -2209,21 +1116,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_3_03",
-        "sejarah_t4_bab04_sec_4_5_07",
-        "sejarah_t4_bab02_sec_2_6_02",
-        "sejarah_t4_bab02_sec_2_7_01",
-        "sejarah_t4_bab02_sec_2_7_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0315136476426799,
-        0.030834914611005692,
-        0.03036576949620428,
-        0.030090497737556562
-      ]
+      "correct": true
     },
     {
       "id": "2024_smka_sabk_q37",
@@ -2236,21 +1129,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_3_01",
-        "sejarah_t5_bab09_sec_9_3_02",
-        "sejarah_t5_bab09_sec_9_3_13",
-        "sejarah_t5_bab09_sec_9_3_00",
-        "sejarah_t5_bab09_sec_9_3_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03149801587301587,
-        0.03128054740957967,
-        0.03057889822595705,
-        0.029857397504456328
-      ]
+      "correct": true
     },
     {
       "id": "2024_melaka_q19",
@@ -2263,21 +1142,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_1_02",
-        "sejarah_t4_bab05_sec_5_1_00",
-        "sejarah_t4_bab05_sec_5_1_01",
-        "sejarah_t4_bab10_sec_10_2_02",
-        "sejarah_t4_bab07_sec_7_2_04"
-      ],
-      "retrieved_scores": [
-        0.02964254577157803,
-        0.029437229437229435,
-        0.029051670471052088,
-        0.029051670471052088,
-        0.027651515151515153
-      ]
+      "correct": true
     },
     {
       "id": "2025_sabk_q38",
@@ -2290,21 +1155,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_5_01",
-        "sejarah_t5_bab09_sec_9_6_02",
-        "sejarah_t5_bab10_sec_10_2_00",
-        "sejarah_t5_bab09_sec_9_5_03",
-        "sejarah_t5_bab06_sec_6_1_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.02967032967032967,
-        0.029631255487269532,
-        0.029513888888888888
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_batu_pahat_q12",
@@ -2317,21 +1168,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_4_04",
-        "sejarah_t4_bab06_sec_6_4_06",
-        "sejarah_t4_bab06_sec_6_4_00",
-        "sejarah_t4_bab06_sec_6_4_03",
-        "sejarah_t4_bab03_sec_3_6_04"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.0315136476426799,
-        0.031024531024531024,
-        0.030798389007344232,
-        0.029726775956284153
-      ]
+      "correct": true
     },
     {
       "id": "2024_kedah_1_q30",
@@ -2348,21 +1185,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab10_sec_10_1_02",
-        "sejarah_t4_bab01_sec_1_3_01",
-        "sejarah_t5_bab07_sec_7_2_09",
-        "sejarah_t5_bab05_sec_5_5_00",
-        "sejarah_t5_bab07_sec_7_3_01"
-      ],
-      "retrieved_scores": [
-        0.027205882352941177,
-        0.01639344262295082,
-        0.01639344262295082,
-        0.016129032258064516,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2023_kedah_q34",
@@ -2375,21 +1198,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_2_03",
-        "sejarah_t5_bab07_sec_7_2_02",
-        "sejarah_t5_bab07_sec_7_2_04",
-        "sejarah_t5_bab07_sec_7_2_01",
-        "sejarah_t5_bab07_sec_7_2_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.031754032258064516,
-        0.03125763125763126,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2023_kelantan_q16",
@@ -2402,21 +1211,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_4_00",
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_4_01",
-        "sejarah_t4_bab08_sec_8_3_03",
-        "sejarah_t4_bab10_sec_10_4_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03200204813108039,
-        0.03076923076923077,
-        0.030330882352941176
-      ]
+      "correct": true
     },
     {
       "id": "2023_kelantan_q5",
@@ -2428,22 +1223,8 @@
         "D": "Rusia bebas daripada penaklukan Jerman"
       },
       "correct_answer": "D",
-      "predicted_answer": "C",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_4_05",
-        "sejarah_t4_bab03_sec_3_3_00",
-        "sejarah_t4_bab03_sec_3_4_00",
-        "sejarah_t4_bab03_sec_3_4_06",
-        "sejarah_t4_bab03_sec_3_9_01"
-      ],
-      "retrieved_scores": [
-        0.032018442622950824,
-        0.03200204813108039,
-        0.03200204813108039,
-        0.031099324975891997,
-        0.03007688828584351
-      ]
+      "predicted_answer": "D",
+      "correct": true
     },
     {
       "id": "2022_johor_tangkak_q16",
@@ -2456,21 +1237,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_3_03",
-        "sejarah_t4_bab05_sec_5_4_02",
-        "sejarah_t5_bab03_sec_3_2_03",
-        "sejarah_t4_bab05_sec_5_2_00"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.032018442622950824,
-        0.03125763125763126,
-        0.03036576949620428,
-        0.029857397504456328
-      ]
+      "correct": true
     },
     {
       "id": "2025_terengganu_q30",
@@ -2483,21 +1250,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_4_03",
-        "sejarah_t4_bab08_sec_8_1_02",
-        "sejarah_t5_bab05_sec_5_4_00",
-        "sejarah_t4_bab08_sec_8_2_06",
-        "sejarah_t4_bab08_sec_8_2_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03076923076923077,
-        0.030330882352941176,
-        0.026785714285714288,
-        0.02632034632034632
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_kota_tinggi_q6",
@@ -2510,21 +1263,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_7_03",
-        "sejarah_t4_bab03_sec_3_8_00",
-        "sejarah_t4_bab03_sec_3_7_04",
-        "sejarah_t4_bab03_sec_3_7_05",
-        "sejarah_t4_bab03_sec_3_7_11"
-      ],
-      "retrieved_scores": [
-        0.03177805800756621,
-        0.03128054740957967,
-        0.030621785881252923,
-        0.029906956136464335,
-        0.02976190476190476
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_pasir_gudang_q32",
@@ -2536,22 +1275,8 @@
         "D": "Menambah baik sistem perhubungan dan pengangkutan"
       },
       "correct_answer": "B",
-      "predicted_answer": "C",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_4_01",
-        "sejarah_t4_bab10_sec_10_4_09",
-        "sejarah_t5_bab08_sec_8_5_01",
-        "sejarah_t5_bab06_sec_6_1_01",
-        "sejarah_t5_bab07_sec_7_1_05"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03177805800756621,
-        0.030776515151515152,
-        0.02964426877470356,
-        0.02786377708978328
-      ]
+      "predicted_answer": "B",
+      "correct": true
     },
     {
       "id": "2022_melaka_q3",
@@ -2564,21 +1289,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_2_02",
-        "sejarah_t5_bab01_sec_1_1_04",
-        "sejarah_t4_bab02_sec_2_2_03",
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t4_bab02_sec_2_2_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.029206349206349208,
-        0.02804284323271665,
-        0.02761904761904762,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2022_pahang_mpsm_q28",
@@ -2591,21 +1302,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab04_sec_4_3_07",
-        "sejarah_t5_bab04_sec_4_3_06",
-        "sejarah_t5_bab04_sec_4_3_08",
-        "sejarah_t5_bab04_sec_4_3_00",
-        "sejarah_t5_bab04_sec_4_2_08"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.031746031746031744,
-        0.030309988518943745,
-        0.03007688828584351
-      ]
+      "correct": true
     },
     {
       "id": "2022_sabah_q34",
@@ -2618,21 +1315,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_1_06",
-        "sejarah_t5_bab07_sec_7_4_00",
-        "sejarah_t5_bab07_sec_7_4_02",
-        "sejarah_t5_bab07_sec_7_2_08",
-        "sejarah_t5_bab07_sec_7_3_05"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.030776515151515152,
-        0.03057889822595705,
-        0.02946912242686891,
-        0.028949545078577336
-      ]
+      "correct": true
     },
     {
       "id": "2022_sarawak_smk_rosli_dhoby_q33",
@@ -2645,21 +1328,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_2_05",
-        "sejarah_t5_bab07_sec_7_2_06",
-        "sejarah_t5_bab07_sec_7_2_01",
-        "sejarah_t4_bab08_sec_8_4_00",
-        "sejarah_t5_bab07_sec_7_2_00"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03149801587301587,
-        0.029083245521601686,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_tangkak_q39",
@@ -2672,21 +1341,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_6_03",
-        "sejarah_t5_bab09_sec_9_6_00",
-        "sejarah_t5_bab09_sec_9_6_02",
-        "sejarah_t5_bab09_sec_9_6_01",
-        "sejarah_t5_bab10_sec_10_2_01"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.03177805800756621,
-        0.030679156908665108,
-        0.029877369007803793,
-        0.029857397504456328
-      ]
+      "correct": true
     },
     {
       "id": "2022_negeri_sembilan_mpsm_q29",
@@ -2699,21 +1354,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_4_04",
-        "sejarah_t5_bab07_sec_7_2_05",
-        "sejarah_t5_bab07_sec_7_2_01",
-        "sejarah_t4_bab06_sec_6_4_03",
-        "sejarah_t5_bab05_sec_5_4_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.028169014084507043,
-        0.026856524873828405,
-        0.016129032258064516,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2025_penang_q15",
@@ -2726,21 +1367,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_02",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_3_02",
-        "sejarah_t4_bab08_sec_8_1_00",
-        "sejarah_t4_bab08_sec_8_2_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03149801587301587,
-        0.030798389007344232,
-        0.030309988518943745
-      ]
+      "correct": true
     },
     {
       "id": "2024_sarawak_bintulu_q23",
@@ -2753,21 +1380,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_5_02",
-        "sejarah_t5_bab02_sec_2_3_00",
-        "sejarah_t5_bab02_sec_2_3_03",
-        "sejarah_t5_bab02_sec_2_2_00",
-        "sejarah_t5_bab02_sec_2_3_04"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.03149801587301587,
-        0.029236022193768675,
-        0.028594771241830064,
-        0.028125
-      ]
+      "correct": true
     },
     {
       "id": "2025_n9_q29",
@@ -2784,21 +1397,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_3_05",
-        "sejarah_t5_bab05_sec_5_3_00",
-        "sejarah_t5_bab05_sec_5_3_01",
-        "sejarah_t5_bab05_sec_5_4_01",
-        "sejarah_t5_bab05_sec_5_2_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031746031746031744,
-        0.03128054740957967,
-        0.030330882352941176,
-        0.030309988518943745
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_segamat_q9",
@@ -2811,21 +1410,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t4_bab05_sec_5_2_02",
-        "sejarah_t4_bab05_sec_5_2_01",
-        "sejarah_t5_bab03_sec_3_1_06",
-        "sejarah_t4_bab04_sec_4_2_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.0315136476426799,
-        0.030798389007344232,
-        0.029857397504456328,
-        0.029551337359792925
-      ]
+      "correct": true
     },
     {
       "id": "2025_n9_q18",
@@ -2842,21 +1427,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_4_00",
-        "sejarah_t4_bab09_sec_9_4_03",
-        "sejarah_t4_bab09_sec_9_4_04",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t5_bab04_sec_4_1_06"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.03200204813108039,
-        0.03177805800756621,
-        0.030117753623188408,
-        0.030090497737556562
-      ]
+      "correct": true
     },
     {
       "id": "2023_sbp_q25",
@@ -2869,21 +1440,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_1_03",
-        "sejarah_t4_bab03_sec_3_1_02",
-        "sejarah_t5_bab03_sec_3_1_06",
-        "sejarah_t5_bab09_sec_9_1_04",
-        "sejarah_t4_bab03_sec_3_9_05"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03125,
-        0.030309988518943745,
-        0.01639344262295082,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2023_perak_q22",
@@ -2896,21 +1453,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_2_00",
-        "sejarah_t5_bab07_sec_7_4_01",
-        "sejarah_t5_bab07_sec_7_4_02",
-        "sejarah_t5_bab07_sec_7_4_00",
-        "sejarah_t5_bab01_sec_1_3_02"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03177805800756621,
-        0.0315136476426799,
-        0.030117753623188408,
-        0.029857397504456328
-      ]
+      "correct": true
     },
     {
       "id": "2025_sarawak_sibu_q16",
@@ -2923,21 +1466,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_4_00",
-        "sejarah_t4_bab08_sec_8_1_00",
-        "sejarah_t4_bab08_sec_8_2_06",
-        "sejarah_t4_bab08_sec_8_2_00",
-        "sejarah_t4_bab08_sec_8_2_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03128054740957967,
-        0.030776515151515152,
-        0.03057889822595705,
-        0.03055037313432836
-      ]
+      "correct": true
     },
     {
       "id": "2024_selangor_set_3_q18",
@@ -2950,21 +1479,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_4_03",
-        "sejarah_t4_bab05_sec_5_4_01",
-        "sejarah_t5_bab02_sec_2_3_02",
-        "sejarah_t4_bab01_sec_1_1_03",
-        "sejarah_t4_bab07_sec_7_2_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031746031746031744,
-        0.02946912242686891,
-        0.016129032258064516,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2025_smka_1_q15",
@@ -2977,21 +1492,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_02",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_1_00",
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_2_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03149801587301587,
-        0.031024531024531024,
-        0.030834914611005692,
-        0.03055037313432836
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_segamat_q8",
@@ -3004,21 +1505,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_4_04",
-        "sejarah_t4_bab04_sec_4_5_05",
-        "sejarah_t4_bab04_sec_4_4_00",
-        "sejarah_t4_bab04_sec_4_5_08",
-        "sejarah_t4_bab04_sec_4_5_01"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.03131881575727918,
-        0.030776515151515152,
-        0.03076923076923077,
-        0.028782894736842105
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_kulai_set_1_q26",
@@ -3031,21 +1518,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "C",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_4_08",
-        "sejarah_t5_bab03_sec_3_4_03",
-        "sejarah_t4_bab10_sec_10_5_02",
-        "sejarah_t5_bab03_sec_3_4_06",
-        "sejarah_t5_bab03_sec_3_4_07"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.031754032258064516,
-        0.028309409888357256,
-        0.02786377708978328
-      ]
+      "correct": false
     },
     {
       "id": "2025_kedah_q18",
@@ -3062,21 +1535,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_2_00",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t4_bab09_sec_9_2_01",
-        "sejarah_t4_bab09_sec_9_2_02",
-        "sejarah_t5_bab03_sec_3_4_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031746031746031744,
-        0.0315136476426799,
-        0.031009615384615385,
-        0.02782608695652174
-      ]
+      "correct": true
     },
     {
       "id": "2024_putrajaya_set_1_q4",
@@ -3088,22 +1547,8 @@
         "D": "Kepentingan mempelajari Bahasa Melayu"
       },
       "correct_answer": "B",
-      "predicted_answer": "A",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_7_06",
-        "sejarah_t4_bab02_sec_2_7_04",
-        "sejarah_t4_bab02_sec_2_6_01",
-        "sejarah_t4_bab02_sec_2_5_01",
-        "sejarah_t4_bab02_sec_2_8_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.031009615384615385,
-        0.030309988518943745,
-        0.02904040404040404
-      ]
+      "predicted_answer": "B",
+      "correct": true
     },
     {
       "id": "2022_negeri_sembilan_mpsm_q38",
@@ -3116,21 +1561,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_5_03",
-        "sejarah_t5_bab02_sec_2_4_04",
-        "sejarah_t5_bab05_sec_5_5_01",
-        "sejarah_t4_bab04_sec_4_2_05",
-        "sejarah_t5_bab06_sec_6_2_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03125,
-        0.02964254577157803,
-        0.028850145288501453,
-        0.027526395173453996
-      ]
+      "correct": true
     },
     {
       "id": "2024_negeri_sembilan_q29",
@@ -3147,21 +1578,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "A",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_2_02",
-        "sejarah_t5_bab05_sec_5_2_03",
-        "sejarah_t5_bab05_sec_5_2_00",
-        "sejarah_t5_bab05_sec_5_2_01",
-        "sejarah_t5_bab05_sec_5_3_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.030834914611005692,
-        0.030309988518943745,
-        0.028283227848101264
-      ]
+      "correct": false
     },
     {
       "id": "2022_putrajaya_smk_putrajaya_presint_18_1_q13",
@@ -3174,21 +1591,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_3_12",
-        "sejarah_t4_bab07_sec_7_1_05",
-        "sejarah_t4_bab04_sec_4_3_13",
-        "sejarah_t4_bab05_sec_5_1_05",
-        "sejarah_t4_bab04_sec_4_3_15"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.03225806451612903,
-        0.031099324975891997,
-        0.029571646010002173,
-        0.02900988017658188
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_segamat_set_1_q33",
@@ -3200,22 +1603,8 @@
         "D": "Jabatan Perundingan Negara"
       },
       "correct_answer": "C",
-      "predicted_answer": "B",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_6_01",
-        "sejarah_t5_bab07_sec_7_6_00",
-        "sejarah_t5_bab07_sec_7_6_04",
-        "sejarah_t5_bab07_sec_7_6_02",
-        "sejarah_t5_bab07_sec_7_6_06"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.031746031746031744,
-        0.030536130536130537,
-        0.030117753623188408
-      ]
+      "predicted_answer": "D",
+      "correct": false
     },
     {
       "id": "2025_sarawak_sibu_q5",
@@ -3228,21 +1617,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_6_05",
-        "sejarah_t4_bab02_sec_2_8_00",
-        "sejarah_t4_bab02_sec_2_6_00",
-        "sejarah_t4_bab02_sec_2_3_04",
-        "sejarah_t4_bab02_sec_2_4_01"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.031009615384615385,
-        0.029827662395050816,
-        0.02938045560996381,
-        0.02877846790890269
-      ]
+      "correct": true
     },
     {
       "id": "2024_perak_q34",
@@ -3255,21 +1630,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_4_01",
-        "sejarah_t5_bab08_sec_8_3_04",
-        "sejarah_t5_bab08_sec_8_2_00",
-        "sejarah_t5_bab08_sec_8_2_04",
-        "sejarah_t5_bab01_sec_1_4_02"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.030834914611005692,
-        0.030798389007344232,
-        0.02921395544346364,
-        0.028370221327967807
-      ]
+      "correct": true
     },
     {
       "id": "2023_kelantan_q20",
@@ -3282,21 +1643,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_4_13",
-        "sejarah_t5_bab07_sec_7_2_02",
-        "sejarah_t5_bab07_sec_7_2_00",
-        "sejarah_t4_bab10_sec_10_1_03",
-        "sejarah_t4_bab10_sec_10_4_00"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.031054405392392875,
-        0.029206349206349208,
-        0.029138513513513514,
-        0.029030910609857977
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_batu_pahat_q16",
@@ -3309,21 +1656,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_3_02",
-        "sejarah_t4_bab08_sec_8_2_02",
-        "sejarah_t4_bab08_sec_8_3_03"
-      ],
-      "retrieved_scores": [
-        0.032018442622950824,
-        0.032018442622950824,
-        0.03200204813108039,
-        0.0304147465437788,
-        0.02976190476190476
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_kulai_1_q27",
@@ -3336,21 +1669,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab01_sec_1_3_00",
-        "sejarah_t5_bab04_sec_4_2_08",
-        "sejarah_t5_bab01_sec_1_3_00",
-        "sejarah_t5_bab04_sec_4_3_06",
-        "sejarah_t4_bab01_sec_1_4_03"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.03177805800756621,
-        0.027364110201042444,
-        0.027242401779095628,
-        0.025158227848101268
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_muar_q11",
@@ -3363,21 +1682,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_2_01",
-        "sejarah_t4_bab06_sec_6_2_03",
-        "sejarah_t5_bab06_sec_6_3_05",
-        "sejarah_t4_bab06_sec_6_4_04",
-        "sejarah_t5_bab06_sec_6_3_01"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.030621785881252923,
-        0.029631255487269532,
-        0.028083267871170464,
-        0.0259915611814346
-      ]
+      "correct": true
     },
     {
       "id": "2022_putrajaya_smk_putrajaya_presint_18_1_q20",
@@ -3390,21 +1695,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_5_04",
-        "sejarah_t4_bab10_sec_10_2_01",
-        "sejarah_t4_bab10_sec_10_3_00",
-        "sejarah_t4_bab10_sec_10_5_05",
-        "sejarah_t4_bab10_sec_10_3_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03055037313432836,
-        0.03007688828584351,
-        0.029957522915269395
-      ]
+      "correct": true
     },
     {
       "id": "2023_perlis_q4",
@@ -3417,21 +1708,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_3_04",
-        "sejarah_t4_bab03_sec_3_8_00",
-        "sejarah_t4_bab03_sec_3_4_01",
-        "sejarah_t4_bab02_sec_2_8_00",
-        "sejarah_t4_bab02_sec_2_6_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031024531024531024,
-        0.030834914611005692,
-        0.029437229437229435,
-        0.027777777777777776
-      ]
+      "correct": true
     },
     {
       "id": "2024_putrajaya_set_2_q24",
@@ -3448,21 +1725,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_3_03",
-        "sejarah_t5_bab02_sec_2_3_00",
-        "sejarah_t5_bab02_sec_2_3_04",
-        "sejarah_t5_bab03_sec_3_5_00",
-        "sejarah_t5_bab03_sec_3_5_02"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.03128054740957967,
-        0.030798389007344232,
-        0.02946912242686891,
-        0.025478740668614087
-      ]
+      "correct": true
     },
     {
       "id": "2022_terengganu_mpp3_q39",
@@ -3479,21 +1742,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab10_sec_10_3_02",
-        "sejarah_t5_bab10_sec_10_3_03",
-        "sejarah_t5_bab10_sec_10_3_01",
-        "sejarah_t4_bab06_sec_6_3_17",
-        "sejarah_t4_bab03_sec_3_7_10"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.030621785881252923,
-        0.029571646010002173,
-        0.029138513513513514,
-        0.025158227848101268
-      ]
+      "correct": true
     },
     {
       "id": "2024_tererngganu_q6",
@@ -3506,21 +1755,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_7_06",
-        "sejarah_t4_bab03_sec_3_7_07",
-        "sejarah_t4_bab03_sec_3_7_05",
-        "sejarah_t4_bab03_sec_3_7_08",
-        "sejarah_t4_bab06_sec_6_3_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03149801587301587,
-        0.03149801587301587,
-        0.030536130536130537
-      ]
+      "correct": true
     },
     {
       "id": "2022_mrsm_q15",
@@ -3533,21 +1768,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_03",
-        "sejarah_t4_bab08_sec_8_1_01",
-        "sejarah_t4_bab08_sec_8_1_02",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_3_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03125763125763126,
-        0.03125,
-        0.031024531024531024
-      ]
+      "correct": true
     },
     {
       "id": "2022_sarawak_smk_rosli_dhoby_q20",
@@ -3564,21 +1785,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_4_00",
-        "sejarah_t4_bab06_sec_6_4_00",
-        "sejarah_t4_bab02_sec_2_8_00",
-        "sejarah_t4_bab10_sec_10_1_00",
-        "sejarah_t4_bab03_sec_3_2_06"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.028438886647841874,
-        0.016129032258064516,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2023_perak_q37",
@@ -3591,21 +1798,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_4_00",
-        "sejarah_t5_bab09_sec_9_4_02",
-        "sejarah_t5_bab09_sec_9_4_04",
-        "sejarah_t5_bab09_sec_9_4_06",
-        "sejarah_t5_bab08_sec_8_2_02"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.032266458495966696,
-        0.0304147465437788,
-        0.03007688828584351,
-        0.02967032967032967
-      ]
+      "correct": true
     },
     {
       "id": "2022_kelantan_mpsm_q26",
@@ -3618,21 +1811,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_4_02",
-        "sejarah_t4_bab02_sec_2_6_02",
-        "sejarah_t4_bab02_sec_2_7_04",
-        "sejarah_t4_bab03_sec_3_1_02",
-        "sejarah_t4_bab04_sec_4_3_06"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.0304147465437788,
-        0.030309988518943745,
-        0.029631255487269532
-      ]
+      "correct": true
     },
     {
       "id": "2025_sabk_q31",
@@ -3645,21 +1824,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_1_03",
-        "sejarah_t5_bab08_sec_8_5_06",
-        "sejarah_t5_bab06_sec_6_1_01",
-        "sejarah_t5_bab04_sec_4_2_06",
-        "sejarah_t5_bab05_sec_5_4_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03128054740957967,
-        0.029910714285714284,
-        0.02946236559139785,
-        0.029411764705882353
-      ]
+      "correct": true
     },
     {
       "id": "2025_pahang_q29",
@@ -3672,21 +1837,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_5_02",
-        "sejarah_t5_bab05_sec_5_1_01",
-        "sejarah_t4_bab03_sec_3_4_03",
-        "sejarah_t4_bab02_sec_2_4_00",
-        "sejarah_t5_bab05_sec_5_2_00"
-      ],
-      "retrieved_scores": [
-        0.03177805800756621,
-        0.031544957774465976,
-        0.03055037313432836,
-        0.030536130536130537,
-        0.03036576949620428
-      ]
+      "correct": true
     },
     {
       "id": "2025_selangor_q27",
@@ -3698,22 +1849,8 @@
         "D": "Pengasingan kuasa pembesar negeri"
       },
       "correct_answer": "A",
-      "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab04_sec_4_1_02",
-        "sejarah_t5_bab04_sec_4_1_01",
-        "sejarah_t5_bab04_sec_4_1_04",
-        "sejarah_t4_bab02_sec_2_7_07",
-        "sejarah_t4_bab10_sec_10_5_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0304147465437788,
-        0.016129032258064516,
-        0.015873015873015872,
-        0.015873015873015872
-      ]
+      "predicted_answer": "C",
+      "correct": false
     },
     {
       "id": "2022_negeri_sembilan_mpsm_q4",
@@ -3726,21 +1863,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_1_02",
-        "sejarah_t4_bab02_sec_2_5_01",
-        "sejarah_t4_bab02_sec_2_8_00",
-        "sejarah_t4_bab10_sec_10_3_01",
-        "sejarah_t4_bab02_sec_2_1_01"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.03149801587301587,
-        0.02967032967032967,
-        0.029631255487269532,
-        0.01639344262295082
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_smk_taman_selesa_jaya_2_q30",
@@ -3757,21 +1880,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_4_01",
-        "sejarah_t5_bab05_sec_5_4_04",
-        "sejarah_t5_bab04_sec_4_2_06",
-        "sejarah_t4_bab04_sec_4_3_15",
-        "sejarah_t4_bab09_sec_9_1_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.030017921146953404,
-        0.02919863597612958,
-        0.027884615384615386,
-        0.027046783625730993
-      ]
+      "correct": true
     },
     {
       "id": "2022_sabah_q10",
@@ -3784,21 +1893,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_3_02",
-        "sejarah_t5_bab03_sec_3_2_03",
-        "sejarah_t4_bab05_sec_5_4_00",
-        "sejarah_t4_bab05_sec_5_3_00",
-        "sejarah_t5_bab03_sec_3_2_04"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03149801587301587,
-        0.029850746268656716,
-        0.02976190476190476
-      ]
+      "correct": true
     },
     {
       "id": "2023_kelantan_q13",
@@ -3815,21 +1910,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_2_01",
-        "sejarah_t4_bab07_sec_7_2_03",
-        "sejarah_t4_bab07_sec_7_2_04",
-        "sejarah_t4_bab05_sec_5_4_02",
-        "sejarah_t4_bab07_sec_7_2_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03200204813108039,
-        0.031009615384615385,
-        0.031009615384615385
-      ]
+      "correct": true
     },
     {
       "id": "2025_terengganu_q4",
@@ -3842,21 +1923,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_2_00",
-        "sejarah_t4_bab02_sec_2_6_05",
-        "sejarah_t4_bab02_sec_2_1_00",
-        "sejarah_t4_bab02_sec_2_5_01",
-        "sejarah_t4_bab03_sec_3_1_00"
-      ],
-      "retrieved_scores": [
-        0.031544957774465976,
-        0.031544957774465976,
-        0.031054405392392875,
-        0.029910714285714284,
-        0.02928692699490662
-      ]
+      "correct": true
     },
     {
       "id": "2025_sabk_q40",
@@ -3869,21 +1936,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab10_sec_10_2_00",
-        "sejarah_t5_bab10_sec_10_2_01",
-        "sejarah_t5_bab09_sec_9_6_03",
-        "sejarah_t5_bab09_sec_9_6_02",
-        "sejarah_t5_bab09_sec_9_5_03"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03125763125763126,
-        0.030536130536130537,
-        0.030158730158730156
-      ]
+      "correct": true
     },
     {
       "id": "2022_putrajaya_smk_putrajaya_presint_18_1_q31",
@@ -3896,21 +1949,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab06_sec_6_3_05",
-        "sejarah_t5_bab06_sec_6_3_04",
-        "sejarah_t5_bab06_sec_6_3_03",
-        "sejarah_t5_bab06_sec_6_5_04",
-        "sejarah_t4_bab06_sec_6_2_06"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.02886002886002886,
-        0.027272727272727275,
-        0.027212143650499815,
-        0.027046783625730993
-      ]
+      "correct": true
     },
     {
       "id": "2022_pahang_mpsm_q35",
@@ -3923,21 +1962,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_6_06",
-        "sejarah_t5_bab07_sec_7_6_04",
-        "sejarah_t5_bab07_sec_7_6_05",
-        "sejarah_t5_bab07_sec_7_6_09",
-        "sejarah_t5_bab07_sec_7_6_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.03149801587301587,
-        0.02964426877470356,
-        0.02946912242686891
-      ]
+      "correct": true
     },
     {
       "id": "2024_putrajaya_set_2_q17",
@@ -3950,21 +1975,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_1_03",
-        "sejarah_t4_bab09_sec_9_1_04",
-        "sejarah_t4_bab09_sec_9_1_01",
-        "sejarah_t4_bab09_sec_9_1_07",
-        "sejarah_t4_bab09_sec_9_1_06"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.03149801587301587,
-        0.03125763125763126,
-        0.029877369007803793
-      ]
+      "correct": true
     },
     {
       "id": "2022_putrajaya_smk_putrajaya_presint_18_1_q16",
@@ -3977,21 +1988,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_02",
-        "sejarah_t4_bab08_sec_8_2_03",
-        "sejarah_t4_bab08_sec_8_2_04",
-        "sejarah_t4_bab06_sec_6_3_21",
-        "sejarah_t5_bab05_sec_5_4_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.030776515151515152,
-        0.030621785881252923,
-        0.029571646010002173,
-        0.026856524873828405
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_tangkak_q30",
@@ -4004,21 +2001,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_4_00",
-        "sejarah_t5_bab05_sec_5_4_01",
-        "sejarah_t5_bab05_sec_5_4_02",
-        "sejarah_t5_bab05_sec_5_1_00",
-        "sejarah_t5_bab05_sec_5_4_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.029206349206349208,
-        0.02919863597612958,
-        0.029116045245077504
-      ]
+      "correct": true
     },
     {
       "id": "2025_terengganu_q1",
@@ -4031,21 +2014,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "B",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab01_sec_1_2_01",
-        "sejarah_t4_bab01_sec_1_2_04",
-        "sejarah_t4_bab01_sec_1_3_00",
-        "sejarah_t4_bab01_sec_1_2_03",
-        "sejarah_t5_bab03_sec_3_1_01"
-      ],
-      "retrieved_scores": [
-        0.032018442622950824,
-        0.03200204813108039,
-        0.030886196246139225,
-        0.030621785881252923,
-        0.03057889822595705
-      ]
+      "correct": false
     },
     {
       "id": "2022_johor_smk_taman_selesa_jaya_2_q9",
@@ -4058,21 +2027,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t4_bab05_sec_5_2_01",
-        "sejarah_t4_bab05_sec_5_2_02",
-        "sejarah_t4_bab05_sec_5_4_02",
-        "sejarah_t4_bab04_sec_4_2_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.032266458495966696,
-        0.030834914611005692,
-        0.030536130536130537,
-        0.02877846790890269
-      ]
+      "correct": true
     },
     {
       "id": "2023_negeri_sembilan_q18",
@@ -4089,21 +2044,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_4_03",
-        "sejarah_t4_bab09_sec_9_4_00",
-        "sejarah_t4_bab09_sec_9_4_04",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t4_bab05_sec_5_3_00"
-      ],
-      "retrieved_scores": [
-        0.03200204813108039,
-        0.031544957774465976,
-        0.030798389007344232,
-        0.030117753623188408,
-        0.02928692699490662
-      ]
+      "correct": true
     },
     {
       "id": "2023_kedah_q38",
@@ -4116,21 +2057,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_2_01",
-        "sejarah_t5_bab09_sec_9_2_00",
-        "sejarah_t5_bab09_sec_9_1_04",
-        "sejarah_t5_bab09_sec_9_1_00",
-        "sejarah_t5_bab09_sec_9_5_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03149801587301587,
-        0.030798389007344232,
-        0.029857397504456328
-      ]
+      "correct": true
     },
     {
       "id": "2022_sabah_q8",
@@ -4147,21 +2074,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_4_00",
-        "sejarah_t4_bab04_sec_4_4_02",
-        "sejarah_t4_bab04_sec_4_4_01",
-        "sejarah_t4_bab04_sec_4_4_04",
-        "sejarah_t4_bab04_sec_4_5_01"
-      ],
-      "retrieved_scores": [
-        0.03177805800756621,
-        0.03177805800756621,
-        0.03128054740957967,
-        0.03128054740957967,
-        0.03055037313432836
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_segamat_set_1_q3",
@@ -4178,21 +2091,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_4_04",
-        "sejarah_t4_bab02_sec_2_2_04",
-        "sejarah_t4_bab02_sec_2_2_00",
-        "sejarah_t4_bab02_sec_2_4_07",
-        "sejarah_t4_bab02_sec_2_4_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0315136476426799,
-        0.03057889822595705,
-        0.030330882352941176,
-        0.02878726010616578
-      ]
+      "correct": true
     },
     {
       "id": "2023_perak_q3",
@@ -4205,21 +2104,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_4_02",
-        "sejarah_t4_bab02_sec_2_4_03",
-        "sejarah_t5_bab10_sec_10_3_00",
-        "sejarah_t4_bab03_sec_3_6_05",
-        "sejarah_t4_bab04_sec_4_1_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0315136476426799,
-        0.02786377708978328,
-        0.027402402402402402,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2022_mrsm_q11",
@@ -4232,21 +2117,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_1_01",
-        "sejarah_t4_bab01_sec_1_3_02",
-        "sejarah_t5_bab02_sec_2_2_02",
-        "sejarah_t4_bab04_sec_4_2_01",
-        "sejarah_t4_bab06_sec_6_2_01"
-      ],
-      "retrieved_scores": [
-        0.028531243721117136,
-        0.02819138376017471,
-        0.026742734890354787,
-        0.01639344262295082,
-        0.01639344262295082
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_smk_taman_selesa_jaya_2_q14",
@@ -4259,21 +2130,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_5_06",
-        "sejarah_t5_bab10_sec_10_4_03",
-        "sejarah_t5_bab03_sec_3_5_04",
-        "sejarah_t4_bab07_sec_7_1_00",
-        "sejarah_t4_bab10_sec_10_5_04"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.031024531024531024,
-        0.028371628371628373,
-        0.027745885954841176,
-        0.01639344262295082
-      ]
+      "correct": true
     },
     {
       "id": "2025_penang_q30",
@@ -4286,21 +2143,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_4_02",
-        "sejarah_t5_bab05_sec_5_4_00",
-        "sejarah_t5_bab05_sec_5_4_05",
-        "sejarah_t4_bab05_sec_5_1_02",
-        "sejarah_t4_bab05_sec_5_1_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0315136476426799,
-        0.030621785881252923,
-        0.029211087420042643,
-        0.028958333333333336
-      ]
+      "correct": true
     },
     {
       "id": "2024_tererngganu_q4",
@@ -4313,21 +2156,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_8_01",
-        "sejarah_t4_bab02_sec_2_7_04",
-        "sejarah_t4_bab02_sec_2_8_00",
-        "sejarah_t4_bab02_sec_2_8_02",
-        "sejarah_t4_bab02_sec_2_5_01"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.0315136476426799,
-        0.03149801587301587,
-        0.03131881575727918,
-        0.030090497737556562
-      ]
+      "correct": true
     },
     {
       "id": "2025_wpkl_q22",
@@ -4344,21 +2173,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab01_sec_1_4_05",
-        "sejarah_t5_bab07_sec_7_1_06",
-        "sejarah_t5_bab07_sec_7_6_09",
-        "sejarah_t5_bab01_sec_1_4_04",
-        "sejarah_t4_bab10_sec_10_5_05"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03036576949620428,
-        0.030117753623188408,
-        0.029906956136464335,
-        0.029116045245077504
-      ]
+      "correct": true
     },
     {
       "id": "2022_perak_q36",
@@ -4375,21 +2190,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_7_03",
-        "sejarah_t5_bab09_sec_9_2_01",
-        "sejarah_t5_bab09_sec_9_7_00",
-        "sejarah_t5_bab09_sec_9_5_01",
-        "sejarah_t5_bab09_sec_9_7_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03149801587301587,
-        0.031054405392392875,
-        0.03057889822595705,
-        0.030017921146953404
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_kota_tinggi_q5",
@@ -4406,21 +2207,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_5_00",
-        "sejarah_t4_bab03_sec_3_5_01",
-        "sejarah_t4_bab03_sec_3_6_05",
-        "sejarah_t4_bab03_sec_3_7_09",
-        "sejarah_t4_bab03_sec_3_5_03"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.031544957774465976,
-        0.031009615384615385,
-        0.03057889822595705,
-        0.03036576949620428
-      ]
+      "correct": true
     },
     {
       "id": "2022_melaka_q7",
@@ -4433,21 +2220,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_1_00",
-        "sejarah_t4_bab04_sec_4_2_01",
-        "sejarah_t5_bab03_sec_3_1_06",
-        "sejarah_t4_bab04_sec_4_2_00",
-        "sejarah_t4_bab05_sec_5_2_00"
-      ],
-      "retrieved_scores": [
-        0.032018442622950824,
-        0.03200204813108039,
-        0.03125763125763126,
-        0.030303030303030304,
-        0.029827662395050816
-      ]
+      "correct": true
     },
     {
       "id": "2023_perlis_q5",
@@ -4460,21 +2233,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_2_00",
-        "sejarah_t4_bab03_sec_3_3_00",
-        "sejarah_t4_bab03_sec_3_3_01",
-        "sejarah_t4_bab03_sec_3_3_03",
-        "sejarah_t4_bab03_sec_3_3_04"
-      ],
-      "retrieved_scores": [
-        0.032018442622950824,
-        0.03200204813108039,
-        0.03200204813108039,
-        0.031544957774465976,
-        0.031009615384615385
-      ]
+      "correct": true
     },
     {
       "id": "2022_melaka_q15",
@@ -4486,22 +2245,8 @@
         "D": "Plihanraya perlu diadakan tidak lewat dari bulan Oktober 1954 | Tidak menetapkan tarikh atau masa tertentu untuk pilihanraya"
       },
       "correct_answer": "A",
-      "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_01",
-        "sejarah_t4_bab08_sec_8_1_02",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_3_02",
-        "sejarah_t4_bab08_sec_8_2_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031746031746031744,
-        0.03125,
-        0.031054405392392875,
-        0.030536130536130537
-      ]
+      "predicted_answer": "D",
+      "correct": false
     },
     {
       "id": "2024_kelantan_q34",
@@ -4518,21 +2263,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab07_sec_7_6_00",
-        "sejarah_t5_bab07_sec_7_6_07",
-        "sejarah_t5_bab07_sec_7_6_09",
-        "sejarah_t5_bab07_sec_7_6_01",
-        "sejarah_t4_bab10_sec_10_5_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03125,
-        0.03057889822595705,
-        0.03007688828584351
-      ]
+      "correct": true
     },
     {
       "id": "2024_pulau_pinang_q15",
@@ -4545,21 +2276,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_01",
-        "sejarah_t4_bab08_sec_8_1_02",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_2_02",
-        "sejarah_t4_bab08_sec_8_1_00"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.031754032258064516,
-        0.031544957774465976,
-        0.031009615384615385,
-        0.029206349206349208
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_johor_bahru_q7",
@@ -4572,21 +2289,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_3_05",
-        "sejarah_t4_bab04_sec_4_3_06",
-        "sejarah_t4_bab04_sec_4_3_01",
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t5_bab04_sec_4_1_04"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.031009615384615385,
-        0.03057889822595705,
-        0.02964426877470356
-      ]
+      "correct": true
     },
     {
       "id": "2023_kedah_q19",
@@ -4598,22 +2301,8 @@
         "D": "mewujudkan negara berdaulat."
       },
       "correct_answer": "A",
-      "predicted_answer": "B",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_1_02",
-        "sejarah_t4_bab10_sec_10_1_00",
-        "sejarah_t4_bab02_sec_2_3_00",
-        "sejarah_t4_bab10_sec_10_1_03",
-        "sejarah_t4_bab10_sec_10_2_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03149801587301587,
-        0.028958333333333336,
-        0.0288981288981289
-      ]
+      "predicted_answer": "A",
+      "correct": true
     },
     {
       "id": "2025_kelantan_q23",
@@ -4626,21 +2315,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_1_00",
-        "sejarah_t5_bab01_sec_1_2_04",
-        "sejarah_t5_bab02_sec_2_2_00",
-        "sejarah_t5_bab07_sec_7_6_09",
-        "sejarah_t4_bab09_sec_9_3_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.03007688828584351,
-        0.02871794871794872,
-        0.025978407557354925
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_muar_q14",
@@ -4653,21 +2328,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_5_06",
-        "sejarah_t5_bab03_sec_3_5_04",
-        "sejarah_t5_bab07_sec_7_1_04",
-        "sejarah_t4_bab07_sec_7_5_00",
-        "sejarah_t4_bab07_sec_7_5_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031024531024531024,
-        0.029857397504456328,
-        0.02964254577157803,
-        0.029571646010002173
-      ]
+      "correct": true
     },
     {
       "id": "2022_kelantan_mpsm_q2",
@@ -4680,21 +2341,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_1_01",
-        "sejarah_t4_bab01_sec_1_3_01",
-        "sejarah_t4_bab01_sec_1_3_02",
-        "sejarah_t5_bab03_sec_3_1_01",
-        "sejarah_t4_bab01_sec_1_2_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03149801587301587,
-        0.03128054740957967,
-        0.029957522915269395,
-        0.02964254577157803
-      ]
+      "correct": true
     },
     {
       "id": "2025_selangor_q4",
@@ -4707,21 +2354,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_6_03",
-        "sejarah_t4_bab02_sec_2_7_02",
-        "sejarah_t4_bab02_sec_2_7_03",
-        "sejarah_t4_bab02_sec_2_8_01",
-        "sejarah_t4_bab02_sec_2_5_01"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.031746031746031744,
-        0.029236022193768675,
-        0.015625
-      ]
+      "correct": true
     },
     {
       "id": "2022_perak_q34",
@@ -4734,21 +2367,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab08_sec_8_5_09",
-        "sejarah_t5_bab08_sec_8_5_08",
-        "sejarah_t5_bab08_sec_8_5_00",
-        "sejarah_t5_bab08_sec_8_4_03",
-        "sejarah_t5_bab08_sec_8_5_11"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031746031746031744,
-        0.030834914611005692,
-        0.030776515151515152,
-        0.0304147465437788
-      ]
+      "correct": true
     },
     {
       "id": "2023_negeri_sembilan_q37",
@@ -4761,21 +2380,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_2_01",
-        "sejarah_t5_bab09_sec_9_5_01",
-        "sejarah_t5_bab09_sec_9_1_03",
-        "sejarah_t5_bab09_sec_9_6_02",
-        "sejarah_t5_bab09_sec_9_7_03"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.032018442622950824,
-        0.030776515151515152,
-        0.029631255487269532,
-        0.029236022193768675
-      ]
+      "correct": true
     },
     {
       "id": "2024_putrajaya_set_1_q9",
@@ -4792,21 +2397,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_1_06",
-        "sejarah_t4_bab05_sec_5_1_04",
-        "sejarah_t5_bab05_sec_5_2_01",
-        "sejarah_t4_bab05_sec_5_1_02",
-        "sejarah_t4_bab05_sec_5_2_02"
-      ],
-      "retrieved_scores": [
-        0.030834914611005692,
-        0.02844551282051282,
-        0.02786377708978328,
-        0.027425373134328357,
-        0.01639344262295082
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_pasir_gudang_q7",
@@ -4819,21 +2410,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_2_00",
-        "sejarah_t5_bab04_sec_4_1_04",
-        "sejarah_t4_bab05_sec_5_2_02",
-        "sejarah_t4_bab05_sec_5_2_01",
-        "sejarah_t4_bab04_sec_4_3_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03128054740957967,
-        0.030798389007344232,
-        0.030158730158730156,
-        0.030117753623188408
-      ]
+      "correct": true
     },
     {
       "id": "2025_sabk_q14",
@@ -4845,22 +2422,8 @@
         "D": "Keberanian"
       },
       "correct_answer": "A",
-      "predicted_answer": "C",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_2_03",
-        "sejarah_t4_bab08_sec_8_2_04",
-        "sejarah_t4_bab08_sec_8_2_05",
-        "sejarah_t4_bab08_sec_8_3_02",
-        "sejarah_t4_bab08_sec_8_1_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031746031746031744,
-        0.03125,
-        0.031054405392392875,
-        0.030834914611005692
-      ]
+      "predicted_answer": "A",
+      "correct": true
     },
     {
       "id": "2022_terengganu_mpp3_q34",
@@ -4877,21 +2440,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab08_sec_8_1_01",
-        "sejarah_t5_bab04_sec_4_4_02",
-        "sejarah_t5_bab08_sec_8_3_02",
-        "sejarah_t4_bab05_sec_5_1_00",
-        "sejarah_t4_bab05_sec_5_4_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03055037313432836,
-        0.029030910609857977,
-        0.026144907723855092,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2023_pahang_q14",
@@ -4904,21 +2453,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "B",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_3_16",
-        "sejarah_t4_bab06_sec_6_3_18",
-        "sejarah_t4_bab06_sec_6_3_00",
-        "sejarah_t4_bab06_sec_6_4_01",
-        "sejarah_t5_bab06_sec_6_3_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03076923076923077,
-        0.029513888888888888,
-        0.02862400327131466,
-        0.027692895339954164
-      ]
+      "correct": false
     },
     {
       "id": "2022_kuala_lumpur_sentul_q38",
@@ -4931,21 +2466,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_8_01",
-        "sejarah_t5_bab09_sec_9_8_00",
-        "sejarah_t5_bab09_sec_9_8_02",
-        "sejarah_t5_bab09_sec_9_8_03",
-        "sejarah_t5_bab09_sec_9_8_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.031754032258064516,
-        0.031746031746031744,
-        0.03076923076923077
-      ]
+      "correct": true
     },
     {
       "id": "2022_sarawak_serian_q29",
@@ -4958,21 +2479,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab05_sec_5_2_02",
-        "sejarah_t5_bab05_sec_5_3_05",
-        "sejarah_t5_bab09_sec_9_3_03",
-        "sejarah_t4_bab03_sec_3_5_02",
-        "sejarah_t5_bab05_sec_5_2_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.0288981288981289,
-        0.02694394213381555,
-        0.016129032258064516,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2022_terengganu_mpp3_q4",
@@ -4985,21 +2492,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_5_01",
-        "sejarah_t4_bab02_sec_2_1_02",
-        "sejarah_t4_bab02_sec_2_6_01",
-        "sejarah_t4_bab02_sec_2_5_00",
-        "sejarah_t4_bab02_sec_2_1_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.031009615384615385,
-        0.030776515151515152,
-        0.029827662395050816
-      ]
+      "correct": true
     },
     {
       "id": "2024_perlis_q23",
@@ -5012,21 +2505,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab03_sec_3_5_04",
-        "sejarah_t5_bab01_sec_1_2_01",
-        "sejarah_t5_bab02_sec_2_3_04",
-        "sejarah_t5_bab04_sec_4_1_00",
-        "sejarah_t5_bab03_sec_3_5_00"
-      ],
-      "retrieved_scores": [
-        0.03177805800756621,
-        0.03125,
-        0.0304147465437788,
-        0.03009207275993712,
-        0.029386529386529386
-      ]
+      "correct": true
     },
     {
       "id": "2025_pahang_q9",
@@ -5039,21 +2518,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_3_15",
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t4_bab05_sec_5_2_01",
-        "sejarah_t4_bab04_sec_4_3_01",
-        "sejarah_t4_bab04_sec_4_3_05"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.031746031746031744,
-        0.03076923076923077,
-        0.0304147465437788,
-        0.029857397504456328
-      ]
+      "correct": true
     },
     {
       "id": "2022_putrajaya_smk_putrajaya_presint_18_1_q21",
@@ -5066,21 +2531,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab01_sec_1_2_00",
-        "sejarah_t5_bab01_sec_1_2_04",
-        "sejarah_t5_bab01_sec_1_2_02",
-        "sejarah_t5_bab01_sec_1_2_01",
-        "sejarah_t5_bab07_sec_7_6_08"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.03128054740957967,
-        0.030798389007344232,
-        0.028790389395194696
-      ]
+      "correct": true
     },
     {
       "id": "2025_selangor_q5",
@@ -5093,21 +2544,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab03_sec_3_2_04",
-        "sejarah_t4_bab03_sec_3_2_03",
-        "sejarah_t5_bab01_sec_1_1_05",
-        "sejarah_t4_bab03_sec_3_2_07",
-        "sejarah_t4_bab03_sec_3_2_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.029631255487269532,
-        0.026709401709401708,
-        0.016129032258064516
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_johor_bahru_q32",
@@ -5120,21 +2557,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_2_03",
-        "sejarah_t5_bab06_sec_6_4_01",
-        "sejarah_t5_bab08_sec_8_2_04",
-        "sejarah_t4_bab10_sec_10_4_06",
-        "sejarah_t4_bab03_sec_3_5_01"
-      ],
-      "retrieved_scores": [
-        0.03225806451612903,
-        0.029906956136464335,
-        0.029411764705882353,
-        0.029211087420042643,
-        0.029051670471052088
-      ]
+      "correct": true
     },
     {
       "id": "2023_johor_q17",
@@ -5147,21 +2570,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_2_02",
-        "sejarah_t4_bab09_sec_9_2_00",
-        "sejarah_t4_bab09_sec_9_2_01",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t4_bab09_sec_9_3_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.031754032258064516,
-        0.03125763125763126,
-        0.03055037313432836
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_kulai_1_q15",
@@ -5173,22 +2582,8 @@
         "D": "Memilih pemimpin negara"
       },
       "correct_answer": "B",
-      "predicted_answer": "IDK",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_1_03",
-        "sejarah_t4_bab09_sec_9_1_04",
-        "sejarah_t4_bab06_sec_6_3_24",
-        "sejarah_t4_bab09_sec_9_1_07",
-        "sejarah_t4_bab09_sec_9_1_05"
-      ],
-      "retrieved_scores": [
-        0.032266458495966696,
-        0.03225806451612903,
-        0.030303030303030304,
-        0.029957522915269395,
-        0.029083245521601686
-      ]
+      "predicted_answer": "B",
+      "correct": true
     },
     {
       "id": "2025_johor_pasir_gudang_q12",
@@ -5201,21 +2596,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_3_12",
-        "sejarah_t4_bab06_sec_6_2_01",
-        "sejarah_t4_bab06_sec_6_1_03",
-        "sejarah_t4_bab06_sec_6_2_00",
-        "sejarah_t5_bab02_sec_2_3_04"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.029910714285714284,
-        0.02964254577157803,
-        0.028309409888357256,
-        0.02803921568627451
-      ]
+      "correct": true
     },
     {
       "id": "2024_selangor_set_2_q19",
@@ -5228,21 +2609,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab10_sec_10_2_00",
-        "sejarah_t4_bab10_sec_10_2_01",
-        "sejarah_t4_bab10_sec_10_2_02",
-        "sejarah_t4_bab10_sec_10_4_15",
-        "sejarah_t4_bab10_sec_10_3_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.03125763125763126,
-        0.016129032258064516,
-        0.015873015873015872
-      ]
+      "correct": true
     },
     {
       "id": "2025_sabk_q12",
@@ -5255,21 +2622,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab07_sec_7_2_01",
-        "sejarah_t4_bab07_sec_7_2_05",
-        "sejarah_t5_bab04_sec_4_3_01",
-        "sejarah_t4_bab05_sec_5_4_02",
-        "sejarah_t5_bab08_sec_8_2_06"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03252247488101534,
-        0.031746031746031744,
-        0.030776515151515152,
-        0.03076923076923077
-      ]
+      "correct": true
     },
     {
       "id": "2025_melaka_q4",
@@ -5282,21 +2635,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_2_04",
-        "sejarah_t4_bab02_sec_2_2_00",
-        "sejarah_t4_bab02_sec_2_2_02",
-        "sejarah_t4_bab02_sec_2_2_03",
-        "sejarah_t4_bab03_sec_3_2_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.031746031746031744,
-        0.03128054740957967,
-        0.030330882352941176
-      ]
+      "correct": true
     },
     {
       "id": "2024_kuala_lumpur_q36",
@@ -5309,21 +2648,7 @@
       },
       "correct_answer": "C",
       "predicted_answer": "C",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab08_sec_8_2_07",
-        "sejarah_t5_bab08_sec_8_4_02",
-        "sejarah_t5_bab08_sec_8_5_04",
-        "sejarah_t5_bab08_sec_8_4_01",
-        "sejarah_t5_bab01_sec_1_4_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03007688828584351,
-        0.02900988017658188,
-        0.027364110201042444
-      ]
+      "correct": true
     },
     {
       "id": "2024_putrajaya_set_1_q3",
@@ -5336,21 +2661,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab02_sec_2_2_03",
-        "sejarah_t4_bab02_sec_2_2_04",
-        "sejarah_t4_bab02_sec_2_2_00",
-        "sejarah_t4_bab02_sec_2_2_02",
-        "sejarah_t4_bab02_sec_2_3_01"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.031754032258064516,
-        0.03128054740957967,
-        0.03125763125763126,
-        0.027222222222222224
-      ]
+      "correct": true
     },
     {
       "id": "2024_sarawak_bintulu_q12",
@@ -5367,21 +2678,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_4_00",
-        "sejarah_t4_bab06_sec_6_4_06",
-        "sejarah_t4_bab06_sec_6_4_03",
-        "sejarah_t4_bab10_sec_10_4_00",
-        "sejarah_t5_bab01_sec_1_1_00"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.029386529386529386,
-        0.028693528693528692,
-        0.02694394213381555
-      ]
+      "correct": true
     },
     {
       "id": "2024_johor_johor_bahru_q8",
@@ -5394,21 +2691,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab04_sec_4_5_02",
-        "sejarah_t4_bab04_sec_4_4_02",
-        "sejarah_t4_bab04_sec_4_4_04",
-        "sejarah_t4_bab04_sec_4_5_08",
-        "sejarah_t4_bab04_sec_4_5_00"
-      ],
-      "retrieved_scores": [
-        0.03177805800756621,
-        0.031544957774465976,
-        0.030621785881252923,
-        0.02976190476190476,
-        0.028484848484848488
-      ]
+      "correct": true
     },
     {
       "id": "2022_sarawak_serian_q9",
@@ -5425,21 +2708,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab05_sec_5_2_00",
-        "sejarah_t4_bab05_sec_5_2_01",
-        "sejarah_t4_bab05_sec_5_2_02",
-        "sejarah_t4_bab05_sec_5_4_02",
-        "sejarah_t4_bab05_sec_5_3_00"
-      ],
-      "retrieved_scores": [
-        0.03149801587301587,
-        0.03149801587301587,
-        0.03128054740957967,
-        0.030090497737556562,
-        0.02921395544346364
-      ]
+      "correct": true
     },
     {
       "id": "2025_putrajaya_set_1_q17",
@@ -5452,21 +2721,7 @@
       },
       "correct_answer": "D",
       "predicted_answer": "D",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab09_sec_9_2_02",
-        "sejarah_t4_bab09_sec_9_2_00",
-        "sejarah_t4_bab09_sec_9_2_01",
-        "sejarah_t5_bab02_sec_2_2_04",
-        "sejarah_t4_bab09_sec_9_3_02"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03200204813108039,
-        0.031754032258064516,
-        0.03125763125763126,
-        0.03055037313432836
-      ]
+      "correct": true
     },
     {
       "id": "2022_johor_kulai_1_q11",
@@ -5479,21 +2734,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab06_sec_6_2_01",
-        "sejarah_t4_bab04_sec_4_5_10",
-        "sejarah_t5_bab06_sec_6_3_05",
-        "sejarah_t4_bab03_sec_3_9_03",
-        "sejarah_t4_bab06_sec_6_2_03"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.029957522915269395,
-        0.029083245521601686,
-        0.02857142857142857,
-        0.028438886647841874
-      ]
+      "correct": true
     },
     {
       "id": "2025_johor_kulai_set_2_q16",
@@ -5509,22 +2750,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "C",
-      "predicted_answer": "D",
-      "correct": false,
-      "retrieved_chunk_ids": [
-        "sejarah_t4_bab08_sec_8_4_00",
-        "sejarah_t4_bab08_sec_8_4_01",
-        "sejarah_t4_bab08_sec_8_3_00",
-        "sejarah_t4_bab08_sec_8_2_01",
-        "sejarah_t4_bab08_sec_8_2_05"
-      ],
-      "retrieved_scores": [
-        0.03278688524590164,
-        0.03225806451612903,
-        0.03036576949620428,
-        0.02900988017658188,
-        0.02886002886002886
-      ]
+      "predicted_answer": "C",
+      "correct": true
     },
     {
       "id": "2022_negeri_sembilan_mpsm_q24",
@@ -5537,21 +2764,7 @@
       },
       "correct_answer": "A",
       "predicted_answer": "A",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab02_sec_2_4_00",
-        "sejarah_t5_bab02_sec_2_4_01",
-        "sejarah_t5_bab02_sec_2_4_04",
-        "sejarah_t5_bab04_sec_4_4_00",
-        "sejarah_t5_bab02_sec_2_2_04"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.032266458495966696,
-        0.03200204813108039,
-        0.027972027972027972,
-        0.027692895339954164
-      ]
+      "correct": true
     },
     {
       "id": "2024_perak_q36",
@@ -5564,21 +2777,7 @@
       },
       "correct_answer": "B",
       "predicted_answer": "B",
-      "correct": true,
-      "retrieved_chunk_ids": [
-        "sejarah_t5_bab09_sec_9_5_00",
-        "sejarah_t5_bab09_sec_9_7_00",
-        "sejarah_t5_bab09_sec_9_1_04",
-        "sejarah_t5_bab09_sec_9_5_01",
-        "sejarah_t5_bab02_sec_2_4_00"
-      ],
-      "retrieved_scores": [
-        0.03252247488101534,
-        0.03131881575727918,
-        0.03128054740957967,
-        0.030309988518943745,
-        0.029957522915269395
-      ]
+      "correct": true
     }
   ]
 }

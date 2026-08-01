@@ -32,9 +32,7 @@ class Retriever:
         self._metadatas = all_items["metadatas"]
         self._bm25 = BM25Okapi([_tokenize(doc) for doc in self._documents])
 
-    def retrieve(self, text: str, k: int = 5) -> list[dict]:
-        pool = max(k * 4, 20)
-
+    def _fuse(self, text: str, pool: int) -> dict[str, float]:
         vector_results = self._collection.query(query_texts=[text], n_results=pool)
         vector_rank = {cid: rank for rank, cid in enumerate(vector_results["ids"][0], start=1)}
 
@@ -45,12 +43,18 @@ class Retriever:
         # Reciprocal Rank Fusion — combines ranks (not raw scores) since cosine
         # distance and BM25 scores aren't on comparable scales.
         candidate_ids = set(vector_rank) | set(bm25_rank)
-        fused_scores = {
+        return {
             cid: (1 / (RRF_K + vector_rank[cid]) if cid in vector_rank else 0)
             + (1 / (RRF_K + bm25_rank[cid]) if cid in bm25_rank else 0)
             for cid in candidate_ids
         }
-        top_ids = sorted(candidate_ids, key=lambda cid: -fused_scores[cid])[:k]
+
+    def retrieve(self, text: str, k: int = 5) -> list[dict]:
+        pool = max(k * 4, 20)
+        fused_scores = self._fuse(text, pool)
+        # Break ties on chunk_id so results are reproducible across processes —
+        # sorting a set alone left tied scores ordered by hash-randomized iteration.
+        top_ids = sorted(fused_scores, key=lambda cid: (-fused_scores[cid], cid))[:k]
 
         id_to_idx = {cid: i for i, cid in enumerate(self._chunk_ids)}
         return [

@@ -110,6 +110,15 @@ def eval_cmd(n: int, seed: int, k: int) -> None:
     run_eval(n=n, seed=seed, k=k)
 
 
+@cli.command("baseline-gemini")
+@click.option("--n", default=100, help="Number of eval questions to sample.")
+@click.option("--seed", default=0, help="Random seed for sampling (keep matching --seed on other eval commands).")
+def baseline_gemini(n: int, seed: int) -> None:
+    """Run the Gemini + Google Search grounded baseline eval and save results."""
+    from .eval_baseline_gamini import run_baseline_gemini
+    run_baseline_gemini(n=n, seed=seed)
+
+
 @cli.command()
 def analyze() -> None:
     """Compare baseline vs RAG eval results."""

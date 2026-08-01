@@ -40,6 +40,11 @@ ANSWER_MODEL = "claude-haiku-4-5"
 EVAL_DATASET_FILE = ROOT / "data" / "eval_dataset.json"
 BASELINE_RESULTS_FILE = ROOT / "data" / "baseline_results.json"
 RAG_RESULTS_FILE = ROOT / "data" / "rag_results.json"
+GEMINI_BASELINE_RESULTS_FILE = ROOT / "data" / "baseline_gemini_results.json"
+
+# Gemini model used for the Google-Search-grounded baseline eval
+# (gemini-2.5-flash is deprecated for new API keys — 404s at call time; use the flash-lite tier)
+GEMINI_MODEL = "gemini-3.5-flash-lite"
 
 # System prompt for answering a student's free-form question with retrieved context
 GENERATION_SYSTEM_PROMPT = """You are an SPM (Sijil Pelajaran Malaysia) Sejarah tutor.

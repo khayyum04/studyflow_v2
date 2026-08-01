@@ -36,6 +36,7 @@ def run_eval(n: int = 100, seed: int = 0, k: int = 5) -> None:
             "predicted_answer": predicted,
             "correct": correct,
             "retrieved_chunk_ids": [c["chunk_id"] for c in chunks],
+            "retrieved_scores": [c["score"] for c in chunks],
         })
 
         if i < len(sample):
