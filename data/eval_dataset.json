@@ -1,778 +1,5 @@
 [
   {
-    "id": "2022_johor_kluang_q1",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 1,
-    "question": "[Diagram menunjukkan hubungan antara Kedaulatan, Undang-undang, Rakyat, dan X, semuanya terhubung ke pusat yang bertuliskan 'Ciri-ciri Negara Bangsa Kesultanan Melayu Melaka'] Apakah bertanda X?",
-    "options": {
-      "A": "Raja",
-      "B": "Sempadan",
-      "C": "Pemerintah",
-      "D": "Wilayah Pengaruh"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q2",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 2,
-    "question": "Apakah peranan rakyat Kesultanan Melayu Melaka?",
-    "options": {
-      "A": "Mengutip hasil",
-      "B": "Membina istana",
-      "C": "Menjaga keselamatan",
-      "D": "Membekalkan makanan"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kluang_q3",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 3,
-    "question": "Tindakan berikut telah dilakukan oleh Thailand semasa Perang Dunia Kedua. [Teks dalam kotak: 'Bekerjasama dengan Jepun'] Apakah kesan terhadap negara tersebut?",
-    "options": {
-      "A": "Pemodenan sistem pentadbiran",
-      "B": "Penghijrahan rakyat dapat diatasi",
-      "C": "Pengekalan kemerdekaan negara",
-      "D": "Penguasaan ekonomi oleh imigran"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q4",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 4,
-    "question": "Maktab Melayu Kuala Kangsar (MCKK) dan Maktab Perguruan Sultan Idris (MPSI) merupakan antara institusi pendidikan yang menyemarakkan nasionalisme menentang penjajah. Bagaimanakah institusi pendidikan ini berfungsi menyemarakkan nasionalisme?",
-    "options": {
-      "A": "Mewujudkan sistem pendidikan madrasah",
-      "B": "Mendedahkan pelajar dengan pemodenan Islam",
-      "C": "Menerima kunjungan ulama dari Sumatera Barat",
-      "D": "Melahirkan golongan yang memimpin rakyat"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q5",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 5,
-    "question": "Maklumat berikut menunjukkan pakatan yang terlibat dalam Perang Dunia Pertama. [Teks dalam kotak: 'Kuasa Tengah' dan 'Pakatan Bertiga'] Apakah matlamat pakatan tersebut?",
-    "options": {
-      "A": "Menguasai pasaran",
-      "B": "Menubuhkan kerajaan republik",
-      "C": "Menghapuskan keganasan",
-      "D": "Menentang dasar apartheid"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q6",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 6,
-    "question": "Tentera Jepun telah mengenakan hukuman terhadap orang Cina di Tanah Melayu. Apakah hukuman tersebut?",
-    "options": {
-      "A": "Menjadikan tawanan perang",
-      "B": "Memberikan layanan yang kejam",
-      "C": "Memulihkan ekonomi negara",
-      "D": "Menghantar balik ke negara asal"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kluang_q7",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 7,
-    "question": "Tugas British Military Administration (BMA) ialah mengembalikan kepercayaan rakyat kepada mereka. Mengapakah BMA bertindak sedemikian?",
-    "options": {
-      "A": "Membantu memulihkan ekonomi",
-      "B": "Mengukuhkan kedudukan British",
-      "C": "Menyokong kepulauan British",
-      "D": "Menentang pengaruh Jepun"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q8",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 8,
-    "question": "Jadual berikut menunjukkan usaha orang Melayu menentang Malayan Union [Jadual: Tarikh: 1-4 Mac 1946, Peristiwa: Kongres Melayu Pertama, Tempat: Kelab Sultan Sulaiman, Kuala Lumpur] Apakah kepentingan peristiwa tersebut?",
-    "options": {
-      "I": "Perasaan perkauman dihapuskan",
-      "II": "Memupuk perpaduan orang Melayu",
-      "III": "Status quo orang Melayu terpelihara",
-      "IV": "Mengugat kedudukan orang Melayu",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kluang_q9",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 9,
-    "question": "British perlu melaksanakan dasar dekolonisasi yang disarankan melalui Piagam Atlantik. Apakah maksud dasar dekolonisasi?",
-    "options": {
-      "A": "Meningkatkan kerjasama ekonomi",
-      "B": "Menyeragamkan sistem pentadbiran",
-      "C": "Proses menubuhkan kerajaan sendiri",
-      "D": "Pembentukan masyarakat yang berbilang kaum"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q10",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 10,
-    "question": "Rakyat Raja mendapat kewarganegaraan secara kuat kuasa undang-undang. Apakah syarat untuk menjadi Rakyat Raja?",
-    "options": {
-      "I": "Tingkah laku yang baik",
-      "II": "Keluarganya rakyat tempatan",
-      "III": "Bertutur bahasa tempatan",
-      "IV": "Memahami adat resam",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q11",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 11,
-    "question": "Gambar berikut berkaitan dengan kerosakan yang dilakukan oleh komunis Tanah Melayu [Gambar menunjukkan kerosakan fisik pada bangunan dan infrastruktur] Mengapakah mereka bertindak sedemikian?",
-    "options": {
-      "I": "Menamatkan Malayan Union",
-      "II": "Melumpuhkan ekonomi negara",
-      "III": "Menubuhkan kerajaan republik",
-      "IV": "Menentang pentadbiran Jepun",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q12",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 12,
-    "question": "Apakah hukuman yang dikenakan terhadap pesalah berikut semasa penguatkuasaan Undang-undang Darurat? [Teks dalam kotak: 'Membawa senjata api' dan 'Membawa bahan letupan']",
-    "options": {
-      "A": "Hukuman buang negeri",
-      "B": "Hukuman penjara",
-      "C": "Hukuman denda",
-      "D": "Hukuman mati"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q13",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 13,
-    "question": "Sistem Ahli dilaksanakan pada bulan April hingga Jun 1955. Apakah gelaran lain bagi sistem tersebut?",
-    "options": {
-      "A": "Sistem Jemaah Menteri",
-      "B": "Sistem kabinet bayangan",
-      "C": "Sistem pentadbiran pusat",
-      "D": "Sistem Penasihit Persekutuan"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kluang_q14",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 14,
-    "question": "Maklumat berikut berkaitan dengan penubuhan parti politik di Tanah Melayu. [Jadual: Tarikh: September 1951, Parti: Independence of Malayan Party (IMP), Pengasas: Dato' Onn Bin Jaafar dan Tan Cheng Lock] Apakah tujuan penubuhan parti tersebut?",
-    "options": {
-      "I": "Menyatuakan pelbagai kaum",
-      "II": "Mencapai kemerdekaan negara",
-      "III": "Menjaga kepentingan penduduk",
-      "IV": "Menuntut keadilan sosioekonomi",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q15",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 15,
-    "question": "Dialog berikut mungkin berlaku semasa pendaftaran calon pilihan raya. [Teks dalam kotak: 'En Riduan: Saya berhajat untuk menjadi calon Pilihan Raya Majlis Perundangan Persekutuan 1955. En. Samad: Saya yakin En. Riduan mesti berjaya menjadi calon'] Berdasarkan dialog di atas, apakah syarat-syarat En Riduan menjadi calon pilihan raya?",
-    "options": {
-      "A": "Tidak muflis",
-      "B": "Taat pada negara",
-      "C": "Berumur 18 tahun ke atas",
-      "D": "Tinggal di Tanah Melayu dalam tempoh 12 bulan"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q16",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 16,
-    "question": "Gambar berikut merujuk kepada Parlimen Persekutuan Malaya yang ditubuhkan pada 11 September 1959. [Gambar menunjukkan bangunan Parlimen Persekutuan Malaya dengan sign 'PARLIMEN MALAYSIA'] Siapakah yang merasmikan persidangan pertama tersebut?",
-    "options": {
-      "A": "Perdana Menteri",
-      "B": "Raja-Raja Melayu",
-      "C": "Yang di-Pertuan Agong",
-      "D": "Pesuruhjaya Tinggi British"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q17",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 17,
-    "question": "Pernyataan di bawah berkaitan dengan hasil persetujuan di London. [Teks dalam kotak: 'Pada 8 Mac 1956, kerajaan British mengumumkan pembentukan suruhanjaya bebas setelah mendapatkan persetujuan Raja-raja Melayu.'] Apakah peranan suruhanjaya tersebut?",
-    "options": {
-      "A": "Mengadakan pilihan raya",
-      "B": "Mengkaji dasar pendidikan kebangsaan",
-      "C": "Merangka perlembagaan negara yang merdeka",
-      "D": "Membentuk satu badan khas mengatasi masalah komunis"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q18",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 18,
-    "question": "Pernyataan berikut berkaitan dengan kedudukan agama Islam. [Teks dalam kotak: 'Agama Islam ialah agama rasmi Persekutuan'] Apakah bukti yang menyokong pernyataan di atas?",
-    "options": {
-      "A": "Termaktub dalam Perlembagaan Persekutuan",
-      "B": "Agama Islam telah disebarkan oleh pedagang",
-      "C": "Tanah Melayu mempunyai ramai orang Islam",
-      "D": "Melaka menjadi pusat penyebaran agama Islam"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q19",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 19,
-    "question": "Jata Negara yang diperkenalkan oleh Raja-raja Melayu pada 30 Mei 1957. Apakah cogan kata dalam Jata Negara tersebut?",
-    "options": {
-      "A": "Bersekutu Bertambah Mutu",
-      "B": "Kepercayaan Kepada Tuhan",
-      "C": "Bertekad ke Arah Maju",
-      "D": "Bersih, Cekap, Amanah"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q20",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 20,
-    "question": "Berikut adalah usaha yang diambil oleh Lembaga Kemajuan Tanah Persekutuan (FELDA). [Diagram menunjukkan FELDA dengan tiga cabang: Memajukan tanah baharu, Penenempatan semula, Menyediakan perumahan] Apakah rasional tindakan tersebut dilakukan oleh Felda?",
-    "options": {
-      "A": "Menggunakan tanah sepenuhnya",
-      "B": "Membantu pekebun-pekebun kecil",
-      "C": "Mempelbagaikan keluaran pertanian",
-      "D": "Membangunkan kawasan luar bandar"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q21",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 21,
-    "question": "Apakah takrif kedaulatan mengikut bahasa Melayu?",
-    "options": {
-      "A": "Kekuasaan tertinggi terhadap pemerintahan negara",
-      "B": "Negara berkuasa penuh terhadap pemerintahan",
-      "C": "Kuasa pemerintahan sesebuah negara",
-      "D": "Negara yang bebas dan merdeka"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q22",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 22,
-    "question": "Rajah menunjukkan Hubungan Luar Malaysia. [Diagram menunjukkan Malaysia terhubung ke Pertubuhan Serantau dan Pertubuhan Antarbangsa] Apakah faedah daripada hubungan luar tersebut?",
-    "options": {
-      "I": "Mendapat bantuan pertahanan",
-      "II": "Membentuk kerjasama ekonomi",
-      "III": "Meningkatkan imej negara",
-      "IV": "Membuka pasaran luar",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q23",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 23,
-    "question": "Gambar menunjukkan bangunan Parlimen di Malaysia. [Gambar menunjukkan bangunan Parlimen Persekutuan Malaysia] Apakah peranan Parlimen dalam pentadbiran negara kita?",
-    "options": {
-      "A": "Memilih Perdana Menteri",
-      "B": "Mengekhalkan kedaulatan negara",
-      "C": "Membentuk undang-undang negara",
-      "D": "Melantik Yang di-Pertuan Agong"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q24",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 24,
-    "question": "Rajah di bawah merujuk kepada ciri utama Perlembagaan Persekutuan. [Diagram menunjukkan Perlembagaan Persekutuan terbagi kepada Tradisional dan Moden] Manakah antara berikut merupakan ciri tradisional perlembagaan persekutuan?",
-    "options": {
-      "I": "Kewarganegaraan",
-      "II": "Agama Islam",
-      "III": "Bahasa Melayu",
-      "IV": "Kerajaan Persekutuan",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q25",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 25,
-    "question": "Apakah fungsi Majlis Raja-Raja dalam sistem Raja Berperlembagaan?",
-    "options": {
-      "A": "Memilih Yang di-Pertuan Agong",
-      "B": "Ketua angkatan tentera",
-      "C": "Melantik Timbalan Perdana Menteri",
-      "D": "Ketua agama Islam"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q27",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 27,
-    "question": "Senarai Negeri merupakan kuasa yang diperhitungkan kepada Kerajaan Negeri. Antara perkara berikut manakah terkandung dalam Senarai Negeri?",
-    "options": {
-      "A": "Tanah",
-      "B": "Biasiswa",
-      "C": "Kesihatan",
-      "D": "Pertahanan"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q28",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 28,
-    "question": "Maklumat berikut merujuk kepada kerjasama Kerajaan Persekutuan dengan Kerajaan Negeri. [Jadual: Kerajaan Persekutuan: Melaksanakan Program Perumahan Rakyat (PPR), Kerajaan Negeri: Menubuhkan program Perumahan Awam Kos Rendah (PAKR)] Mengapakah kerjasama tersebut diwujudkan?",
-    "options": {
-      "A": "Memberikan pekerjaan kepada golongan miskin",
-      "B": "Meningkatkan taraf hidup rakyat bandar",
-      "C": "Memajukan kawasan luar bandar",
-      "D": "Membasmi kemiskinan"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q29",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 29,
-    "question": "Gerakan nasionalis sebelum Perang Dunia Kedua turut menyuarakan idea gagasan Malaysia. Apakah matlamat perjuangan mereka?",
-    "options": {
-      "A": "Kemerdekaan wilayah Alam Melayu",
-      "B": "Persekutuan Malaysia tanpa Singapura",
-      "C": "Penggabungan bekas tanah jajahan British",
-      "D": "Kemerdekaan berasingan Sarawak, Sabah dan Brunei"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q30",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 30,
-    "question": "Senarai berikut berkaiatan dengan usul Jawatankuasa Antara Kerajaan (JAK) yang dimasukkan ke dalam Perlembagaan Persekutuan. [Teks dalam kotak: '18 perkara bagi Sarawak' dan '20 perkara bagi Sabah'] Apakah kepentingan perkara tersebut terhadap Sarawak dan Sabah?",
-    "options": {
-      "A": "Meningkatkan ekonomi negeri",
-      "B": "Mengatasi tentangan rakyat",
-      "C": "Meningkatkan taraf hidup",
-      "D": "Menjamin hak rakyat"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q31",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 31,
-    "question": "Apakah faktor pemisahan Singapura daripada Malaysia pada tahun 1965?",
-    "options": {
-      "A": "Pembahagian kuasa antara negeri",
-      "B": "Peruntukan pembangunan terhad",
-      "C": "Pembayaran cukai tambahan",
-      "D": "Penentangan negara jiran"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q32",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 32,
-    "question": "Komunis melakukan serang hendap terhadap pasukan keselamatan di Semenanjung Malaysia. Apakah kemuncak ancaman komunis tersebut?",
-    "options": {
-      "A": "Pengeboman kubu pertahanan",
-      "B": "Menembak mati askar Melayu",
-      "C": "Menyerang balai polis Kuala Krau",
-      "D": "Pembunuhan pegawai kanan polis"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q33",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 33,
-    "question": "Akta Bahasa Kebangsaan telah digubal di bawah Perkara 152 Perlembagaan Persekutuan Malaysia. Bagaimanakah bahasa Melayu diperkasakan dalam sistem pendidikan?",
-    "options": {
-      "I": "Menggalakkan penglibatan swasta",
-      "II": "Menubuhkan Kolej Sultan Abdul Halim",
-      "III": "Pembukaan sekolah menengah kebangsaan",
-      "IV": "Penggunaan sepenuhnya dalam urusan mahkamah",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kluang_q34",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 34,
-    "question": "Gambar berikut berkaitan logo temasya Sukan Malaysia (SUKMA). [Gambar menunjukkan logo SUKMA dengan lambang berbentuk U lengkung dengan bintang di atas] Apakah tujuan temasya tersebut diadakan?",
-    "options": {
-      "A": "Mendapat pengitirafan antarbangsa",
-      "B": "Memperkasa integrasi nasional",
-      "C": "Memajukan sektor pelancongan",
-      "D": "Menyemai semangat sukarelawan"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kluang_q35",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 35,
-    "question": "Apakah hasil pertanian yang diusahakan dalam program Lembaga Kemajuan Pahang Teggara (DARA)?",
-    "options": {
-      "I": "Getah",
-      "II": "Kelapa",
-      "III": "Tembakau",
-      "IV": "Kelapa Sawit",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kluang_q36",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 36,
-    "question": "Maklumat berikut berkaitan strategi Dasar Pembangunan Nasional (DPN) dalam bidang sosial. [Teks dalam kotak: 'Memberi kemudahan pendidikan', 'Mewujudkan masyarakat perdagangan', dan 'X'] Apakah X?",
-    "options": {
-      "A": "Membentuk masyarakat berdisiplin",
-      "B": "Menggunakan sains dan teknologi",
-      "C": "Menambah baik kemudahan asas",
-      "D": "Meningkatkan kesihatan rakyat"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q37",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 37,
-    "question": "Tahun 1990-an memperlihirkan Malaysia mula menjalinkan hubungan dengan negara sedang membangun di Afrika dan negara di Kepulauan Pasifik Selatan. Apakah faktor utama yang mempengaruhi perubahan tersebut?",
-    "options": {
-      "A": "Kepimpinan",
-      "B": "Ikatan sejarah",
-      "C": "Keperluan semasa",
-      "D": "Keperluan perdagangan"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kluang_q38",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 38,
-    "question": "Organisasi berikut merupakan agensi di bawah Pertubuhan Bangsa-Bangsa Bersatu (PBB). [Jadual menunjukkan: Pertubuhan Pendidikan, Sains dan Kebudayaan (UNESCO)] Apakah matlamat yang diperolehi Malaysia melalui organisasi tersebut?",
-    "options": {
-      "A": "Pemberian bantuan kemanusiaan",
-      "B": "Pengikirafan tapak warisan dunia",
-      "C": "Peruntukan pembangunan wilayah",
-      "D": "Perlindungan kepada pelarian"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kluang_q39",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 39,
-    "question": "Pada tahun 1963, persefahaman antara Malaysia, Filipina dan Indonesia telah mewujudkan MAPHILINDO. Apakah tujuan penubuhan tersebut?",
-    "options": {
-      "A": "Menjalin kerjasama ekonomi",
-      "B": "Menangani ancaman komunis",
-      "C": "Mewujudkan kerjasama kebudayaan",
-      "D": "Menyelesaikan isu penubuhan Malaysia"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kluang_q40",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kluang",
-      "district": "Johor Kluang",
-      "paper": "K1",
-      "paper_key": "2022_johor_kluang"
-    },
-    "question_number": 40,
-    "question": "Pemerdagangan manusia merupakan satu strategi jenayah terancang. Mengapakah Malaysia menjadi lokasi transit bagi jenayah tersebut?",
-    "options": {
-      "A": "Kemakmuran negara",
-      "B": "Kelonggaran imigresen",
-      "C": "Kemajuan pelancongan",
-      "D": "Ketiadaan undang-undang"
-    },
-    "answer": "A"
-  },
-  {
     "id": "2022_johor_kota_tinggi_q1",
     "source": {
       "year": 2022,
@@ -1547,806 +774,6 @@
       "D": "Perbicaraan Mahkamah Antarabangsa"
     },
     "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q1",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 1,
-    "question": "Bagaimanakah kemunculan sesebuah kerajaan berlaku pada zaman Kesultanan Melayu Melaka?",
-    "options": {
-      "A": "Penggubalan undang-undang",
-      "B": "Pengiktirafan wilayah naungan",
-      "C": "Kemunculan golongan pembesar",
-      "D": "Kewujudan raja yang berdaulat"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q2",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 2,
-    "question": "Golongan pemerintah terdiri daripada sultan, kerabat diraja dan pembesar. Apakah peranan pembesar sebagai golongan pemerintah?",
-    "options": {
-      "A": "Menghadiri majlis-majlis umum",
-      "B": "Memperkenalkan undang-undang",
-      "C": "Menjadi perantara antara sultan dengan rakyat",
-      "D": "Bertanggungjawab terhadap kestabilan kerajaan"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q3",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 3,
-    "question": "Maklumat berikut berkaitan dengan Isu Kasut di Burma.\n\n[Orang Inggeris memakai kasut semasa memasuki kuil Buddha di Burma]",
-    "options": {
-      "A": "Membangkitkan semangat nasionalisme",
-      "B": "Mengukuhkan pengaruh penjajah",
-      "C": "Meningkatkan kuasa bangsawan",
-      "D": "Menetuskan pembaharan adat"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q4",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 4,
-    "question": "Perkembangan nasionalisme dalam dan luar negara telah menyemarakkan pergerakan nasionalisme di negara kita. Apakah kesan perkembangan tersebut kepada perjuangan intelektual di negara kita?",
-    "options": {
-      "A": "Penentangan secara sulit",
-      "B": "Penubuhan persatuan-persatuan",
-      "C": "Kemunculan persaudaraan sejagat",
-      "D": "Kewujudan perlembagaan setiap negeri"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q5",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 5,
-    "question": "Antara berikut yang manakah faktor Perang Dunia Pertama?",
-    "options": {
-      "I": "Perebutan kuasa",
-      "II": "Krisis rantau Balkan",
-      "III": "Pakatan ketenteraaan",
-      "IV": "Pengeboman Pearl Harbour",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q6",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 6,
-    "question": "Jepun ingin mengeksploitasi kekayaan bahan mentah di negara kita bagi keperluan perindustrian dan operasi ketenteraaan Jepun. Apakah rancangan Jepun untuk mengukuhkan ekonominya?",
-    "options": {
-      "A": "Menanamkan semangat antipenjajah Barat",
-      "B": "Mengusir penjajah di negara-negara Asia Tenggara",
-      "C": "Mengenakan sekatan ekonomi terhadap pihak Bersekutu",
-      "D": "Membentuk kawasan Lingkungan Sekemakmurnuran Asia Timur Raya"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q7",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 7,
-    "question": "Rajah berikut menunjukkan perubahan pentadbiran British di Tanah Melayu.\n\n[British Military Adminstration → Malayan Union]",
-    "options": {
-      "A": "Melicikankan pentadbiran",
-      "B": "Menyeragamkan sistem cukai",
-      "C": "Meningkatkan ekonomi orang Melayu",
-      "D": "Memperkukuhkan pemerintahan beraja"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q8",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 8,
-    "question": "Bantahan rakyat terhadap Malayan Union dilaksanakan melalui akhbar, cendekiawan, persatuan Melayu, kongres dan perhimpunan besar-besaran. Apakah akhbar yang menyuarakan bantahan tersebut?",
-    "options": {
-      "A": "Warta Malaya",
-      "B": "Utusan Melayu",
-      "C": "The Malay Mail",
-      "D": "Fajar Sarawak"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q9",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 9,
-    "question": "Pada 1 Februari 1948, Persekutuan Tanah Melayu telah ditubuhkan secara rasmi setelah Raja-Raja Melayu menandatangani Perjanjian Persekutuan Tanah Melayu 1948. Apakah faktor penubuhan Persekutuan Tanah Melayu 1948?",
-    "options": {
-      "I": "Ketidakpuasan hati terhadap British",
-      "II": "Cadangan Raja-raja Melayu dan UMNO",
-      "III": "Penentangan orang Melayu terhadap Malayan Union",
-      "IV": "Kegagalan British mentadbir Malayan Union",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q10",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 10,
-    "question": "Maklumat berikut berkaitan dengan kerakyatan Persekutuan Tanah Melayu 1948.\n\n[Mereka yang lahir di Melaka, Pulau Pinang dan mana-mana tanah jajahan British yang lain]",
-    "options": {
-      "A": "Rakyat Negeri Naungan British",
-      "B": "Rakyat Negeri-Negeri Selat",
-      "C": "Rakyat Raja Melayu",
-      "D": "Rakyat British"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q11",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 11,
-    "question": "Maklumat berikut berkaitan dengan ancaman Komunis di negara kita.\n\n[Pada 16 Jun 1948, komunis telah membunuh tiga orang pengurus ladang Eropah di Sungai Siput, Perak.]",
-    "options": {
-      "A": "Mendesak Komunis serah diri",
-      "B": "Memperkenalkan Kad Pengenalan",
-      "C": "Melumpuhkan ekonomi Komunis",
-      "D": "Mengisytiharkan Undang-undang Darurat"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q12",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 12,
-    "question": "Min Yuen beroperasi pada sebelah malam dan bergerak dalam kalangan rakyat. Apakah tujuan PKM menubuhkan Min Yuen?",
-    "options": {
-      "A": "Membekalkan makanan dan wang",
-      "B": "Menyebarkan ideologi komunis",
-      "C": "Meminjam kesatuan sekerja",
-      "D": "Melatih kader-kader baru"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q13",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 13,
-    "question": "Antara berikut, yang manakah peranan Sistem Ahli?",
-    "options": {
-      "I": "Melatih orang tempatan untuk berkerajaan sendiri",
-      "II": "Meningkatkan keseimbangan pembangunan dan sosioekonomi negara",
-      "III": "Mencadangkan sistem pendidikan yang seragam",
-      "IV": "Memberi pendedahan kepada penduduk untuk belajar mentadbir",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q14",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 14,
-    "question": "Berikut adalah logo Parti Perikatan pada tahun 1954.\n\n[Gambar menunjukkan empat orang lelaki memegang sebuah banner dengan logo kapal berlayar, dilabel dengan UMNO, MCA, MIC, dan organisasi lain]",
-    "options": {
-      "A": "Mengemudi rakyat ke arah kemajuan",
-      "B": "Kesediaan menempuh cabaran",
-      "C": "Perjuangan bersifat sederhana",
-      "D": "Persiapan ke arah berkerajaan sendiri"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q15",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 15,
-    "question": "Carta menunjukkan proses pilihan raya MPP 1955.\n\n[Carta alir menunjukkan: Penentuan Sempadan Kawasan → Rang undang-undang diluluskan → X → Penerimaan calon]",
-    "options": {
-      "A": "Kempen pilihan raya",
-      "B": "Hari mengundi",
-      "C": "Pendaftaran pengundi",
-      "D": "Menetapkan lambang"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q16",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 16,
-    "question": "Apakah peranan Majlis Perundangan Persekutuan pada peringkat Persekutuan Tanah Melayu?",
-    "options": {
-      "A": "Menggubah perundangan pentadbiran",
-      "B": "Membina negara bangsa yang kukuh",
-      "C": "Memajukan sektor pertanian negara",
-      "D": "Menjalankan dasar pembangunan negara"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q17",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 17,
-    "question": "Tugas Suruhanjaya Perlembagaan adalah untuk membincangkan, menyusun dan merangka Perlembagaan Persekutuan Tanah Melayu. Antara berikut, yang manakah merupakan Terma Rujukan Suruhanjaya Perlembagaan Persekutuan Tanah Melayu?",
-    "options": {
-      "I": "Pemberian kuasa mutlak kepada sultan",
-      "II": "Pembentukan Kerajaan Pusat yang kuat",
-      "III": "Menjaga kedudukan istimewa orang Melayu",
-      "IV": "Menggabungkan semua negeri di Tanah Melayu",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q18",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 18,
-    "question": "Rajah berikut menunjukkan jenis kerakyatan dalam Persekutuan Tanah Melayu 1957.\n\n[Rajah alir menunjukkan: Kerakyatan → Permohonan, Penguatkuasaan, X]",
-    "options": {
-      "A": "Naturalisasi",
-      "B": "Penempatan",
-      "C": "Perkahwinan",
-      "D": "Sementara"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q19",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 19,
-    "question": "Jawatankuasa persediaan fizikal telah dibentuk untuk menguruskan sambutan kemerdekaan negara. Apakah bentuk persediaan jawatankuasa ini?",
-    "options": {
-      "A": "Memasang lampu hiasan",
-      "B": "Menempah bendera kebangsaan",
-      "C": "Menganjurkan kursus protokol",
-      "D": "Membina tempat sambutan"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q20",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 20,
-    "question": "Gambar menunjukkan majlis pertabalan Yang di-Pertuan Agong yang pertama pada 2 September 1957.\n\n[Gambar menunjukkan upacara pemasangan Yang di-Pertuan Agong dengan anak-anak remaja berdiri dalam formasi di bawah kanopi]",
-    "options": {
-      "A": "Lambang keselamatan negara",
-      "B": "Yang di-Pertuan Agong ketua negara",
-      "C": "Kebebasan negara dalam pentadbiran",
-      "D": "Mengekalkan kemakmuran negara"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q21",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 21,
-    "question": "Rajah berikut berkaitan ciri-ciri negara berdaulat.\n\n[Rajah alir menunjukkan: Ciri Negara Berdaulat → Pemerintahan berwibawa, Sistem perundangan yang adil, Rakyat setia, X]",
-    "options": {
-      "A": "Sempadan negara diktriaf",
-      "B": "Pendidikan berkembang",
-      "C": "Hubungan diplomatik terjalin",
-      "D": "Ekonomi meningkat"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q22",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 22,
-    "question": "Maklumat berikut berkaitan sistem kabinet negara kita.\n\n[Jemaah Menteri, Kementerian]",
-    "options": {
-      "A": "Memastikan kemakmuran ekonomi",
-      "B": "Memupuk perpaduan",
-      "C": "Menjamin keberkesanan pentadbiran",
-      "D": "Meningkatkan imej negara"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q23",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 23,
-    "question": "Mengapakah Perjanjian Persekutuan Tanah Melayu 1948 dianggap penting dalam perkembangan perlembagaan negara?",
-    "options": {
-      "A": "Rakyat menyuarakan pandangan",
-      "B": "Parlimen diberikan kuasa perundangan",
-      "C": "Majlis Raja-raja Melayu bersidang",
-      "D": "Pembentukan sebuah Persekutuan"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q24",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 24,
-    "question": "Pasangan manakah yang menunjukkan ciri Perlembagaan Persekutuan yang tepat?",
-    "options": {
-      "A": {
-        "Ciri Tradisional": "Pemerintahan beraja",
-        "Ciri Moden": "Agama Islam"
-      },
-      "B": {
-        "Ciri Tradisional": "Agama Islam",
-        "Ciri Moden": "Kewarganegaraan"
-      },
-      "C": {
-        "Ciri Tradisional": "Bahasa Melayu",
-        "Ciri Moden": "Keistimewaan Melayu"
-      },
-      "D": {
-        "Ciri Tradisional": "Kerajaan Persekutuan",
-        "Ciri Moden": "Pilihan raya"
-      }
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q25",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 25,
-    "question": "Pernyataan berikut berkaitan dengan Majlis Raja-Raja semasa Persekutuan Tanah Melayu 1948.\n\n[\"Majlis Raja-Raja dalam Persekutuan Tanah Melayu 1948 menjadi institusi yang dilengkapi dengan kuasa dan sekretariat, sesuai dengan kedudukan dan peranannnya\"]",
-    "options": {
-      "A": "Penyertaan Yang di-Pertua Negeri",
-      "B": "Pesurhajaya British sebagai pengerusi",
-      "C": "Pelibatan pegawai kanan British sebagai ahli",
-      "D": "Pengendalian sepenuhnya oleh Raja-raja Melayu"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q26",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 26,
-    "question": "Maklumat berikut berkaitan dengan pentadbiran negara kita.\n\n[Konflik berlaku antara Badan Perundangan dengan Badan Eksekutif berkaitana dengan undang-undang.]",
-    "options": {
-      "A": "Melalui Badan Kehakiman",
-      "B": "Dibahaskan di Dewan Rakyat",
-      "C": "Menerusi pilihan raya umum",
-      "D": "Dibawa mesyuarat ke Parlimen"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q27",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 27,
-    "question": "Antara berikut, perkara manakah yang terletak di bawah bidang kuasa dalam Senarai Bersama?",
-    "options": {
-      "I": "Perumahan",
-      "II": "Pelajaran",
-      "III": "Keselamatan dalam negeri",
-      "IV": "Kebudayaan dan sukan",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q28",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 28,
-    "question": "Maklumat berikut merujuk kepada kerjasama Kerajaan Persekutuan dengan Kerajaan Negeri.\n\n[Kerajaan Persekutuan: Melaksanakan Program Perumahan Rakyat (PPR) | Kerajaan Negeri: Menubuhkan program Perumahan Awam Kos Rendah (PAKR) melalui daripada Kerajaan Persekutuan.]",
-    "options": {
-      "A": "Memberikan pekerjaan kepada golongan miskin",
-      "B": "Meningkatkan taraf hidup rakyat bandar",
-      "C": "Memajukan kawasan perumahan",
-      "D": "Membasmi kemiskinan"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q29",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 29,
-    "question": "Apakah rasional idea pembentukan Malaysia?",
-    "options": {
-      "A": "Kemajuan ekonomi kepada pihak British",
-      "B": "Melahirkan tokoh tempatan",
-      "C": "Keselamatan dari ancaman komunis",
-      "D": "Negara yang setaraf dengan dunia luar"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q30",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 30,
-    "question": "Jawatankuasa Setia Kawan Malaysia (JSKM) dibentuk pada tahun 1961. Apakah matlamat pembentukan jawatankuasa tersebut?",
-    "options": {
-      "A": "Menyedia rangka perlembagaan Persekutuan Malaysia",
-      "B": "Mengumpul pandangan tentang pembentukan Malaysia",
-      "C": "Mencadangkan kuasa autonomi kepada Sabah dan Sarawak",
-      "D": "Mengekalkan kuasa imigresen kepada Sabah dan Sarawak"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q31",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 31,
-    "question": "Maklumat berikut merujuk kepada isu pemisahan Singapura.\n\n[Tokoh: Lee Kuan Yew | Slogan: Malaysian Malaysia]",
-    "options": {
-      "A": "Menuntut hak sama rata",
-      "B": "Menolak pasaran bersama",
-      "C": "Menuntut tambahan cukai",
-      "D": "Mengagihkan kekayaan ekonomi"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q32",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 32,
-    "question": "Apakah langkah kerjasama yang diambil oleh kerajaan Malaysia dengan kerajaan Thailand untuk memerangi komunis?",
-    "options": {
-      "A": "Operasi bersenjata",
-      "B": "Membina pagar sempadan",
-      "C": "Memasang jerangkap samar",
-      "D": "Membina kubu pertahanan"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2022_johor_kulai_q33",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 33,
-    "question": "Bahasa Melayu diktiraf sebagai bahasa kebangsaan. Apakah usaha kerajaan untuk memartabatkan bahasa kebangsaan?",
-    "options": {
-      "I": "Mengedarkan risalah",
-      "II": "Pengenalan Akta Bahasa Kebangsaan",
-      "III": "Menjadi bahasa rasmi pentadbiran",
-      "IV": "Kempen Hari Bahasa Melayu",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q34",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 34,
-    "question": "Logo berikut berkaitan dengan Sukan Malaysia (SUKMA).\n\n[Logo menunjukkan bentuk U dengan lapisan konsentrik dan mahkota di atas, dengan tulisan SUKAN MALAYSIA di bawahnya]",
-    "options": {
-      "A": "Mengeratkan integrasi antara negeri",
-      "B": "Menganjurkan pelbagai jenis sukan",
-      "C": "Memupuk semangat kesukanan",
-      "D": "Melahirkan atlet negara"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2022_johor_kulai_q35",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 35,
-    "question": "Apakah Dasar Ekonomi Baru dilaksanakan pada tahun 1970 - 1990?",
-    "options": {
-      "A": "Mengekalkan pembangunan ekonomi",
-      "B": "Mewujudkan politik seimbang",
-      "C": "Meningkatkan kecekalan syarikat bersama",
-      "D": "Menghapuskan pengenalan kaum mengikut kegiatan ekonomi"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q36",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 36,
-    "question": "Maklumat di bawah merupakan strategi Dasar Pembangunan Nasional (DPN) dalam bidang ekonomi.\n\n[Pelibatan aktif swasta, Program penanaman semula, X]",
-    "options": {
-      "A": "Peningkatan guna tenaga buruh",
-      "B": "Pembentukan koperasi peniaga",
-      "C": "Penggunaan sains dan teknologi",
-      "D": "Pertambahan pasaran antarabangsa"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q37",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 37,
-    "question": "Apakah faktor yang mendorong negara kita menjalin hubungan diplomatik dengan negara tersebut?\n\n[Turki, Mesir, Yaman]",
-    "options": {
-      "A": "Ikatan keagamaan",
-      "B": "Persamaan budaya",
-      "C": "Keperluan nasional",
-      "D": "Kepentingan ekonomi"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q38",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 38,
-    "question": "Bagaimanakah United Nations High Commissioner For Refugees (UNHCR) menyelesaikan masalah pelarian dan golongan tidak bernegara?",
-    "options": {
-      "A": "Diberi bantuan kewangan",
-      "B": "Diasingkan mengikut negara",
-      "C": "Dikumpulkan di negara maju",
-      "D": "Ditempatkan ke negara dunia ketiga"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2022_johor_kulai_q39",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 39,
-    "question": "Bagaimanakah kerjasama sosial dilaksanakan antara negara ASEAN?",
-    "options": {
-      "I": "Penubuhan Southeast Asian Ministers of Education Organization (SEAMEO)",
-      "II": "Penubuhan Zone of Peace Freedom and Neutrality (ZOPFAN)",
-      "III": "Projek industri ASEAN",
-      "IV": "Penganjuran Sukan SEA",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2022_johor_kulai_q40",
-    "source": {
-      "year": 2022,
-      "state": "Johor Kulai",
-      "district": "Johor Kulai",
-      "paper": "K1",
-      "paper_key": "2022_johor_kulai"
-    },
-    "question_number": 40,
-    "question": "Tuntutan terhadap Pulau Batu Putih melibatkan Malaysia dengan Singapura. Bagaimana isu tuntutan Pulau Batu Putih diselesaikan?",
-    "options": {
-      "A": "Menghadiri forum ASEAN-China",
-      "B": "Campur tangan pegawai permerhati",
-      "C": "Merujuk Mahkamah Antarabangsa",
-      "D": "Tinjauan negara berkecuali"
-    },
-    "answer": "B"
   },
   {
     "id": "2022_johor_kulai_1_q1",
@@ -12237,7 +10664,7 @@
       "C": "Menunjukkan ketaatan",
       "D": "Melambangkan kekuatan"
     },
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_meradong_q2",
@@ -12298,7 +10725,7 @@
       "C": "Meningkatkan peluang pekerjaan",
       "D": "Memudahkan urusan pentadbiran"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q5",
@@ -12317,7 +10744,7 @@
       "C": "Pembunuhan Putera Mahkota Austria-Hungary",
       "D": "Pencerobohan wilayah British oleh Amerika Syarikat"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_meradong_q6",
@@ -12355,7 +10782,7 @@
       "C": "Menghalang gerakan nasionalis",
       "D": "Mengembalikan keamanan"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q8",
@@ -12374,7 +10801,7 @@
       "C": "Penubuhan UMNO dijayakan",
       "D": "Perasaan perkauman dihapuskan"
     },
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_meradong_q9",
@@ -12393,7 +10820,7 @@
       "C": "Memperkenalkan Dasar Pendidikan Kebangsaan",
       "D": "Merangka Perjanjian Persekutuan Tanah Melayu"
     },
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q10",
@@ -12412,7 +10839,7 @@
       "C": "Pendudukan pihak Jepun berakhir",
       "D": "Pembukaan ruang kewarganegaraan"
     },
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q11",
@@ -12431,7 +10858,7 @@
       "C": "Parti Komunis Malaya diharamkan",
       "D": "Pengenalan Undang-undang Darurat"
     },
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q12",
@@ -12450,7 +10877,7 @@
       "C": "Melakukan tugas risikan terhadap komunis",
       "D": "Mengesan tempat persembunyian pihak musuh"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "2022_sarawak_meradong_q13",
@@ -12469,7 +10896,7 @@
       "C": "Memelihara kesuciian agama",
       "D": "Memerangi ideologi komunis"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "2022_sarawak_meradong_q14",
@@ -12488,7 +10915,7 @@
       "C": "Kewarganegaraan sama rata",
       "D": "Keanggotan pelbagai kaum"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q15",
@@ -12507,7 +10934,7 @@
       "C": "Pelaksanaan kempen pilihan raya yang meyakinkan",
       "D": "Penerimaan masyarakat terhadap kerjasama antara kaum"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q16",
@@ -12526,7 +10953,7 @@
       "C": "Persetujuan Majlis Raja-raja Melayu",
       "D": "Pelantikan Pesurujaya Tinggi British"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q17",
@@ -12545,7 +10972,7 @@
       "C": "Mengekalkan pegawai British yang berkhidmat di PTM",
       "D": "Melantik ahli Majlis Eksekutif dalam kalangan rakyat PTM"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "2022_sarawak_meradong_q18",
@@ -12564,7 +10991,7 @@
       "C": "Mengkaji perlembagaan negara jiran",
       "D": "Menelit memorandum daripada pelbagai pihak"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q19",
@@ -12583,7 +11010,7 @@
       "C": "Pemilihan oleh Kementerian Pertanian",
       "D": "Dicadangkan oleh Yang di-Pertuan Agong IV"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_meradong_q20",
@@ -12602,7 +11029,7 @@
       "C": "Memantau kecepakan pengurusan syarikat",
       "D": "Menilai pelaksanaan rancangan pembangunan"
     },
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q21",
@@ -12621,7 +11048,7 @@
       "C": "autokrasi",
       "D": "demokrasi"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "2022_sarawak_meradong_q22",
@@ -12640,7 +11067,7 @@
       "C": "Mendapat pengiktrafan",
       "D": "Memelihara maruah"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q23",
@@ -12682,7 +11109,7 @@
       "C": "II dan III",
       "D": "III dan IV"
     },
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q25",
@@ -12720,7 +11147,7 @@
       "C": "Memudahkan dasar kerajaan diluluskan",
       "D": "Mengekalkam status quo orang Melayu"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q27",
@@ -12739,7 +11166,7 @@
       "C": "Pesurujaya Tinggi",
       "D": "Yang di-Pertuan Agong"
     },
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_meradong_q28",
@@ -12777,7 +11204,7 @@
       "C": "Melakukan neokololnialisme",
       "D": "Melaksanakan pembaharuan"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q30",
@@ -12796,7 +11223,7 @@
       "C": "Melancarkan serangan gerila di Sarawak dan Sabah",
       "D": "Mengumumkan dasar konfrontasi terhadap Malaysia"
     },
-    "answer": "D"
+    "answer": "B"
   },
   {
     "id": "2022_sarawak_meradong_q31",
@@ -12815,7 +11242,7 @@
       "C": "Pembangunan wilayah tidak seimbang",
       "D": "Menentang pembukaan pasaran bersama"
     },
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q32",
@@ -12834,7 +11261,7 @@
       "C": "Menempatkan semula penduduk",
       "D": "Memenangi hati rakyat tempatan"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "2022_sarawak_meradong_q33",
@@ -12872,7 +11299,7 @@
       "C": "Progresif",
       "D": "Demokratik"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_meradong_q35",
@@ -12891,7 +11318,7 @@
       "C": "Memperkukuh sektor pertahanan",
       "D": "Menyeragamkan sistem kewangan"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "2022_sarawak_meradong_q36",
@@ -12910,7 +11337,7 @@
       "C": "Perkembangan ekonomi kawasan bandar",
       "D": "Penyediaan pusat penyelidikan dan inovasi"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "2022_sarawak_meradong_q37",
@@ -12929,7 +11356,7 @@
       "C": "Mengikut keperluan dan perubahan semasa",
       "D": "Meningkatkan urusan perdagangan luar negara"
     },
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_meradong_q38",
@@ -12948,7 +11375,7 @@
       "C": "Menubuhkan Tabung Kemanuiaan",
       "D": "Mengadakan Sidang Kemuncak Dunia"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "2022_sarawak_meradong_q39",
@@ -12986,7 +11413,7 @@
       "C": "Menyelesaikan konflik secara aman",
       "D": "Melindungi kedudukan negara sedang membangun"
     },
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_smk_rosli_dhoby_q1",
@@ -13364,13 +11791,13 @@
       "I": "Gabenor dilantik di setiap negeri",
       "II": "konsep Raja Berperlembagaan diwujudkan",
       "III": "mengamalkan demokrasi berparlimen",
-      "IV": "dasar pengajihan kuasa dilaksanakan",
+      "IV": "dasar pengagihan kuasa dilaksanakan",
       "A": "I dan II",
       "B": "I dan IV",
       "C": "II dan III",
       "D": "III dan IV"
     },
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "2022_sarawak_smk_rosli_dhoby_q21",
@@ -40919,790 +39346,6 @@
       "B": "Memantapkan hubungan politik",
       "C": "Menjamin kesejahteraan rakyat",
       "D": "Mengukuhkan pertahanan negara"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q1",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 1,
-    "question": "Rajah di bawah menunjukkan ciri-ciri negara bangsa kerajaan Alam Melayu. [Diagram menunjukkan 'Ciri-ciri negara bangsa kerajaan Alam Melayu' dengan cabang ke: Rakyat, Raja, Undang-undang, dan X]\n\nApakah X?",
-    "options": {
-      "A": "Kerajaan",
-      "B": "Kedaulatan",
-      "C": "Wilayah Pengaruh",
-      "D": "Lambang Kebesaran"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q2",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 2,
-    "question": "Maklumat berikut berkaitan dengan peranan rakyat dalam Kesultanan Melayu Melaka. [Box menunjukkan: 'Rakyat sanggup mematuhi segala arahan pemerintah Kesultanan Melayu Melaka']\n\nApakah faktor yang mendorong tindakan tersebut?",
-    "options": {
-      "A": "Takut ditimpa tulah",
-      "B": "Peroleh perlindungan",
-      "C": "Jaminan keselamatan",
-      "D": "Dijatuhi hukuman penjara"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q3",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 3,
-    "question": "Mengapakah gerakan nasionalisme di China menentang pemerintahan Dinasti Manchu?",
-    "options": {
-      "A": "Fahaman komunis meningkat",
-      "B": "Gagal menghalang kuasa Barat",
-      "C": "Membenci golongan bangsawan",
-      "D": "Rakyat menanggung cukai yang tinggi"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q4",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 4,
-    "question": "Akhbar Bahasa Inggris seperti The Malay Mail dan The Malayan Tribune berusaha untuk mengasaskan dana bagi membantu orang Melayu.\nApakah tujuan dana tersebut dikumpulkan?",
-    "options": {
-      "A": "Membantu membina sekolah Melayu",
-      "B": "Membantu orang Melayu melanjutkan pelajaran ke luar negara",
-      "C": "Membantu orang Melayu memajukan penguasaan Bahasa Inggris",
-      "D": "Membantu orang Melayu membangunkan ekonomi orang Melayu"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q5",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 5,
-    "question": "Mengapakah Jerman melancarkan pengeboman terhadap Britain semasa Perang Dunia Kedua?",
-    "options": {
-      "A": "Menuntut tanah jajahan",
-      "B": "Melumpuhkan ekonomi",
-      "C": "Menguasai Eropah Timur",
-      "D": "Membuktikan kekuatan tentera"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q6",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 6,
-    "question": "Apakah kesan penggunaan mata wang Jepun yang dikenali \"Wang Pokok Pisang\"?",
-    "options": {
-      "A": "Ekonomi meningkat",
-      "B": "Peningkatan inflasi",
-      "C": "Harga barang rendah",
-      "D": "Nilai mata wang tinggi"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q7",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 7,
-    "question": "Berdasarkan maklumat di atas, yang manakah berkait dengan sistem pemerintahan British di Tanah Melayu? [Box menunjukkan: 'Sultan menjadi Ahli Majlis Raja-Raja', 'Kewarganegaraan jus soli']",
-    "options": {
-      "A": "Malayan Union",
-      "B": "British Military Administration",
-      "C": "Persekutuan Tanah Melayu 1948",
-      "D": "Negeri-negeri Melayu Tidak Bersekutu"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q8",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 8,
-    "question": "Penyerahan Sabah kepada British tidak mendapat penentangan daripada rakyat tempatan di Sabah.\nMengapakah penyerahan ini tidak mendapat tantangan?",
-    "options": {
-      "I": "British menjaga kebajikan penduduk",
-      "II": "Perbezaan etnik menyukarkan penyatuan",
-      "III": "British memberi tekanan kepada kesedaran politik",
-      "IV": "Penduduk tempatan diberi peluang dalam pentadbiran",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q9",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 9,
-    "question": "British telah menubuhkan Jawatankuasa Kerja pada 25 Julai 1946.\nApakah cadangan yang dikemukakan jawatankuasa tersebut?",
-    "options": {
-      "A": "Menubuhkan kerajaan pusat yang kuat",
-      "B": "Mempercepatkaan kemerdekaan negara",
-      "C": "Memperketatkan syarat kewarganegaraan",
-      "D": "Menyatukan Tanah Melayu dengan Singapura"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q10",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 10,
-    "question": "Rakyat Raja mendapat kewarganegaraan secara kuat kuasa undang-undang.\nApakah syarat untuk menjadi rakyat Raja?",
-    "options": {
-      "I": "Kuasai bahasa Melayu dan bahasa Ingggeris",
-      "II": "Keluarganya rakyat tempatan",
-      "III": "Bertutur bahasa tempatan",
-      "IV": "Memahami adat resam",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q11",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 11,
-    "question": "Gambar di bawah menunjukkan tindakan komunis di Tanah Melayu. [Gambar menunjukkan pemandangan hutan dengan pokok-pokok besar yang ditebang dan tumpukan batang kayu, menunjukkan kerusakan alam semula jadi].\n\nMengapakah komunis bertindak demikian?",
-    "options": {
-      "A": "Menakutkan British",
-      "B": "Mengukuhkan ideologi",
-      "C": "Melumpuhkan ekonomi",
-      "D": "Mengancam penduduk"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q12",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 12,
-    "question": "British memperkasakan pasukan keselamatan tempatan untuk membanteras kegiatan komunis.\nApakah tugas Polis Hutan?",
-    "options": {
-      "A": "Membuat penyusupan dalam organisasi PKM",
-      "B": "Menjadi barisan hadapan menghadapi komunis",
-      "C": "Memusnahkan kem komunis dalam hutan",
-      "D": "Membawa bekalan makanan kepada psukan bertugas"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q13",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 13,
-    "question": "Persekutuan Tanah Melayu 1948 merintis kepada penubuhan Jawatankuasa Antara Kaum (CLC).\nApakah kepentingan penubuhan jawatankuasa tersebut?",
-    "options": {
-      "A": "Penyeragaman pentadbiran",
-      "B": "Persefahan pemimpin",
-      "C": "Kesedaran berpolititik",
-      "D": "Kerjasama antara persatuan"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q14",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 14,
-    "question": "Mengapakah Dato' Onn Jaafar menubuhkan Independence of Malayan Party (IMP) pada tahun 1951?",
-    "options": {
-      "A": "Menyatukan anak negeri",
-      "B": "Menentang ancaman komunis",
-      "C": "Mewujudkan perpaduan kaum",
-      "D": "Memperjuang hak bumiputera"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q15",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 15,
-    "question": "Maklumat berikut berkaitan dengan Pilihan Raya Umum pertama di negara kita. [Box menunjukkan: 'Pilihan Raya Majlis Perundangan Persekutuan 1955', 'Memilih anggota Majlis Perundangan Persekutuan', 'Diisytiharkan oleh Sir Donald MacGillivray']\n\nApakah kepentingan pilihan raya tersebut?",
-    "options": {
-      "A": "Menamatkan darurat",
-      "B": "Merintis kemerdekaan negara",
-      "C": "Melindungi kepentingan ekonomi",
-      "D": "Mengukuhkan institusi sistem beraja"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q16",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 16,
-    "question": "Apakah peranan kabinet pertama Persekutuan Tanah Melayu pada tahun 1955?",
-    "options": {
-      "A": "Mengesahkan rang undang-undang",
-      "B": "Meningkatkan hubungan diplomatik",
-      "C": "Membincangkan ususan kewangan",
-      "D": "Memperkenalkan hak kesamarataan"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q17",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 17,
-    "question": "Antara berikut, yang manakah menjadi pilihan masyarakat dan pemimpin Tanah Melayu dalam terma Rujukan Suruhanjaya Perlembagaan 1956?",
-    "options": {
-      "I": "Kededukan raja Melayu dipelihara",
-      "II": "Kewarganegaraan kepada sesiapa sahaja",
-      "III": "Kepatuhan rakyat kepada demokrasi berparlimen",
-      "IV": "Keistimewaan orang Melayu dan kepentingan kaum lain",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q18",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 18,
-    "question": "Bagaimanakah Suruhanjaya Perlembagaan Persekutuan Tanah Melayu merangka asas perlembagaan negara kita?",
-    "options": {
-      "I": "Mengambil kira semangat kenegerian",
-      "II": "Menjalankan aktiviti menyebar luas maklumat",
-      "III": "Mempertimbangkan isu kepelbagaian kaum",
-      "IV": "Meneliti memorandum pelbagai pihak",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q19",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 19,
-    "question": "Apakah maksud kemerdekaan menurut pandangan Mahatma Gandhi?",
-    "options": {
-      "A": "Bebas mengurus negara",
-      "B": "Kebebasan melalui politik",
-      "C": "Mewujudkan negara berdaulat",
-      "D": "Perjuangan menghadapi penjajah"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q20",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 20,
-    "question": "Maklumat berikut berkaitan kesan pendidikan selepas negara mencapai kemerdekaan [Box menunjukkan: 'Membina sebuah bangsa bagi negara yang Bersatu', 'Mengeluarkan Penyata Rahman Talib']\n\nApakah elemen yang diberikan penekanan dalam menjalankan usaha tersebut?",
-    "options": {
-      "A": "Mewujudkan Pusat Bahasa tempatan",
-      "B": "Menubuhkan Institusi Kajian Dasar Sosial",
-      "C": "Mengadakan kempen memperkayakan bahasa",
-      "D": "Menjadikan Bahasa Melayu sebagai bahasa pengantar"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q21",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 21,
-    "question": "Jadual berikut berkaitan takrif kedaulatan dalam pelbagai bahasa. [Jadual menunjukkan: Bahasa Yunani - Agung atau tertinggi; Bahasa Melayu - Kekuasaan tertinggi; Bahasa Arab - Daulah]\n\nApakah unsur persamaan berdasarkan takrif tersebut?",
-    "options": {
-      "A": "Keluhuran perlembagaan",
-      "B": "Kebebasan asasi manusia",
-      "C": "Kewibawaan pemerintahan",
-      "D": "Kuasa pemerintahan tertinggi"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q22",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 22,
-    "question": "Maklumat berikut berkaitan dengan pentadbiran negara kita. [Box menunjukkan: 'Dasar pentadbiran negara dilaksanakan dengan berkesan tanpa campur tangan pihak luar.']\n\nApakah yang dapat dikaitkan dengan penyataan tersebut?",
-    "options": {
-      "A": "Jemaah Menteri",
-      "B": "Perpaduan rakyat",
-      "C": "Hubungan diplomatik",
-      "D": "Kemakmuran ekonomi"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q23",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 23,
-    "question": "Pada tahun 1948, undang-undang di Negeri-negeri Selat telah digubal oleh Majlis Undangan Negeri. [Box menunjukkan: 'Pada tahun 1948, undang-undang di Negeri-negeri Selat telah digubal oleh Majlis Undangan Negeri']\n\nApakah badan yang menggubah undang-undang di Negeri-negeri Melayu Bersekutu?",
-    "options": {
-      "A": "Majlis Tertinggi",
-      "B": "Majlis Negeri",
-      "C": "Majlis Persekutuan",
-      "D": "Majlis Negara"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q24",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 24,
-    "question": "Mengapakah kandungan perlembagaan persekutuan mengambil kira ciri tradisional?",
-    "options": {
-      "A": "Setia kepada Raja-Raja Melayu",
-      "B": "Mengekalkan warisan bangsa Melayu",
-      "C": "Mendapatkan sokongan orang Melayu",
-      "D": "Membebaskan diri daripada penjajahan"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q25",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 25,
-    "question": "Selepas merdeka, keangotaan Majlis Raja-Raja mengalami perubahan.\nAntara berikut, yang manakah keanggotaan Majlis Raja-Raja?",
-    "options": {
-      "I": "Menteri Besar",
-      "II": "Perdana Menteri",
-      "III": "Raja-Raja Melayu",
-      "IV": "Yang di-Pertua Negeri Melaka dan Pulau Pinang.",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q26",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 26,
-    "question": "Mengapakah kebebasan yang dimiliki oleh rakyat Malaysia tidak bersifat mutlak tetapi tertakluk kepada sekatan tertentu?",
-    "options": {
-      "A": "Mejamin keamanan dan kesejahteraan awam",
-      "B": "Menjamin kerajaan dapat mengawal dan mendisiplinkan rakyat",
-      "C": "Menjamin kemajuan ekonomi dan pembangunan yang berterusan",
-      "D": "Menjamin pihak yang memerintah akan berkuasa selama-lamanya"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q27",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 27,
-    "question": "Mengapakah kerajaan berbentuk Kesatuan 1946 gagal diteruskan oleh British?",
-    "options": {
-      "A": "Pindaan Perlembagaan negara",
-      "B": "Meletusnya Perang Dunia Kedua",
-      "C": "Bantahan daripada Raja-Raja Melayu",
-      "D": "Pengisytiharan Undang-undang Darurat"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q28",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 28,
-    "question": "Senarai berikut merupakan kerjasama Kerajaan Persekutuan dan Kerajaan Negeri. [Box menunjukkan: 'Pembangunan sosioekonomi', 'Pemulihan khazanah negara', 'Menjamin keselamatan negara']\n\nApakah iktibar daripada kerjasama tersebut?",
-    "options": {
-      "A": "Kepentingan mengembleng tenaga dan fikiran",
-      "B": "Kepentingan memelihara flora dan fauna",
-      "C": "Mendahulukan kesejahteraan hidup",
-      "D": "Memantapkan pertahanan negara secara bersama"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q29",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 29,
-    "question": "Mengapakah pemimpin dan penduduk Sabah menolak cadangan pembentukan Malaysia pada peringkat awal?",
-    "options": {
-      "A": "Mengekalkan pentadbiran yang sedia ada",
-      "B": "Bimbang sumber ekonomi negeri dirampas",
-      "C": "Mendapatkan kemerdekaan secara berasingan",
-      "D": "Menganggap Malaysia sebagai penjajahan baru"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q30",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 30,
-    "question": "Jadual berikut berkaitan perjanjian yang ditandatangani antara Indonesia dan Malaysia. [Jadual menunjukkan: 'Persetujuan Normalisasi Hubungan Indonesia - Malaysia', 'Tarikh: 11 Ogos 1966', 'Tempat: Jakarta, Indonesia', 'Wakil Malaysia: Tun Abdul Razak', 'Wakil Indonesia: Adam Malik']\n\nApakah kepentingan persetujuan tersebut?",
-    "options": {
-      "A": "Menamatkan dasar konfrontasi",
-      "B": "Memulakan hubungan diplomatik",
-      "C": "Meningkatkan kerjasama ekonomi",
-      "D": "Mengadakan latihan ketenteraan bersama"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q31",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 31,
-    "question": "Mengapakah Singapura berpisah daripada Malaysia?",
-    "options": {
-      "A": "Ancaman daripada parti komunis",
-      "B": "Enggan mematuhi dasar kerajaan",
-      "C": "Menentang pilihan raya negeri",
-      "D": "Bantahan oleh Majlis Negeri"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q32",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 32,
-    "question": "Maklumat berikut adalah isu pembangunan ekonomi negara. [Box menunjukkan: 'Terlalu bergantung kepada eksport getah dan bijih timah.']\n\nApakah tindakan kerajaan mengatasi isu tersebut?",
-    "options": {
-      "A": "Menggiatkan tanaman tradisional",
-      "B": "Meningkatkan penggunaan teknologi",
-      "C": "Mengeluarkan produk industri tempatan",
-      "D": "Menggiatkan tanaman kelapa sawit dan koko"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q33",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 33,
-    "question": "Pasangan yang manakah menunjukkan perbezaan konsep perpaduan kaum dan integriti nasional? [Jadual menunjukkan: A - Perpaduan Kaum: Keadaan ekonomi, Integriti Nasional: Hak berpolititik; B - Perpaduan Kaum: Rakyat pelbagai kaum hidup bersatu-padu, Integriti Nasional: Rapatkan hubungan antara negeri dan wilayah; C - Perpaduan Kaum: Menjamin keselamatan rakyat, Integriti Nasional: Menjamin kedaulatan negara; D - Perpaduan Kaum: Kerjasama pemimpin pelbagai kaum, Integriti Nasional: Permuafakatan parti-parti politik]",
-    "options": {
-      "A": "Keadaan ekonomi - Hak berpolititik",
-      "B": "Rakyat pelbagai kaum hidup bersatu-padu - Rapatkan hubungan antara negeri dan wilayah",
-      "C": "Menjamin keselamatan rakyat - Menjamin kedaulatan negara",
-      "D": "Kerjasama pemimpin pelbagai kaum - Permuafakatan parti-parti politik"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q34",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 34,
-    "question": "Senarai di bawah menunjukkan sekolah di Malaysia. [Box menunjukkan: 'Sekolah Seri Puteri', 'Sekolah Alam Shah', 'Kolej Sultan Abdul Halim']\n\nApakah persamaan ketiga-tiga sekolah tersebut?",
-    "options": {
-      "A": "Menempatkkan pelajar golongan elit",
-      "B": "Menawarkan pelbagai kursus kemahiran",
-      "C": "Menggunakan Bahasa Melayu sebagai bahasa pengantar",
-      "D": "Menggunakan Bahasa Inggris sebagai bahasa pengantar"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q35",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 35,
-    "question": "Maklumat berikut berkaitan dengan pemilihan modal saham. [Box menunjukkan: 'Amanah Saham Nasional (ASN)', 'Amanah Saham Bumiputera (ASB)']\n\nApakah tujuan syarikat pengurusan tersebut ditubuhkan?",
-    "options": {
-      "A": "Memudahkan kaum bumiputera memiliki saham dalam syarikat berhad",
-      "B": "Menggalakkan kaum bukan bumiputera dalam pemilihan saham",
-      "C": "Memberi kemudahan pembayaran bil utiliti",
-      "D": "Memudahkan orang ramai menabung"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q36",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 36,
-    "question": "Antara berikut, yang manakah strategi Dasar Pembangunan Nasional (DPN) dalam pembangunan kemudahan fizikal?",
-    "options": {
-      "I": "Melaksanakan program penanaman semula",
-      "II": "Menyediakan kemudahan kredit kepada pemaju",
-      "III": "Pembangunan mapan tanpa mengabaikan alam sekitar",
-      "IV": "Menyediakan dan menambah baik kemudahan asas",
-      "A": "I dan II",
-      "B": "I dan IV",
-      "C": "II dan III",
-      "D": "III dan IV"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q37",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 37,
-    "question": "Senarai negara berikut telah menjalin hubungan luar dengan Malaysia sejak sekian lama. [Box menunjukkan: 'Turki', 'Mesir', 'Yaman', 'Arab Saudi']\n\nApakah faktor yang mempengaruhi hubungan luar tersebut?",
-    "options": {
-      "A": "Ikatan budaya",
-      "B": "Ikatan sejarah",
-      "C": "Ikatan nasional",
-      "D": "Ikatan keagamaan"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q38",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 38,
-    "question": "MAPHILINDO merupakan gabungan Malaysia, Filipina dan Indonesia.\nApakah matlamat penubuhannnya?",
-    "options": {
-      "A": "Meningkatkan persefahaman",
-      "B": "Menghapuskan ancaman komunis",
-      "C": "Memajukan kegiatan perdagangan",
-      "D": "Membentuk pakatan tentera serantau"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q39",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 39,
-    "question": "Maklumat berikut berkaitan dengan isu kemanusiaan dan keamanan yang melibatkan rakyat Malaysia. [Box menunjukkan: 'Isu Palestin', 'Isu Syria', 'Isu Tsunami di Aceh']\n\nApakah nilai daripada penglibatan rakyat Malaysia dalam isu tersebut?",
-    "options": {
-      "A": "Bertanggunggjawab",
-      "B": "Menghargai",
-      "C": "Kegigihan",
-      "D": "Prihatin"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "2025_johor_segamat_set_2_q40",
-    "source": {
-      "year": 2025,
-      "state": "Johor",
-      "district": "Johor / Segamat / Set 2",
-      "paper": "K1",
-      "paper_key": "2025_johor_segamat_set_2"
-    },
-    "question_number": 40,
-    "question": "Malaysia tidak bersetuju kuasa besar dunia memiliki kuasa veto dalam pertubuhan dunia.\nApakah alasan Malaysia?",
-    "options": {
-      "A": "Memantapkan pentadbiran pertubuhan",
-      "B": "Memudahkan mencapai keputusan",
-      "C": "Kurangkan penyalahgunaan kuasa",
-      "D": "Mengelakkan konflik antara negara"
     },
     "answer": "C"
   },
