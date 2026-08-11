@@ -32,19 +32,17 @@ TEXTBOOKS = {
 # Claude model to use for all extraction requests
 MODEL = "claude-haiku-4-5"
 
-# Claude model used for answering user questions (generation) and eval scoring —
-# kept separate from MODEL (extraction) even though the value currently matches
-ANSWER_MODEL = "claude-haiku-4-5"
-
 # Where eval questions/results live
 EVAL_DATASET_FILE = ROOT / "data" / "eval_dataset.json"
 BASELINE_RESULTS_FILE = ROOT / "data" / "baseline_results.json"
 RAG_RESULTS_FILE = ROOT / "data" / "rag_results.json"
 GEMINI_BASELINE_RESULTS_FILE = ROOT / "data" / "baseline_gemini_results.json"
+GEMINI_RAG_RESULTS_FILE = ROOT / "data" / "rag_results_gemini.json"
 
-# Gemini model used for the Google-Search-grounded baseline eval
-# (gemini-2.5-flash is deprecated for new API keys — 404s at call time; use the flash-lite tier)
-GEMINI_MODEL = "gemini-3.5-flash-lite"
+# Gemini model used for all answer generation: MCQ eval scoring (baseline and
+# RAG) and student-facing generation.py — outperformed Claude Haiku on eval
+# (gemini-2.5-flash is deprecated for new API keys — 404s at call time)
+GEMINI_MODEL = "gemini-3.6-flash"
 
 # System prompt for answering a student's free-form question with retrieved context
 GENERATION_SYSTEM_PROMPT = """You are an SPM (Sijil Pelajaran Malaysia) Sejarah tutor.

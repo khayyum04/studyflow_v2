@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+import os
 from dataclasses import dataclass
 
-import anthropic
+from google import genai
+from google.genai import types
 
-from .config import ANSWER_MODEL, GENERATION_SYSTEM_PROMPT
+from .config import GEMINI_MODEL, GENERATION_SYSTEM_PROMPT
 from .retrieval import Retriever
 
 NO_CONTEXT_ANSWER = "Maaf, saya tidak mempunyai maklumat yang mencukupi untuk menjawab soalan ini."
@@ -62,14 +64,16 @@ def generate_answer(query: str, chunks: list[dict]) -> Answer:
     context = _format_context(chunks)
     user_message = f"Konteks:\n{context}\n\nSoalan pelajar:\n{query}\n\nJawapan:"
 
-    client = anthropic.Anthropic()
-    response = client.messages.create(
-        model=ANSWER_MODEL,
-        max_tokens=1024,
-        system=GENERATION_SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
+    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+    response = client.models.generate_content(
+        model=GEMINI_MODEL,
+        contents=user_message,
+        config=types.GenerateContentConfig(
+            system_instruction=GENERATION_SYSTEM_PROMPT,
+            max_output_tokens=1024,
+        ),
     )
-    text = response.content[0].text.strip()
+    text = (response.text or "").strip()
     return Answer(text=text, sources=_build_sources(chunks), query=query)
 
 
