@@ -4,7 +4,7 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
-from ..config import TEXTBOOKS
+from .config import TEXTBOOKS
 
 
 # Represents a single section of a textbook (e.g. "Bab 4, Section 4.2")

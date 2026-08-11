@@ -17,4 +17,4 @@ data/chromadb/
 data/practice.db
 
 # Pipeline run state
-backend/rag_pipeline/logs/
+backend/textbook_extraction/logs/

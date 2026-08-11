@@ -8,7 +8,8 @@ from pathlib import Path
 import yaml
 from pydantic import BaseModel
 
-from .config import CHUNKS_FILE, TEXTBOOKS
+from ..textbook_extraction.config import TEXTBOOKS
+from .config import CHUNKS_FILE
 
 SUBJECT = "Sejarah"  # only subject in the corpus today
 

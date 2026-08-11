@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 # Load ANTHROPIC_API_KEY from the .env file in the project root before importing anything that uses it
 load_dotenv(Path(__file__).parent.parent.parent / ".env")
 
-from .config import TEXTBOOKS
-from .textbook_extraction.batch import run_extraction
-from .textbook_extraction.textbook import TextbookSection, load_sections, parse_section_arg
+from ..textbook_extraction.batch import run_extraction
+from ..textbook_extraction.config import TEXTBOOKS
+from ..textbook_extraction.textbook import TextbookSection, load_sections, parse_section_arg
 
 
 @click.group()
