@@ -96,7 +96,7 @@ def ask(text: str, k: int) -> None:
 @click.option("--seed", default=0, help="Random seed for sampling (keep matching --seed on `eval`).")
 def baseline(n: int, seed: int) -> None:
     """Run the Gemini + Google Search grounded no-context baseline eval and save results."""
-    from .eval_baseline import run_baseline
+    from .eval_set_mcq.eval_baseline import run_baseline
     run_baseline(n=n, seed=seed)
 
 
@@ -106,14 +106,14 @@ def baseline(n: int, seed: int) -> None:
 @click.option("--k", default=5, help="Number of chunks to retrieve as context per question.")
 def eval_cmd(n: int, seed: int, k: int) -> None:
     """Run the RAG eval (Gemini for generation) and save results."""
-    from .eval_rag import run_eval
+    from .eval_set_mcq.eval_rag import run_eval
     run_eval(n=n, seed=seed, k=k)
 
 
 @cli.command()
 def analyze() -> None:
     """Compare baseline vs RAG eval results."""
-    from .eval_analyze import run_analyze
+    from .eval_set_mcq.eval_analyze import run_analyze
     run_analyze()
 
 
