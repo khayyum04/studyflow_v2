@@ -14,7 +14,7 @@ EMBEDDING_MODEL = "ibm-granite/granite-embedding-97m-multilingual-r2"
 COLLECTION_NAME = "sejarah_chunks"
 
 # Where eval questions/results live
-EVAL_DATASET_FILE = ROOT / "data" / "eval_dataset.json"
+PAPER_1_DATASET_FILE = ROOT / "data" / "paper_1_dataset.json"
 BASELINE_RESULTS_FILE = ROOT / "data" / "baseline_results.json"
 RAG_RESULTS_FILE = ROOT / "data" / "rag_results.json"
 GEMINI_BASELINE_RESULTS_FILE = ROOT / "data" / "baseline_gemini_results.json"

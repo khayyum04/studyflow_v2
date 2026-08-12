@@ -4,7 +4,7 @@ import json
 import random
 from datetime import datetime
 
-from ..config import EVAL_DATASET_FILE, GEMINI_MODEL
+from ..config import PAPER_1_DATASET_FILE, GEMINI_MODEL
 
 ROMAN_KEYS = ["I", "II", "III", "IV"]
 ABCD_KEYS = ["A", "B", "C", "D"]
@@ -31,12 +31,12 @@ def format_options(options: dict) -> str:
 
 
 def load_eval_sample(n: int, seed: int) -> list[dict]:
-    # random.Random(seed).sample (not a plain slice) — eval_dataset.json is
+    # random.Random(seed).sample (not a plain slice) — paper_1_dataset.json is
     # grouped consecutively by exam paper, so slicing the first n would bias
     # the sample toward whichever papers happen to sit at the top of the file.
     # Same (n, seed) always returns the same questions, so baseline/RAG/gemini
     # runs stay comparable against each other.
-    records = json.loads(EVAL_DATASET_FILE.read_text(encoding="utf-8"))
+    records = json.loads(PAPER_1_DATASET_FILE.read_text(encoding="utf-8"))
     return random.Random(seed).sample(records, min(n, len(records)))
 
 

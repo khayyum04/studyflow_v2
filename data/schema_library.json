@@ -1,0 +1,59 @@
+{
+  "global_rules": [
+    "Must be written in continuous prose (strictly NO bullet points, mind maps, or tables).",
+    "Flexibility: Gold standard is [Isi + Huraian + Huraian Lanjutan + Contoh + Inferens], but ANY combination of distinct valid points matching the mark value earns full marks (e.g., 4 marks = 4xIsi OR 2x[Isi+Huraian] OR 1xFull Cycle).",
+    "Never repeat the same idea or conclusion across cycles.",
+    "Try to use distinct transition markers (Hal ini kerana, Oleh itu, Contohnya, Kesimpulannya, etc).",
+    "Always start with 'Pernyataan Soalan'."
+  ],
+  "schemas": [
+    {
+      "id": "KBAT_GENERIC",
+      "intent": "Open-ended opinion, evaluation, or higher-order thinking questions requiring logical reasoning.",
+      "example_triggers": ["Pada pandangan anda", "Bincangkan", "Iktibar", "Kesan", "Mengapakah", "Setujukah anda"],
+      "gold_standard": "Pernyataan Soalan + [Isi + Huraian (Hal ini kerana...) + Huraian Lanjutan (Oleh itu...) + Contoh (Contohnya...) + Inferens (Kesimpulannya...)]",
+      "acceptable_formats": ["N x [Isi]", "(N/2) x [Isi + Huraian]", "Mixed combinations equal to mark value"],
+      "example": {
+        "marks": 8,
+        "question": "Pada pandangan anda, apakah kebaikan pembentukan Malaysia kepada rakyat pada masa ini?",
+        "answer": "Kebaikan pembentukan Malaysia kepada rakyat pada masa ini ialah mensejahterakan hidup rakyat. Hal ini kerana melahirkan masyarakat yang bersatu padu. Oleh itu, negara akan sentiasa aman. Contohnya, masyarakat merayakan perayaan bersama. Kesimpulannya, masyarakat hidup harmonis. Selain itu, ia meningkatkan ekonomi negara. Hal ini kerana mewujudkan perkongsian sumber. Oleh itu, pendapatan masyarakat tinggi. Contohnya, industri petroleum di Terengganu dan Miri. Kesimpulannya, negara setanding negara lain."
+      }
+    },
+    {
+      "id": "KBAT_STIMULUS",
+      "intent": "Questions attached to textual or visual stimuli requiring concept extraction and logical expansion.",
+      "example_triggers": ["Berdasarkan petikan", "Berdasarkan gambar", "Maklumat daripada petikan"],
+      "gold_standard": "Scan question first -> Extract keywords from stimulus -> Expand using [Isi + Huraian + Huraian Lanjutan + Contoh + Inferens]",
+      "acceptable_formats": ["Do NOT copy verbatim from stimulus", "N x [Extracted Isi]", "Mixed combinations equal to mark value"],
+      "example": {
+        "marks": 8,
+        "question": "Berdasarkan petikan, bagaimanakah anda mempertahankan kemerdekaan negara?",
+        "answer": "Saya mempertahankan kemerdekaan negara dengan mengambil iktibar daripada masa lepas. Hal ini mengukuhkan perpaduan. Oleh itu, negara sentiasa aman. Contohnya, pengajaran daripada pendudukan Jepun. Kesimpulannya, negara bebas daripada penjajahan. Selain itu, saya menanamkan semangat cintakan negara. Hal ini melahirkan semangat patriotik. Oleh itu, negara kekal berdaulat. Contohnya, menyertai sambutan bulan kebangsaan. Kesimpulannya, negara terus merdeka."
+      }
+    },
+    {
+      "id": "SOALAN_FAKTA",
+      "intent": "Textbook factual recall questions (4 to 8 marks) requiring facts paired with elaborations.",
+      "example_triggers": ["Jelaskan", "Terangkan", "Nyatakan", "Namakan", "Huraikan faktor"],
+      "gold_standard": "Pernyataan Soalan + N x [Fakta + Huraian] matching official textbook facts (doesnt have to be strictly verbatim)",
+      "acceptable_formats": ["N x [Fakta]", "(N/2) x [Fakta + Huraian]"],
+      "example": {
+        "marks": 4,
+        "question": "Jelaskan idea pembentukan Malaysia oleh penduduk tempatan.",
+        "answer": "Idea pembentukan Malaysia oleh penduduk tempatan ialah melalui majalah al-Imam yang menggesa penyatuan raja dan orang Melayu dalam pendidikan. Selain itu, Dr. Burhanuddin al-Helmi memperjuangkan konsep Melayu Raya. Seterusnya, Tunku Abdul Rahman mencadangkan penggabungan PTM dengan Sarawak, Sabah, Singapura, dan Brunei dalam ucapan UMNO 1955."
+      }
+    },
+    {
+      "id": "SOALAN_FAKTA_2M",
+      "intent": "Direct short-answer factual recall without elaborations.",
+      "example_triggers": ["Nyatakan dua", "Namakan", "Apakah dua", "Senaraikan dua"],
+      "gold_standard": "Pernyataan Soalan + 2 x [Fakta Sahaja]",
+      "acceptable_formats": ["2 x [Fakta]"],
+      "example": {
+        "marks": 2,
+        "question": "Nyatakan dua faktor pembentukan Malaysia.",
+        "answer": "Faktor pembentukan Malaysia ialah menyeimbangkan populasi kaum dan mempercepat kemerdekaan Sabah dan Sarawak."
+      }
+    }
+  ]
+}
