@@ -70,7 +70,11 @@ def generate_answer(query: str, chunks: list[dict]) -> Answer:
         contents=user_message,
         config=types.GenerateContentConfig(
             system_instruction=GENERATION_SYSTEM_PROMPT,
-            max_output_tokens=1024,
+            # gemini-3.6-flash spends ~650-700 tokens on hidden "thinking" before the
+            # visible answer, regardless of thinking_budget (tested — not a reliable
+            # cap for this model). 1024 left too little room and silently truncated
+            # mid-answer (finish_reason="MAX_TOKENS"); this leaves real headroom.
+            max_output_tokens=4096,
         ),
     )
     text = (response.text or "").strip()
