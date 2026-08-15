@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 from dataclasses import dataclass
 
 from google import genai
@@ -11,19 +12,29 @@ from .retrieval import Retriever
 
 NO_CONTEXT_ANSWER = "Maaf, saya tidak mempunyai maklumat yang mencukupi untuk menjawab soalan ini."
 
+# The model doesn't reliably write a bare number despite the prompt asking for one —
+# seen "RUJUKAN: 1", "RUJUKAN: Source 1", "RUJUKAN: [Source 1]". Rather than chase every
+# phrasing, just take the first number after "RUJUKAN:" on that line, whatever wraps it.
+CITATION_RE = re.compile(r"RUJUKAN:.*?(\d+)\]?", re.IGNORECASE)
+
+GENERATION_SYSTEM_PROMPT += (
+    "\n- End your answer with a new line: 'RUJUKAN: <N>', where N is the "
+    "[Source N] label of the single context block your answer is most based on. "
+    "Pick exactly one, even if you drew on more than one."
+)
+
 
 @dataclass(frozen=True)
 class Source:
     chapter_title: str
     section_title: str
-    page_start: int
-    page_end: int
+    page: int          # current_page of the one chunk the model cited
 
 
 @dataclass(frozen=True)
 class Answer:
     text: str
-    sources: list[Source]
+    source: Source | None
     query: str
 
 
@@ -38,30 +49,11 @@ def _format_context(chunks: list[dict]) -> str:
     return "\n\n".join(parts)
 
 
-def _build_sources(chunks: list[dict]) -> list[Source]:
-    # Dedup down to unique sections — several chunks often come from the same section
-    seen = set()
-    sources = []
-    for chunk in chunks:
-        meta = chunk["metadata"]
-        key = (meta["chapter_title"], meta["section_title"])
-        if key in seen:
-            continue
-        seen.add(key)
-        sources.append(Source(
-            chapter_title=meta["chapter_title"],
-            section_title=meta["section_title"],
-            page_start=meta["page_start"],
-            page_end=meta["page_end"],
-        ))
-    return sources
-
-
 def generate_answer(query: str, chunks: list[dict]) -> Answer:
     if not chunks:
-        return Answer(text=NO_CONTEXT_ANSWER, sources=[], query=query)
+        return Answer(text=NO_CONTEXT_ANSWER, source=None, query=query)
 
-    context = _format_context(chunks)
+    context = _format_context(chunks)  # unchanged, still shows page_start-page_end per [Source N]
     user_message = f"Konteks:\n{context}\n\nSoalan pelajar:\n{query}\n\nJawapan:"
 
     client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
@@ -77,8 +69,15 @@ def generate_answer(query: str, chunks: list[dict]) -> Answer:
             max_output_tokens=4096,
         ),
     )
-    text = (response.text or "").strip()
-    return Answer(text=text, sources=_build_sources(chunks), query=query)
+    raw = (response.text or "").strip()
+
+    m = CITATION_RE.search(raw)
+    idx = int(m.group(1)) - 1 if m and 0 <= int(m.group(1)) - 1 < len(chunks) else 0  # fallback: rank-1 chunk
+    cited = chunks[idx]["metadata"]
+    text = CITATION_RE.sub("", raw).strip()  # strip the marker out of the student-facing text
+
+    source = Source(chapter_title=cited["chapter_title"], section_title=cited["section_title"], page=cited["current_page"])
+    return Answer(text=text, source=source, query=query)
 
 
 def answer_question(query: str, k: int = 5) -> Answer:

@@ -1,10 +1,18 @@
 from __future__ import annotations
 
+import logging
 import sys
+import warnings
 from pathlib import Path
 
 import click
 from dotenv import load_dotenv
+
+# These are noisy but harmless — env/dependency notices, not bugs in this codebase.
+# Filtered before any command's lazy imports pull in the packages that emit them.
+warnings.filterwarnings("ignore", message=".*Python version 3.9 past its end of life.*")
+warnings.filterwarnings("ignore", message=".*urllib3 v2 only supports OpenSSL.*")
+logging.getLogger("google_genai.types").setLevel(logging.ERROR)
 
 # Load ANTHROPIC_API_KEY from the .env file in the project root before importing anything that uses it
 load_dotenv(Path(__file__).parent.parent.parent / ".env")
@@ -81,14 +89,13 @@ def query_cmd(text: str, k: int) -> None:
 @click.argument("text")
 @click.option("--k", default=5, help="Number of chunks to retrieve as context.")
 def ask(text: str, k: int) -> None:
-    """Ask a question and get a RAG-generated answer with sources."""
+    """Ask a question and get a RAG-generated answer with its source."""
     from .generation import answer_question
     answer = answer_question(text, k=k)
     click.echo(answer.text)
-    if answer.sources:
-        click.echo("\nSources:")
-        for s in answer.sources:
-            click.echo(f"  {s.chapter_title} > {s.section_title} (m.s. {s.page_start}-{s.page_end})")
+    if answer.source:
+        s = answer.source
+        click.echo(f"\nSource: {s.chapter_title} > {s.section_title} (m.s. {s.page})")
 
 
 @cli.command()
