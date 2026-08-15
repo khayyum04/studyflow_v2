@@ -24,15 +24,24 @@ from ..textbook_extraction.textbook import TextbookSection, load_sections, parse
 
 @click.group()
 def cli() -> None:
-    pass
+    """StudyFlow RAG pipeline. Commands are ordered to match the pipeline stages below:
 
+    extract -> chunk -> embed -> query/ask -> baseline/eval/analyze.
+    """
+
+
+# ── 1. Textbook extraction ───────────────────────────────────────────────────
+# OCRs textbook page images into section-level markdown via Claude's vision +
+# Batch API. Source: backend/textbook_extraction/. Run this first, once per
+# textbook — its output feeds `chunk` below.
 
 @cli.command()
 @click.option("--textbook", type=click.Choice(list(TEXTBOOKS.keys())), default=None,
-              help="Restrict to one textbook.")
+              help="Restrict to one textbook. Omit to run across all textbooks.")
 @click.option("--section", "section_arg", default=None,
-              help="Single section, e.g. sejarah_t4/bab04/sec_4_2")
-@click.option("--dry-run", is_flag=True, help="Show what would be extracted without calling the API.")
+              help="Extract a single section only, e.g. sejarah_t4/bab04/sec_4_2. "
+                   "Overrides --textbook (mutually exclusive in practice).")
+@click.option("--dry-run", is_flag=True, help="List what would be extracted without calling the API.")
 @click.option("--force", is_flag=True, help="Re-extract sections that already have .md files.")
 def extract(textbook: str | None, section_arg: str | None, dry_run: bool, force: bool) -> None:
     """Extract textbook pages to section-level markdown files via the Batch API."""
@@ -54,9 +63,13 @@ def extract(textbook: str | None, section_arg: str | None, dry_run: bool, force:
     run_extraction(sections, force=force)
 
 
+# ── 2. Chunking & embedding ──────────────────────────────────────────────────
+# Turns extracted markdown into retrieval-ready chunks, then embeds them into
+# ChromaDB. Run `chunk` then `embed`, in that order, after any `extract` run.
+
 @cli.command()
 @click.option("--textbook", type=click.Choice(list(TEXTBOOKS.keys())), default=None,
-              help="Restrict to one textbook.")
+              help="Restrict to one textbook. Omit to chunk every textbook.")
 def chunk(textbook: str | None) -> None:
     """Chunk extracted section markdown files into retrieval-ready chunks."""
     from .chunking import run_chunking
@@ -65,16 +78,21 @@ def chunk(textbook: str | None) -> None:
 
 @cli.command()
 def embed() -> None:
-    """Embed chunks and (re)build the ChromaDB collection."""
+    """Embed chunks and (re)build the ChromaDB collection. No flags — always a full rebuild."""
     from .embedding import run_embedding
     run_embedding()
 
+
+# ── 3. Query & ask ────────────────────────────────────────────────────────────
+# Talk to the already-built retrieval index directly. `query` is a raw
+# retrieval debug tool (no LLM call); `ask` is the full RAG path (retrieval +
+# Gemini-generated answer with a cited source).
 
 @cli.command("query")
 @click.argument("text")
 @click.option("--k", default=5, help="Number of results to return.")
 def query_cmd(text: str, k: int) -> None:
-    """Query the embedding collection and print the top-k matching chunks."""
+    """Query the embedding collection and print the top-k matching chunks (no LLM call)."""
     from .retrieval import Retriever
     retriever = Retriever()
     for hit in retriever.retrieve(text, k=k):
@@ -98,6 +116,12 @@ def ask(text: str, k: int) -> None:
         click.echo(f"\nSource: {s.chapter_title} > {s.section_title} (m.s. {s.page})")
 
 
+# ── 4. MCQ eval harness ───────────────────────────────────────────────────────
+# Measures RAG accuracy against data/paper_1_dataset.json. `baseline` (no
+# retrieval, Google Search grounding instead) is the number `eval` (full RAG)
+# has to beat. Always use the SAME --n/--seed on both so `analyze` compares
+# the identical question sample.
+
 @cli.command()
 @click.option("--n", default=100, help="Number of eval questions to sample.")
 @click.option("--seed", default=0, help="Random seed for sampling (keep matching --seed on `eval`).")
@@ -119,7 +143,7 @@ def eval_cmd(n: int, seed: int, k: int) -> None:
 
 @cli.command()
 def analyze() -> None:
-    """Compare baseline vs RAG eval results."""
+    """Compare the most recent baseline vs RAG eval results (no flags — always reads the latest of each)."""
     from .eval_set_mcq.eval_analyze import run_analyze
     run_analyze()
 

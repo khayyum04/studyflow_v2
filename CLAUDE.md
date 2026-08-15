@@ -2,6 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+**Keep this file current.** When a commit changes anything documented here — a command, a flag, a
+file's location, a config split, a design decision described in Architecture — update the relevant
+section in the same commit (or immediately after, before moving on). This applies to you whether
+you're Claude Code making the change right now or a future session picking this repo back up: don't
+wait to be asked. A CLAUDE.md that quietly drifts out of sync is worse than no CLAUDE.md, since it
+actively misleads instead of just being silent.
+
 ## What this is
 
 StudyFlow is a RAG-based exam-prep tool for Malaysian SPM Sejarah (History). Two independent
@@ -17,7 +24,10 @@ pipelines live under `backend/`, both driven by one Click CLI:
 ## Setup
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+pip install -e .          # registers the `studyflow` console command (see below)
 ```
 
 Requires a `.env` file at the repo root with `ANTHROPIC_API_KEY` (extraction) and `GEMINI_API_KEY`
@@ -25,7 +35,15 @@ Requires a `.env` file at the repo root with `ANTHROPIC_API_KEY` (extraction) an
 
 ## Commands
 
-All commands run as a module (relative imports require this — don't run the `.py` files directly):
+With the venv activated, use the `studyflow` console command (declared in `pyproject.toml`'s
+`[project.scripts]`, installed via `pip install -e .` above):
+
+```bash
+studyflow <command>
+```
+
+Without the venv/editable-install set up, the equivalent module form always works (relative
+imports require running it as a module — don't run `cli.py` directly):
 
 ```bash
 python3 -m backend.rag_pipeline.cli <command>
@@ -48,7 +66,7 @@ Query/ask the pipeline directly:
 
 ```bash
 query "<text>" [--k 5]   # prints top-k retrieved chunks with fused scores
-ask "<text>" [--k 5]     # retrieval + Gemini-generated answer with sources
+ask "<text>" [--k 5]     # retrieval + Gemini-generated answer with a single cited source
 ```
 
 Eval harness (`backend/rag_pipeline/eval_set_mcq/`):
