@@ -123,8 +123,30 @@ returns rather than from a separate chunks file, so it can never drift out of sy
 index. `Retriever` is intentionally a stateful class (not a function) because constructing it is
 expensive (loads the sentence-transformers model, builds the BM25 index) and it needs to survive
 across many `retrieve()` calls in a loop — one construction per eval run, not one per question.
-`generation.answer_question()` currently constructs a fresh `Retriever` per call; that's a known
-gap to fix before this is wrapped in a long-lived server process (FastAPI), not yet done.
+`generation.answer_question()` takes an optional `retriever` parameter for exactly this reason —
+the CLI leaves it `None` and gets a fresh one (fine for a one-shot process), while `backend/api/`
+passes in the one built once at server startup (see the API section below).
+
+### API layer: `backend/api/`, built incrementally
+
+The FastAPI app is being built one endpoint at a time — currently just `POST /ask`
+(`backend/api/routers/ask.py`) plus a trivial `GET /health`. `backend/api/lifespan.py` builds the
+shared `Retriever` once, before the server starts accepting any requests (not lazily on first
+use — see `main.py`'s `lifespan=` wiring), and stores it on `app.state`; `dependencies.py` just
+reads it back off `app.state` for `Depends()` injection into route handlers. Route handlers are
+plain `def`, not `async def` — `answer_question()`'s calls (ChromaDB, Gemini) are fully
+synchronous, and FastAPI runs plain `def` handlers in a thread pool automatically so a blocking
+call doesn't stall the whole server; making them `async def` without an async-native client
+underneath would freeze the event loop for every concurrent request instead.
+
+`backend/api/schemas.py` holds the API's request/response Pydantic models, deliberately kept
+separate from `generation.py`'s `Answer`/`Source` dataclasses — the public API contract shouldn't
+silently change just because an internal type does. Route handlers explicitly map one to the
+other rather than returning internal types directly.
+
+Run it with `uvicorn backend.api.main:app --reload` (from the repo root, venv activated); explore
+it at `http://127.0.0.1:8000/docs` (FastAPI's auto-generated interactive UI, built from the
+Pydantic models above).
 
 ### Chunking: heading-based, three passes
 

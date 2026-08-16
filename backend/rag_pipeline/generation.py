@@ -80,7 +80,10 @@ def generate_answer(query: str, chunks: list[dict]) -> Answer:
     return Answer(text=text, source=source, query=query)
 
 
-def answer_question(query: str, k: int = 5) -> Answer:
-    retriever = Retriever()
+def answer_question(query: str, k: int = 5, retriever: Retriever | None = None) -> Answer:
+    # The CLI has no retriever to reuse across calls, so it leaves this as None and
+    # gets a fresh one each time. The API passes in the one built once at server
+    # startup (see backend/api/main.py's lifespan) instead of paying that cost per request.
+    retriever = retriever or Retriever()
     chunks = retriever.retrieve(query, k=k)
     return generate_answer(query, chunks)
