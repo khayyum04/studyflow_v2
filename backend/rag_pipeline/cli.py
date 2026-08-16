@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 # These are noisy but harmless — env/dependency notices, not bugs in this codebase.
 # Filtered before any command's lazy imports pull in the packages that emit them.
-warnings.filterwarnings("ignore", message=".*Python version 3.9 past its end of life.*")
+# warnings.filterwarnings("ignore", message=".*Python version 3.9 past its end of life.*")
 warnings.filterwarnings("ignore", message=".*urllib3 v2 only supports OpenSSL.*")
 logging.getLogger("google_genai.types").setLevel(logging.ERROR)
 

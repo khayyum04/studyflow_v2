@@ -8,7 +8,7 @@ from rank_bm25 import BM25Okapi
 
 from .config import CHROMA_DIR, COLLECTION_NAME, EMBEDDING_MODEL
 
-RRF_K = 60  # standard Reciprocal Rank Fusion constant
+RRF_K = 50  # standard Reciprocal Rank Fusion constant
 
 
 def _tokenize(text: str) -> list[str]:
