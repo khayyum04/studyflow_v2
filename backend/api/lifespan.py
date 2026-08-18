@@ -9,8 +9,8 @@ from ..rag_pipeline.retrieval import Retriever
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Runs once, before the server starts accepting requests — not on the first
-    # request, and not per-request. See generation.answer_question()'s retriever
+    # Runs once, before the server starts accepting requests
+    # See generation.answer_question()'s retriever
     # parameter for why this matters (avoids reloading the embedding model per call).
     print("Loading retriever...")
     app.state.retriever = Retriever()

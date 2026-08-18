@@ -113,7 +113,10 @@ def ask(text: str, k: int) -> None:
     click.echo(answer.text)
     if answer.source:
         s = answer.source
-        click.echo(f"\nSource: {s.chapter_title} > {s.section_title} (m.s. {s.page})")
+        # page=0 means the model didn't give a usable citation — s.page_start/page_end
+        # point at the most-represented section among retrieved chunks instead.
+        page_display = f"m.s. {s.page}" if s.page else f"m.s. {s.page_start}-{s.page_end} (section-level)"
+        click.echo(f"\nSource: {s.chapter_title} > {s.section_title} ({page_display})")
 
 
 # ── 4. MCQ eval harness ───────────────────────────────────────────────────────

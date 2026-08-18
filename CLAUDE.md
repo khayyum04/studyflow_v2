@@ -144,6 +144,15 @@ separate from `generation.py`'s `Answer`/`Source` dataclasses — the public API
 silently change just because an internal type does. Route handlers explicitly map one to the
 other rather than returning internal types directly.
 
+`generation.Source` carries a `form` field (`"Form 4"`/`"Form 5"`) purely to let the API resolve
+which textbook a citation came from — `backend/api/images.py` maps `form` back to a `textbook_id`
+via `TEXTBOOKS` (from `textbook_extraction/config.py`) and builds page-image URLs from it.
+`main.py` mounts each textbook's `images_dir` separately via `StaticFiles` (one mount per
+textbook, not the whole `data/textbooks/` tree — that directory also holds the extracted
+markdown, which isn't meant to be served). `SourceOut.page_image`/`section_images` are those
+URLs, already filtered to pages whose PNG actually exists on disk. `data/textbooks/` is
+gitignored, so this only works locally, wherever extraction has actually been run.
+
 Run it with `uvicorn backend.api.main:app --reload` (from the repo root, venv activated); explore
 it at `http://127.0.0.1:8000/docs` (FastAPI's auto-generated interactive UI, built from the
 Pydantic models above).

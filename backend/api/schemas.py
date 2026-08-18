@@ -14,7 +14,11 @@ class AskRequest(BaseModel):
 class SourceOut(BaseModel):
     chapter_title: str
     section_title: str
-    page: int
+    page: int                  # 0 = section-level fallback, see page_start/page_end instead
+    page_start: int
+    page_end: int
+    page_image: str | None     # URL for the single selected page; None when page == 0
+    section_images: list[str]  # URLs for page_start..page_end (only pages whose PNG exists)
 
 
 class AskResponse(BaseModel):

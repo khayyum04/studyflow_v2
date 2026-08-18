@@ -1,31 +1,22 @@
 from pathlib import Path
 
-# Resolve the project root (studyflow_v2/) from this file's location
 ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = ROOT / "data" / "textbooks"
-_TOCS_DIR = Path(__file__).parent / "sejarah_toc"
 
-# One entry per textbook: where to find the PNG pages, where to write the .md files, and the TOC.
-# Consumed here (extraction writes to output_dir) and by rag_pipeline/chunking.py
-# (reads .md files back from output_dir) — the RAG pipeline is a downstream consumer
-# of whatever this module extracts.
 TEXTBOOKS = {
     "sejarah_t4": {
         "images_dir": DATA_DIR / "sejarah_t4",
         "output_dir": DATA_DIR / "sejarah_t4_md",
-        "toc_file": _TOCS_DIR / "sejarah_t4_toc.json",
         "form": "Form 4",
     },
     "sejarah_t5": {
         "images_dir": DATA_DIR / "sejarah_t5",
         "output_dir": DATA_DIR / "sejarah_t5_md",
-        "toc_file": _TOCS_DIR / "sejarah_t5_toc.json",
         "form": "Form 5",
     },
 }
 
-# Claude model to use for all extraction requests
-MODEL = "claude-haiku-4-5"
+MODEL = "claude-haiku-4-5" # Claude model to use for all extraction requests
 
 # How often (in seconds) to ask the Batch API whether our job is done
 POLL_INTERVAL = 30

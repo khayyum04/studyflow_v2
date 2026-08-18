@@ -5,6 +5,7 @@ from fastapi import APIRouter, Depends
 from ...rag_pipeline.generation import answer_question
 from ...rag_pipeline.retrieval import Retriever
 from ..dependencies import get_retriever
+from ..images import page_image_url, section_image_urls
 from ..schemas import AskRequest, AskResponse, SourceOut
 
 router = APIRouter()
@@ -21,9 +22,14 @@ def ask_question(body: AskRequest, retriever: Retriever = Depends(get_retriever)
 
     source = None
     if answer.source:
+        s = answer.source
         source = SourceOut(
-            chapter_title=answer.source.chapter_title,
-            section_title=answer.source.section_title,
-            page=answer.source.page,
+            chapter_title=s.chapter_title,
+            section_title=s.section_title,
+            page=s.page,
+            page_start=s.page_start,
+            page_end=s.page_end,
+            page_image=page_image_url(s.form, s.page) if s.page else None,
+            section_images=section_image_urls(s.form, s.page_start, s.page_end),
         )
     return AskResponse(text=answer.text, source=source, query=answer.query)
