@@ -144,6 +144,17 @@ separate from `generation.py`'s `Answer`/`Source` dataclasses — the public API
 silently change just because an internal type does. Route handlers explicitly map one to the
 other rather than returning internal types directly.
 
+`POST /ask` requires a Supabase-issued JWT: `backend/api/auth.py`'s `get_current_user`
+dependency reads the `Authorization: Bearer <token>` header and verifies its signature against
+Supabase's JWKS endpoint (`SUPABASE_JWKS_URL` in `.env`) via `PyJWKClient`, checking `aud`
+("authenticated") and `iss` (`{SUPABASE_URL}/auth/v1`). The `PyJWKClient` itself is built once in
+`lifespan.py` alongside the `Retriever` — same eager-init, same `app.state` + `dependencies.py`
+pattern — since it caches fetched signing keys and shouldn't be reconstructed per request. Only
+`SUPABASE_URL`/`SUPABASE_JWKS_URL` are used for this; `SUPABASE_SECRET_KEY` (service-role, bypasses
+RLS) is never used to validate end-user requests. Currently this only gates access — the resulting
+`AuthUser` (id/email from the token's `sub`/`email` claims) isn't yet used to read/write anything
+in Postgres (the `profiles` table exists in Supabase but nothing in this repo queries it yet).
+
 `generation.Source` carries a `form` field (`"Form 4"`/`"Form 5"`) purely to let the API resolve
 which textbook a citation came from — `backend/api/images.py` maps `form` back to a `textbook_id`
 via `TEXTBOOKS` (from `textbook_extraction/config.py`) and builds page-image URLs from it.

@@ -4,6 +4,7 @@ from fastapi import APIRouter, Depends
 
 from ...rag_pipeline.generation import answer_question
 from ...rag_pipeline.retrieval import Retriever
+from ..auth import AuthUser, get_current_user
 from ..dependencies import get_retriever
 from ..images import page_image_url, section_image_urls
 from ..schemas import AskRequest, AskResponse, SourceOut
@@ -17,7 +18,11 @@ router = APIRouter()
 # stall the server. An `async def` here would freeze the whole event loop — and every
 # other concurrent request with it — for the duration of each blocking call.
 @router.post("/ask", response_model=AskResponse)
-def ask_question(body: AskRequest, retriever: Retriever = Depends(get_retriever)) -> AskResponse:
+def ask_question(
+    body: AskRequest,
+    user: AuthUser = Depends(get_current_user),
+    retriever: Retriever = Depends(get_retriever),
+) -> AskResponse:
     answer = answer_question(body.question, retriever=retriever)
 
     source = None
