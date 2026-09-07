@@ -4,12 +4,19 @@ import os
 from dataclasses import dataclass
 
 import jwt
-from fastapi import Depends, Header, HTTPException
+from fastapi import Depends, HTTPException
+from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from jwt import PyJWKClient
 
 from .dependencies import get_jwks_client
 
 SUPABASE_ISSUER = f"{os.environ['SUPABASE_URL']}/auth/v1"
+
+# auto_error=False so a missing header raises our own 401 below (matching the
+# invalid-token case) instead of HTTPBearer's default 403. Registering this as
+# the dependency's security scheme is also what makes /docs show an "Authorize"
+# button instead of a plain, easy-to-miss header input field.
+bearer_scheme = HTTPBearer(auto_error=False)
 
 
 @dataclass(frozen=True)
@@ -19,12 +26,12 @@ class AuthUser:
 
 
 def get_current_user(
-    authorization: str | None = Header(None),
+    credentials: HTTPAuthorizationCredentials | None = Depends(bearer_scheme),
     jwks_client: PyJWKClient = Depends(get_jwks_client),
 ) -> AuthUser:
-    if authorization is None or not authorization.startswith("Bearer "):
+    if credentials is None:
         raise HTTPException(401, "Missing or malformed Authorization header")
-    token = authorization.removeprefix("Bearer ")
+    token = credentials.credentials
 
     try:
         # signing_key.algorithm_name comes from the JWKS entry itself, not the
