@@ -168,6 +168,25 @@ Run it with `uvicorn backend.api.main:app --reload` (from the repo root, venv ac
 it at `http://127.0.0.1:8000/docs` (FastAPI's auto-generated interactive UI, built from the
 Pydantic models above).
 
+**Testing `/ask` via `/docs`** — since it requires a Supabase JWT, "Try it out" needs a token
+authorized first:
+
+1. Get a token for a confirmed test user (`abd.pokoyum+studyflow_test@gmail.com` /
+   `testpassword123`, created via Supabase's admin API to skip email confirmation):
+   ```bash
+   set -a; source .env; set +a
+   curl -s -X POST "$SUPABASE_URL/auth/v1/token?grant_type=password" \
+     -H "apikey: $SUPABASE_PUBLISHABLE_KEY" -H "Content-Type: application/json" \
+     -d '{"email":"abd.pokoyum+studyflow_test@gmail.com","password":"testpassword123"}'
+   ```
+   (Raw shell curl needs that `source .env` first — `.env` is only auto-loaded inside the Python
+   process via `python-dotenv`, not into your interactive shell. Tokens expire after an hour, so
+   re-run this whenever `/ask` starts rejecting a previously-working token.)
+2. Copy the response's `access_token` value (not `id`, not `refresh_token`).
+3. In `/docs`, click the green **Authorize** button (top right) and paste just the raw token —
+   no `Bearer ` prefix, Swagger adds that itself.
+4. Every "Try it out" call now attaches it automatically.
+
 ### Chunking: heading-based, three passes
 
 `chunking.py` splits each extracted `.md` section at markdown headings, merges runs under
