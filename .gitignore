@@ -1,11 +1,13 @@
 # Environment
 .env
+.streamlit/
 
 # Python
 __pycache__/
 *.pyc
 .venv/
 venv/
+*.egg-info/
 
 # macOS
 .DS_Store
@@ -17,4 +19,4 @@ data/chromadb/
 data/practice.db
 
 # Pipeline run state
-backend/rag_pipeline/logs/
+backend/textbook_extraction/logs/

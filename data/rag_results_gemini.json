@@ -1,12 +1,12 @@
 {
   "meta": {
-    "timestamp": "2026-07-30T19:33:04",
-    "model": "claude-haiku-4-5",
+    "timestamp": "2026-08-05T09:52:54",
+    "model": "gemini-3.6-flash",
     "mode": "rag",
     "sample_size": 200,
-    "accuracy": 0.895,
-    "correct": 179,
-    "incorrect": 21,
+    "accuracy": 0.965,
+    "correct": 193,
+    "incorrect": 7,
     "k": 5
   },
   "results": [
@@ -186,8 +186,8 @@
         "D": "Melaksanakan perkongsian kuasa"
       },
       "correct_answer": "A",
-      "predicted_answer": "D",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab09_sec_9_3_00",
         "sejarah_t5_bab09_sec_9_3_01",
@@ -360,8 +360,8 @@
         }
       },
       "correct_answer": "D",
-      "predicted_answer": "A",
-      "correct": false,
+      "predicted_answer": "D",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab04_sec_4_3_00",
         "sejarah_t5_bab01_sec_1_1_05",
@@ -893,8 +893,8 @@
         "D": "Merangka dasar pendidikan kebangsaan"
       },
       "correct_answer": "A",
-      "predicted_answer": "IDK",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab08_sec_8_4_00",
         "sejarah_t4_bab08_sec_8_4_01",
@@ -978,8 +978,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "A",
-      "predicted_answer": "C",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab02_sec_2_4_01",
         "sejarah_t5_bab02_sec_2_4_00",
@@ -1677,8 +1677,8 @@
         "D": "Menjelaskan tujuan pembentukan"
       },
       "correct_answer": "A",
-      "predicted_answer": "B",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab09_sec_9_3_00",
         "sejarah_t5_bab05_sec_5_5_02",
@@ -1870,8 +1870,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "B",
-      "predicted_answer": "D",
-      "correct": false,
+      "predicted_answer": "B",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab07_sec_7_3_01",
         "sejarah_t5_bab07_sec_7_3_03",
@@ -1901,8 +1901,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "A",
-      "predicted_answer": "D",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab06_sec_6_3_19",
         "sejarah_t5_bab06_sec_6_3_02",
@@ -2123,8 +2123,8 @@
         "D": "Menempah bendera"
       },
       "correct_answer": "B",
-      "predicted_answer": "A",
-      "correct": false,
+      "predicted_answer": "B",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab10_sec_10_2_00",
         "sejarah_t4_bab10_sec_10_1_00",
@@ -2154,8 +2154,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "A",
-      "predicted_answer": "C",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab02_sec_2_3_04",
         "sejarah_t4_bab02_sec_2_8_00",
@@ -2536,8 +2536,8 @@
         "D": "Menambah baik sistem perhubungan dan pengangkutan"
       },
       "correct_answer": "B",
-      "predicted_answer": "C",
-      "correct": false,
+      "predicted_answer": "B",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab06_sec_6_4_01",
         "sejarah_t4_bab10_sec_10_4_09",
@@ -3146,8 +3146,8 @@
         "D": "II dan IV"
       },
       "correct_answer": "B",
-      "predicted_answer": "A",
-      "correct": false,
+      "predicted_answer": "B",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab05_sec_5_2_02",
         "sejarah_t5_bab05_sec_5_2_03",
@@ -3200,7 +3200,7 @@
         "D": "Jabatan Perundingan Negara"
       },
       "correct_answer": "C",
-      "predicted_answer": "B",
+      "predicted_answer": "D",
       "correct": false,
       "retrieved_chunk_ids": [
         "sejarah_t5_bab07_sec_7_6_01",
@@ -4598,8 +4598,8 @@
         "D": "mewujudkan negara berdaulat."
       },
       "correct_answer": "A",
-      "predicted_answer": "B",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab10_sec_10_1_02",
         "sejarah_t4_bab10_sec_10_1_00",
@@ -4791,8 +4791,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "B",
-      "predicted_answer": "B",
-      "correct": true,
+      "predicted_answer": "D",
+      "correct": false,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab05_sec_5_1_06",
         "sejarah_t4_bab05_sec_5_1_04",
@@ -4845,8 +4845,8 @@
         "D": "Keberanian"
       },
       "correct_answer": "A",
-      "predicted_answer": "C",
-      "correct": false,
+      "predicted_answer": "A",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab08_sec_8_2_03",
         "sejarah_t4_bab08_sec_8_2_04",
@@ -5099,14 +5099,14 @@
         "sejarah_t4_bab03_sec_3_2_03",
         "sejarah_t5_bab01_sec_1_1_05",
         "sejarah_t4_bab03_sec_3_2_07",
-        "sejarah_t4_bab03_sec_3_2_05"
+        "sejarah_t5_bab04_sec_4_2_05"
       ],
       "retrieved_scores": [
         0.03278688524590164,
         0.031754032258064516,
         0.029631255487269532,
         0.026709401709401708,
-        0.016129032258064516
+        0.025158227848101268
       ]
     },
     {
@@ -5173,8 +5173,8 @@
         "D": "Memilih pemimpin negara"
       },
       "correct_answer": "B",
-      "predicted_answer": "IDK",
-      "correct": false,
+      "predicted_answer": "B",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab09_sec_9_1_03",
         "sejarah_t4_bab09_sec_9_1_04",
@@ -5509,8 +5509,8 @@
         "D": "III dan IV"
       },
       "correct_answer": "C",
-      "predicted_answer": "D",
-      "correct": false,
+      "predicted_answer": "C",
+      "correct": true,
       "retrieved_chunk_ids": [
         "sejarah_t4_bab08_sec_8_4_00",
         "sejarah_t4_bab08_sec_8_4_01",

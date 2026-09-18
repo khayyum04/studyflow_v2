@@ -6,7 +6,7 @@ import time
 
 import anthropic
 
-from ..config import BATCH_STATE_FILE, MARKDOWN_PROMPT, MAX_BATCH_BYTES, MODEL, POLL_INTERVAL
+from .config import BATCH_STATE_FILE, MARKDOWN_PROMPT, MAX_BATCH_BYTES, MODEL, POLL_INTERVAL
 from .textbook import TextbookSection, load_sections
 
 

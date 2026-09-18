@@ -2,7 +2,11 @@ from __future__ import annotations
 
 import json
 
-from .config import BASELINE_RESULTS_FILE, RAG_RESULTS_FILE
+from ..config import GEMINI_BASELINE_RESULTS_FILE, GEMINI_RAG_RESULTS_FILE
+
+# Compares the most recent baseline run against the most recent RAG run.
+# Only meaningful if both were run with the same --n/--seed (same question
+# sample) — otherwise "common_ids" below silently shrinks to whatever overlaps.
 
 
 def _pct(v: float) -> str:
@@ -10,18 +14,16 @@ def _pct(v: float) -> str:
 
 
 def run_analyze() -> None:
-    baseline_data = json.loads(BASELINE_RESULTS_FILE.read_text(encoding="utf-8"))
-    rag_data = json.loads(RAG_RESULTS_FILE.read_text(encoding="utf-8"))
+    baseline_data = json.loads(GEMINI_BASELINE_RESULTS_FILE.read_text(encoding="utf-8"))
+    rag_data = json.loads(GEMINI_RAG_RESULTS_FILE.read_text(encoding="utf-8"))
 
     baseline_results = {r["id"]: r for r in baseline_data["results"]}
     rag_results = {r["id"]: r for r in rag_data["results"]}
     common_ids = set(baseline_results) & set(rag_results)
 
-    if not common_ids:
-        print("No overlapping question IDs between baseline and RAG results — "
-              "run both with the same --n/--seed to compare.")
-        return
-
+    # 4-way split instead of a single accuracy delta — this is what actually
+    # tells you whether RAG is helping: "rag_only" is where retrieval earns its
+    # keep, "baseline_only" is where added context confused the model instead.
     both_correct = rag_only = baseline_only = both_wrong = 0
     for qid in common_ids:
         r, b = rag_results[qid]["correct"], baseline_results[qid]["correct"]

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "timestamp": "2026-08-05T09:38:04",
+    "model": "gemini-3.6-flash",
+    "mode": "baseline",
+    "sample_size": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "incorrect": 0
+  },
+  "results": [
+    {
+      "id": "2024_smka_sabk_q38",
+      "question": "Tunku Abdul Rahman telah mencetuskan idea penubuhan OIC pada tahun 1971. Apakah matlamat penubuhan pertubuhan tersebut?",
+      "options": {
+        "A": "Mengekalkan keamanan dunia",
+        "B": "Memperjuangkan hak asasi manusia",
+        "C": "Meningkatkan hubungan perdagangan",
+        "D": "Menjaga kepentingan masyarakat Islam"
+      },
+      "correct_answer": "D",
+      "predicted_answer": "D",
+      "correct": true
+    },
+    {
+      "id": "2024_selangor_set_3_q23",
+      "question": "Badan manakah yang bertangungjawab menggubal undang-undang di Negeri-negeri Melayu Tidak Bersekulia?",
+      "options": {
+        "A": "Majlis Negeri",
+        "B": "Majlis Raja-Raja",
+        "C": "Majis Persekutuan",
+        "D": "Majlis Undangan Negeri"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    },
+    {
+      "id": "2022_kelantan_mpsm_q6",
+      "question": "Peta berikut menunjukkan serangan tentera Jepun dalam Perang Dunia Kedua di Asia Pasifik pada tahun 1941-1945. [Peta menunjukkan kawasan Asia Pasifik dengan penanda serangan Jepun ke berbagai lokasi termasuk Pearl Harbour, Filipina, Melaka, dan kawasan lainnya]. Mengapakah Jepun melancarkan serangan ke atas Pearl Harbour Amerika Syarikat dalam tempoh tersebut?",
+      "options": {
+        "A": "Meluaskan kuasa",
+        "B": "Memenuhi tuntutan",
+        "C": "Sebagai serangan balas",
+        "D": "Desakan pemimpin atasan"
+      },
+      "correct_answer": "A",
+      "predicted_answer": "A",
+      "correct": true
+    }
+  ]
+}
